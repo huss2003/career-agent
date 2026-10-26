@@ -29,4 +29,4 @@ Analog titles that count as hits: AI Engineer (applied), GenAI Developer, LLM En
 - Sales, recruiting, data-entry roles
 
 ## Comp floor
-See config/profile.yml → compensation. If unset, do not filter on comp.
+INR 30,000 per month minimum (config/profile.yml → compensation).

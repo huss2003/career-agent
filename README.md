@@ -22,7 +22,7 @@ It is built from two open-source projects:
 
 1. **Create the repo.** On github.com/new: name `career-agent`, choose **Private**, and add no README. Then push this code (or ask Claude to push it).
 2. **Add your API key.** Repo → **Settings → Secrets and variables → Actions → New repository secret**. Name: `ANTHROPIC_API_KEY`. Value: your key from platform.claude.com. The key lives only in GitHub's encrypted secrets, never in a file or chat.
-3. **Fill your details** in `profile/cv.md` and `profile/config/profile.yml`. Replace `[FILL YOUR EMAIL]`, `[FILL YOUR PHONE]` and the salary `target_range`.
+3. **Your details** (email, phone, salary floor) are in `profile/cv.md` and `profile/config/profile.yml`. Edit them there if they change.
 4. **Test it.** Repo → **Actions → Job agent → Run workflow**. Paste one job URL, untick "scan", then run. After about 15 minutes, open `profile/data/last-run.md`.
 
 ## Daily use

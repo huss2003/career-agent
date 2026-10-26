@@ -9,12 +9,12 @@ candidate:
   # when your real level supports it — never inflate. Omit or leave blank for
   # no title element.
   # title: "Senior Backend Engineer"
-  email: "[FILL YOUR EMAIL]"
+  email: "Hussainsingapuri24@gmail.com"
   # Optional. Any other mailboxes that are also you. Follow-up contact extraction uses these to
   # avoid reporting your own address as somebody to chase, when a tracker note happens to cite it.
   # alternate_emails:
   #   - "jane@previous-employer.example"
-  phone: "[FILL YOUR PHONE]"
+  phone: "+91 9561277305"
   # Optional. Used by `/career-ops email` contact blocks in markets where WeChat
   # is an expected recruiting channel. Omit or leave blank if not applicable.
   wechat: ""
@@ -71,9 +71,9 @@ narrative:
   #   password: "demo-2026"
 
 compensation:
-  target_range: "[FILL — e.g. INR X–Y LPA]"     # Your target total comp
+  target_range: "INR 30,000+ per month"     # Your target total comp
   currency: "INR"
-  minimum: ""               # Walk-away number
+  minimum: "INR 30,000 per month"               # Walk-away number
   location_flexibility: "Open to remote, hybrid, on-site in Pune, and freelance/contract"
 
 location:

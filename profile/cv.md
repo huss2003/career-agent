@@ -1,8 +1,8 @@
 # CV -- Hussain Singapuri
 
 **Location:** Pune, India
-**Email:** [FILL YOUR EMAIL]
-**Phone:** [FILL YOUR PHONE]
+**Email:** Hussainsingapuri24@gmail.com
+**Phone:** +91 9561277305
 **LinkedIn:** linkedin.com/in/hussain-singapuri-18437225a
 **Portfolio:** hussain-singapuri.vercel.app
 **GitHub:** github.com/huss2003
