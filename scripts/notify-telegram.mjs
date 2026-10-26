@@ -18,8 +18,11 @@ const DATA = path.resolve(REPO, process.env.CAREER_OPS_ROOT || 'profile');
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const GH = 'https://github.com/huss2003/career-agent/blob/main/';
 const LEDGER = path.join(DATA, 'data', 'telegram-sent.tsv');
+const STATUS = path.join(DATA, 'data', 'telegram-status.md');
+const TEST_FLAG = path.join(path.resolve(REPO, process.env.CAREER_OPS_DIR || '.career-ops'), 'batch', 'telegram-test');
+const status = (msg) => { try { writeFileSync(STATUS, `# Telegram status\n\n${new Date().toISOString().replace('T', ' ').slice(0, 16)} UTC — ${msg}\n`); } catch {} console.log(`telegram: ${msg}`); };
 
-if (!TOKEN) { console.log('telegram: no TELEGRAM_BOT_TOKEN secret, skipping'); process.exit(0); }
+if (!TOKEN) { status('NOT SENT: no TELEGRAM_BOT_TOKEN secret in GitHub (Settings → Secrets and variables → Actions). Name must be exactly TELEGRAM_BOT_TOKEN.'); process.exit(0); }
 const api = (method) => `https://api.telegram.org/bot${TOKEN}/${method}`;
 
 async function call(method, body) {
@@ -42,13 +45,17 @@ async function chatId() {
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 async function main() {
+  const me = await call('getMe').catch(e => { throw new Error(`token rejected by Telegram (${e.message}). Re-copy the token from @BotFather into the TELEGRAM_BOT_TOKEN secret.`); });
+  const chat = await chatId().catch(e => { throw new Error(`bot @${me.username} works, but ${e.message}`); });
+  if (existsSync(TEST_FLAG)) {
+    await call('sendMessage', { chat_id: chat, text: `✅ Test from your job agent (@${me.username}).\nTelegram delivery works. Every job scoring 4.0+ will arrive here with the Apply link and your CVs attached.` });
+  }
   const kitsDir = path.join(DATA, 'applications');
-  if (!existsSync(kitsDir)) { console.log('telegram: no kits yet'); return; }
+  if (!existsSync(kitsDir)) { status(`OK: bot @${me.username} reached chat ${chat}; no kits yet`); return; }
   const sent = new Set(existsSync(LEDGER) ? readFileSync(LEDGER, 'utf8').split('\n').map(l => l.split('\t')[1]).filter(Boolean) : []);
   const fresh = readdirSync(kitsDir).filter(d => existsSync(path.join(kitsDir, d, 'kit.md')) && !sent.has(d)).sort();
-  if (!fresh.length) { console.log('telegram: nothing new to send'); return; }
+  if (!fresh.length) { status(`OK: bot @${me.username} reached chat ${chat}; nothing new to send`); return; }
 
-  const chat = await chatId();
   if (!existsSync(LEDGER)) writeFileSync(LEDGER, 'date\tkit\n');
   const today = new Date().toISOString().slice(0, 10);
   let n = 0;
@@ -89,7 +96,7 @@ async function main() {
     n++;
   }
   await call('sendMessage', { chat_id: chat, text: `📋 ${n} new job${n === 1 ? '' : 's'} scoring 4.0+ ready to apply. Nothing was submitted — you apply with the link and the attached CV.` });
-  console.log(`telegram: sent ${n} kit(s)`);
+  status(`OK: bot @${me.username} sent ${n} job(s) to chat ${chat}`);
 }
 
-main().catch(e => { console.log(`::warning::telegram: ${e.message}`); });
+main().catch(e => { status(`NOT SENT: ${e.message}`); console.log(`::warning::telegram: ${e.message}`); });
