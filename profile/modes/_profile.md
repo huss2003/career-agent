@@ -59,10 +59,15 @@ Software developer turned AI engineer. Spent 3 years as a full-stack developer a
 
 ## Your Location Policy
 
-- Based in Pune, India. Open to remote, hybrid, on-site in Pune, and freelance/contract.
-- On-site outside Pune: score location **3.0**, not 1.0, unless relocation is clearly impossible.
-- Remote roles restricted to the US/EU without India eligibility: score location **1.0** and say so.
-- Specify IST (UTC+05:30) and US-morning overlap availability in free-text fields.
+**Hard rules (dealbreakers — SKIP, do not evaluate):**
+- **No relocation.** On-site or hybrid roles are acceptable ONLY in Pune, India. On-site/hybrid anywhere else = SKIP.
+- **Remote must be open to India.** Remote roles restricted to the US, EU, UK or any other country (by residency, work authorization or "must be located in") = SKIP.
+
+**Scoring among acceptable roles:**
+- Pune (on-site, hybrid or remote) — location score 5.0, preferred.
+- Remote, open to India-based candidates — 4.5. If the JD fixes working hours far outside IST (e.g. a full US-Eastern day), note it as a risk and score location 3.0.
+- Remote worldwide / APAC with no stated restriction — 4.0.
+- Always state IST (UTC+05:30) and willingness to overlap with US mornings in free-text fields.
 
 ## Hard rules for every document
 

@@ -28,7 +28,13 @@ It is built from two open-source projects:
 ## Daily use
 
 - **From the Claude app:** say *"Queue this job in my career agent: <URL or pasted JD>"* or *"What did my job agent find today?"*. Claude follows `CLAUDE.md`: it writes the job into `inbox/`, which starts the run, then reads the results back to you.
-- **Automatically:** every morning it scans freehire for new roles in India and remote roles. It scores them for AI-in-the-job signals (Claude Code, Copilot, Cursor, agents, n8n, LLM APIs) and your stack, then fully evaluates the top `jobs_per_run`.
+- **Automatically, every morning, with no computer needed** (everything runs on GitHub):
+  1. **06:41 IST:** a Claude scheduled task searches **Indeed** through the official connector and drops new matching jobs into `inbox/`.
+  2. **07:47 IST:** the daily run scans **freehire**, which covers 320 sources including Naukri, Wellfound, RemoteOK, Remotive, We Work Remotely, Himalayas, Jobicy, Hacker News "Who's hiring", Workday, Greenhouse, Lever, Ashby and 100+ more company hiring systems.
+  3. It ranks jobs by AI-in-the-job signals (Claude Code, Copilot, Cursor, agents, n8n, LLM APIs), your stack, and location (**Pune first, then remote open to India**).
+  4. It keeps evaluating in rounds until **10 jobs score 4.0+** that day, or the `max_evaluations_per_day` cap is reached. Every 4.0+ job gets an application kit.
+  - **Location rule:** no relocation. On-site or hybrid outside Pune, and remote roles limited to the US, EU or UK, are filtered out in the scan and again by career-ops' dealbreaker gate.
+  - **Not covered:** LinkedIn blocks automated searching. Paste LinkedIn jobs into `inbox/` yourself.
 - **By hand:** GitHub web or mobile app → `inbox/` → Add file → paste a URL → Commit.
 
 ## What you get per job
@@ -72,7 +78,9 @@ Update a status by dropping a file in `inbox/` that holds the line `status: Acme
 | Key | Default | Meaning |
 |---|---|---|
 | `model` | `claude-sonnet-5-5` | Model for career-ops workers |
-| `jobs_per_run` | `5` | How many scanned jobs to fully evaluate per daily run. This is the main cost control |
+| `daily_target_qualified` | `10` | Stop once this many jobs scored 4.0+ today |
+| `max_evaluations_per_day` | `30` | Hard cap on paid evaluations per day. This is the main cost control |
+| `scan_round_size` | `8` | Jobs evaluated per round |
 | `parallel_workers` | `2` | Concurrent workers |
 | `min_scan_score` | `6` | Only jobs scoring at least this in the free pre-scan get a paid evaluation |
 | `freehire.locations` / `searches` | India + remote | What to search |

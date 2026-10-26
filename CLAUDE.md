@@ -4,6 +4,10 @@ This private repo is Hussain Singapuri's job agent. **career-ops** (github.com/c
 
 When Hussain asks you (in the Claude app or anywhere else) to work with his job agent, you drive it through this repo with the GitHub tools. You never run the evaluation yourself in chat, and you never need the API key.
 
+## Location rule
+
+No relocation. Only queue jobs that are in Pune (on-site, hybrid or remote) or remote and open to India-based people. If Hussain asks about a role elsewhere, point out the rule and queue it only if he confirms.
+
 ## Queue a job ("apply to this", "evaluate this job", "make a resume for this posting")
 
 Create one new file in `inbox/` on `main`:

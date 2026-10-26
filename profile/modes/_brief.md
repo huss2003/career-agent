@@ -25,7 +25,8 @@ Analog titles that count as hits: AI Engineer (applied), GenAI Developer, LLM En
 ## Hard disqualifiers
 - Pure ML research / model training / PhD-required roles
 - 6+ years required as a hard minimum, or Staff/Principal/Director level
-- Requires foreign work visa or on-site outside India with no relocation support
+- On-site or hybrid outside Pune (he will not relocate)
+- Remote roles that only hire outside India (US-only, EU-only, etc.)
 - Sales, recruiting, data-entry roles
 
 ## Comp floor

@@ -90,6 +90,11 @@ location:
   # explicitly states it will not sponsor, that is a hard blocker (see
   # modes/_profile.md "Your Location Policy"). Omit → treated as false.
   needs_sponsorship: false
+
+# Hard rules: career-ops' dealbreaker gate skips any posting that breaks one, before evaluating it.
+dealbreakers:
+  - "Never relocate: hard no to on-site or hybrid work anywhere except Pune, India"
+  - "Hard no to remote roles that only hire people living outside India (e.g. US-only, EU-only, UK-only remote)"
   # For remote roles outside your country:
   # onsite_availability: "1 week/month in any city"
 

@@ -23,7 +23,7 @@ on:
         type: boolean
         default: true
       jobs:
-        description: "Max jobs to evaluate from the scan (blank = agent.config.json)"
+        description: "Max evaluations today (blank = max_evaluations_per_day in agent.config.json)"
         required: false
         default: ""
 
@@ -37,7 +37,7 @@ concurrency:
 jobs:
   agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 340
     env:
       CAREER_OPS_DIR: .career-ops
       CAREER_OPS_ROOT: ${{ github.workspace }}/profile
@@ -80,24 +80,17 @@ jobs:
           python -m playwright install chromium
           claude --version
 
-      - name: Collect jobs (inbox, manual URL, freehire scan)
+      - name: Collect jobs you sent (inbox, manual URL)
         env:
           INPUT_URL: ${{ github.event.inputs.url }}
-          INPUT_SCAN: ${{ github.event.inputs.scan }}
-          INPUT_JOBS: ${{ github.event.inputs.jobs }}
         run: |
           node scripts/inbox-intake.mjs
           if [ -n "$INPUT_URL" ]; then
             mkdir -p inbox && printf '%s\n' "$INPUT_URL" > "inbox/manual-$(date +%s).md"
             node scripts/inbox-intake.mjs
           fi
-          if [ "${{ github.event_name }}" = "schedule" ] || [ "$INPUT_SCAN" = "true" ]; then
-            LIMIT="${INPUT_JOBS:-$(node -p "require('./agent.config.json').jobs_per_run")}"
-            node scripts/freehire-scan.mjs --limit "$LIMIT"
-          fi
-          echo "--- batch input ---"; cat "$CAREER_OPS_DIR/batch/batch-input.tsv" 2>/dev/null || echo "(none)"
 
-      - name: Evaluate + tailor CVs (career-ops on Claude)
+      - name: Evaluate + tailor CVs for jobs you sent (career-ops on Claude)
         run: |
           MODEL="$(node -p "require('./agent.config.json').model")"
           PAR="$(node -p "require('./agent.config.json').parallel_workers")"
@@ -117,6 +110,31 @@ jobs:
             done
             (cd "$CAREER_OPS_DIR" && node merge-tracker.mjs) || true
           fi
+
+      - name: Daily scan — keep going until the target of 4.0+ jobs is met
+        if: github.event_name == 'schedule' || github.event.inputs.scan == 'true'
+        env:
+          INPUT_JOBS: ${{ github.event.inputs.jobs }}
+        run: |
+          cfg() { node -p "require('./agent.config.json').$1"; }
+          MODEL="$(cfg model)"; PAR="$(cfg parallel_workers)"
+          TARGET="$(cfg daily_target_qualified)"; ROUND_SIZE="$(cfg scan_round_size)"
+          MAX_EVAL="${INPUT_JOBS:-$(cfg max_evaluations_per_day)}"
+          for ROUND in 1 2 3 4 5 6; do
+            read -r Q E <<< "$(node scripts/daily-count.mjs)"
+            echo "== round $ROUND: $Q of $TARGET qualifying jobs today, $E of $MAX_EVAL evaluations used"
+            if [ "$Q" -ge "$TARGET" ]; then echo "target reached"; break; fi
+            if [ "$E" -ge "$MAX_EVAL" ]; then echo "::notice::evaluation cap reached ($MAX_EVAL) with $Q qualifying jobs"; break; fi
+            LEFT=$((MAX_EVAL - E)); N=$(( LEFT < ROUND_SIZE ? LEFT : ROUND_SIZE ))
+            # Later rounds widen the search: older postings and a lower pre-scan bar.
+            if [ "$ROUND" -le 2 ]; then EXTRA=""; else EXTRA="--days $(cfg freehire.wide_open_within_days) --min-score $(cfg wide_min_scan_score)"; fi
+            node scripts/freehire-scan.mjs --limit "$N" --count-file /tmp/queued $EXTRA || break
+            if [ "$(cat /tmp/queued 2>/dev/null || echo 0)" = "0" ]; then echo "::notice::no more matching jobs on freehire today ($Q qualifying)"; break; fi
+            bash "$CAREER_OPS_DIR/batch/batch-runner.sh" --model "$MODEL" --parallel "$PAR" \
+              --thin-action browser-extract --worker-timeout 1500 --max-retries 1 || echo "::warning::batch runner exited non-zero; partial results are kept"
+          done
+          read -r Q E <<< "$(node scripts/daily-count.mjs)"
+          echo "== done: $Q qualifying jobs (score >= $(cfg kit_min_score)) from $E evaluations today"
 
       - name: Render designed resumes
         run: python scripts/render-designed.py

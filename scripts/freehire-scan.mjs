@@ -76,6 +76,22 @@ async function search(params) {
   return [];
 }
 
+// ------------------------------------------------------------ location ----
+// Hard rule: no relocation. Pune (any work mode) or remote open to India-based people. Nothing else.
+const FOREIGN_ONLY = /\b(us|u\.s\.|usa|united states|eu|europe|uk|canada|latam)[- ](only|based only|residents only)\b|must (be|reside|live)( located| based)? in the (us|u\.s\.|usa|united states|uk|eu|european union)\b|(authori[sz]ed|eligible) to work in the (us|u\.s\.|united states|uk|eu)\b|\b(w-?2|us citizens? only|green card)\b/i;
+export function locationFit(job) {
+  const loc = String(job.location || '').toLowerCase();
+  const cities = (job.cities || []).map(x => String(x).toLowerCase());
+  const pune = loc.includes('pune') || cities.includes('pune') || (job.metros || []).some(m => /pune/i.test(m));
+  if (pune) return { ok: true, bonus: 4, label: job.work_mode === 'remote' ? 'Pune (remote)' : 'Pune' };
+  if (job.work_mode !== 'remote') return { ok: false, label: 'outside Pune, not remote' };
+  if (FOREIGN_ONLY.test(String(job.description || ''))) return { ok: false, label: 'remote but foreign-only' };
+  const countries = job.countries || [], regions = job.regions || [];
+  if (countries.includes('in')) return { ok: true, bonus: 2, label: 'remote (India)' };
+  if (regions.includes('global') || regions.includes('apac') || (!countries.length && !regions.length)) return { ok: true, bonus: 1, label: 'remote (worldwide/APAC)' };
+  return { ok: false, label: 'remote, other region only' };
+}
+
 // ---------------------------------------------------------------- score ----
 const has = (list, s) => list.some(x => s.includes(x));
 function score(job) {
@@ -113,8 +129,9 @@ function score(job) {
   if (expMin >= 5) { s -= 4; why.push(`asks ${expMin}+ yrs`); }
   else if (expMin === 4) { s -= 1; why.push('asks 4+ yrs'); }
 
-  const city = String(job.location || '').toLowerCase();
-  if (job.work_mode === 'remote' || has(S.preferred_cities, city)) { s += 1; why.push(job.work_mode === 'remote' ? 'remote' : 'Pune'); }
+  const loc = locationFit(job);
+  s += loc.bonus;
+  if (loc.label) why.unshift(loc.label);
 
   if (job.reality?.fake_freshness) { s -= 5; why.push('fake freshness'); }
   if (job.closed_at) s = -99;
@@ -171,6 +188,7 @@ async function main() {
   for (const { job, found } of pool.values()) {
     const url = offerUrl(job);
     if (seen.has(urlKey(url)) || (job.url && seen.has(urlKey(job.url)))) continue;
+    if (!locationFit(job).ok) continue; // no relocation, no foreign-only remote
     const titleKey = `${job.company}|${job.title}`.toLowerCase();
     if (dupTitle.has(titleKey)) continue;
     dupTitle.add(titleKey);
@@ -178,10 +196,10 @@ async function main() {
     fresh.push({ job, url, found, score: sc, why });
   }
   fresh.sort((a, b) => b.score - a.score || String(b.job.posted_at).localeCompare(String(a.job.posted_at)));
-  const picked = fresh.filter(f => f.score >= (CFG.min_scan_score ?? 6)).slice(0, LIMIT);
+  const minScore = Number(flag('--min-score', CFG.min_scan_score ?? 6));
+  const picked = fresh.filter(f => f.score >= minScore).slice(0, LIMIT);
 
-  console.log(`\nfreehire: ${pool.size} jobs seen, ${fresh.length} new, ${picked.length} queued (min score ${CFG.min_scan_score}, limit ${LIMIT}, last ${days} days).`);
-  for (const p of picked) console.log(`  [${p.score}] ${p.job.title} — ${p.job.company} (${p.job.location || p.job.work_mode}) · ${p.why.join('; ')}`);
+  console.log(`\nfreehire: ${pool.size} jobs seen, ${fresh.length} new, ${picked.length} queued (min score ${minScore}, limit ${LIMIT}, last ${days} days).`);  for (const p of picked) console.log(`  [${p.score}] ${p.job.title} — ${p.job.company} (${p.job.location || p.job.work_mode}) · ${p.why.join('; ')}`);
 
   // Shortlist file the Claude app can read and show: top 25 including ones not queued.
   const today = new Date().toISOString().slice(0, 10);
@@ -192,6 +210,7 @@ async function main() {
     ...fresh.slice(0, 25).map(f => `| ${f.score} | ${f.job.title.replace(/\|/g, '/')} | ${String(f.job.company).replace(/\|/g, '/')} | ${f.job.location || f.job.work_mode || ''} | ${f.why.join('; ').replace(/\|/g, '/')} | [open](${f.url}) | ${picked.includes(f) ? 'yes' : ''} |`),
   ];
   if (DRY) { console.log('\n(dry run: nothing written)'); return; }
+  if (args.includes('--count-file')) writeFileSync(flag('--count-file'), String(picked.length));
   mkdirSync(path.join(DATA_ROOT, 'data'), { recursive: true });
   writeFileSync(path.join(DATA_ROOT, 'data/freehire-last-scan.md'), lines.join('\n') + '\n');
   if (!picked.length) return;
