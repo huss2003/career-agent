@@ -1,0 +1,69 @@
+{
+  "company": "OneClickDrive.com",
+  "role": "Next.js Developer",
+  "score": "4.1/5",
+  "apply_url": "https://to.indeed.com/aankxsxs6gqn",
+  "fit_line": "Next.js and React developer with 3 years of full-stack experience, SEO-friendly server-rendered projects, Tailwind CSS and Stripe/REST integrations, available immediately.",
+  "ai_in_job": "not stated",
+  "screening_answers": [
+    {
+      "question": "How many years of Next.js experience do you have?",
+      "answer": "I have 3 years of professional full-stack experience and have built several Next.js apps: PageForge (Next.js 16, React 19), Lumen, Kilnwood Roasters, Cairnmoor and contractor-ai-ops-dashboard. I'd be glad to walk through the code.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Explain your experience with SSR, SSG and API Routes.",
+      "answer": "I've built server-rendered, SEO-friendly pages with JSON-LD, plus programmatic SEO on a static-generated site (neuronetwrks.com). My Next.js projects connect to REST APIs and services such as Supabase, Sanity, HubSpot and PostHog. I can go through specific routes in an interview.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Which CSS frameworks have you used?",
+      "answer": "Mainly Tailwind CSS (v4 in PageForge and Safey Inventory) with shadcn/ui, plus plain CSS. I haven't used styled-components professionally, but CSS-in-JS is a small step from my component-based work.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "How do you test your code?",
+      "answer": "I write end-to-end API tests for backend flows: 10 on my portfolio backend and 9 on Orbital Surplus, covering bookings, stock holds and payment confirmation. I also use GitHub Actions for CI.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations and notice period?",
+      "answer": "Notice period: Immediate. I'm in IST (UTC+05:30) and happy to overlap with your team's hours. Salary expectation: to be confirmed by me.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm remote work is open to India-based candidates.",
+    "State the monthly salary expectation (floor INR 30,000).",
+    "Confirm working-hours overlap expected by the team."
+  ],
+  "knockout_warnings": [
+    "Posting says only 'Remote'; India eligibility is not stated. Confirm before investing time.",
+    "Asks for styled-components as an example of CSS-in-JS; his experience is Tailwind CSS."
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I'm applying for the Next.js Developer role at OneClickDrive.com. I have 3 years of professional full-stack experience at a US-based medical-device company, where I built web applications and a CRM, and I now build Next.js and React products in TypeScript with Tailwind CSS.",
+      "Your focus on server-rendered, SEO-friendly apps matches my work. PageForge is a Next.js 16 and React 19 app that integrates Sanity, Supabase, PostHog and HubSpot. My portfolio backend has server-rendered SEO with JSON-LD, Stripe bookings with signed webhooks, and 10 end-to-end API tests. I use Git and GitHub Actions day to day.",
+      "I'm available immediately and work from Pune on IST (UTC+05:30). My portfolio is at hussain-singapuri.vercel.app and my code is at github.com/huss2003. I'd welcome the chance to discuss the role."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Next.js/React developer, 3 yrs full-stack. Built PageForge (Next.js 16, Tailwind, Sanity, HubSpot) and SEO-ready sites with JSON-LD. Pune, IST, immediate start. Portfolio: hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: Next.js Developer - Hussain Singapuri",
+    "body": "Dear Hiring Team,\n\nI'm applying for the Next.js Developer role. I have 3 years of full-stack experience and have shipped several Next.js and React projects with Tailwind CSS, REST and third-party integrations, SEO-friendly server-rendered pages and end-to-end API tests. Highlights: PageForge (Next.js 16, React 19) and my portfolio backend with Stripe and 10 end-to-end tests.\n\nPortfolio: hussain-singapuri.vercel.app\nGitHub: github.com/huss2003\n\nI'm based in Pune (IST) and available immediately. My CV is attached.\n\nKind regards,\nHussain Singapuri"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}

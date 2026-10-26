@@ -1,0 +1,71 @@
+{
+  "company": "Nibras Real Estate Supervision L.L.C",
+  "role": "AI Developer – AI Agents, Automation & Dashboards",
+  "score": "4.1/5",
+  "apply_url": "https://to.indeed.com/aahgsfgrvlcr",
+  "fit_line": "AI agents, dashboards and integrations on Claude and Gemini, built by one developer who ships the full stack with Claude Code. Fully remote from India.",
+  "ai_in_job": "\"Design, build and deploy AI agents using LLM APIs (Anthropic Claude, OpenAI, Google Gemini)\" and \"turn manual work into AI agents across the group\"; \"Expert in Claude\" is required.",
+  "screening_answers": [
+    {
+      "question": "How many years have you built AI/LLM applications used in production?",
+      "answer": "I have 3 years of professional experience as a Full Stack Developer at a US-based medical-device company, where I built AI agents for internal use alongside web apps and a CRM. Outside work I build LLM applications with Claude and Gemini, including RAG agents and multi-agent systems, all on GitHub.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "Share a link to an AI agent, automation or dashboard you built.",
+      "answer": "ai-lead-receptionist: github.com/huss2003/ai-lead-receptionist (Claude, Twilio, Supabase). Also site-to-agent (RAG with evals) and contractor-ai-ops-dashboard, all at github.com/huss2003. Portfolio: hussain-singapuri.vercel.app",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Which automation tools have you used (n8n, Make, Zapier, custom code)?",
+      "answer": "Custom code: Python and Node.js workflows with signed webhooks, Twilio SMS, HubSpot events, PostHog and web crawlers. I have not listed n8n, Make or Zapier experience.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "Which LLM APIs have you integrated (Claude, OpenAI, Gemini, other)?",
+      "answer": "Claude API (multi-agent-research-crew, ai-lead-receptionist) and Gemini API (PageForge, TripSync with structured outputs). I hold the Claude Certified Developer - Foundations (CCDV-F) and use Claude Code daily.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your expected monthly salary in INR?",
+      "answer": "To be confirmed by Hussain before submitting.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm whether any n8n, Make or Zapier work exists before answering the automation-tools question.",
+    "State the expected monthly salary in INR.",
+    "Record the optional 2-minute video or note on one agent (ai-lead-receptionist or site-to-agent suggested)."
+  ],
+  "knockout_warnings": [
+    "Requires a portfolio of 2 AI agents built for real businesses: his are internal agents and open-source projects, so frame them honestly.",
+    "n8n, Make or Zapier is required: the CV lists workflow automation in custom code but none of these platforms.",
+    "OAuth, WhatsApp Business API and AWS/Azure are not in the CV; do not claim them.",
+    "Shortlisted candidates complete a paid test task; probation is 3 months."
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the AI Developer role. I have 3 years of professional full-stack experience at a US-based medical-device company, where I built AI agents for internal use, several apps including a CRM, and security-tested 5+ live Google Play apps.",
+      "Your brief matches what I build. ai-lead-receptionist is a Claude agent that qualifies leads over SMS and web chat and books jobs. site-to-agent is a RAG agent with hybrid retrieval, citations and an eval harness. contractor-ai-ops-dashboard is a Next.js and Postgres dashboard with anomaly alerts and number-checked AI summaries. PageForge adds validator and reviewer approval before AI claims go out, the same human-approval idea you want for payments and refunds.",
+      "I am a Claude Certified Developer (CCDV-F) and use Claude Code daily. My automations so far are custom code with webhooks and CRM integrations rather than n8n, Make or Zapier, and I would pick up those platforms quickly. I am in India, available immediately, and happy to do the paid test task."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "3 yrs full stack at a US medical-device co. Built internal AI agents, a CRM, and Claude/Gemini projects (RAG, lead agent, Next.js dashboard). Claude certified. India remote, immediate start. github.com/huss2003",
+  "email": {
+    "subject": "Application: AI Developer (AI Agents, Automation & Dashboards) – Hussain Singapuri",
+    "body": "Dear Hiring Team,\n\nPlease find my CV for the AI Developer role. I have 3 years of full-stack experience, including internal AI agents and a CRM at a US-based medical-device company. My projects include a Claude lead-qualification agent, a RAG agent with evals and a Next.js analytics dashboard (github.com/huss2003). I am based in India and can start immediately. I would be glad to complete the paid test task.\n\nKind regards,\nHussain Singapuri"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}
