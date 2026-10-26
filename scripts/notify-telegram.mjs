@@ -34,11 +34,15 @@ async function call(method, body) {
   return j.result;
 }
 
+const CHAT_FILE = path.join(DATA, 'data', 'telegram-chat-id');
 async function chatId() {
   if (process.env.TELEGRAM_CHAT_ID) return process.env.TELEGRAM_CHAT_ID;
+  // Telegram keeps /start for only 24 hours, so remember the chat once found (private repo).
+  if (existsSync(CHAT_FILE)) return readFileSync(CHAT_FILE, 'utf8').trim();
   const updates = await call('getUpdates', { limit: 100 });
   const last = [...updates].reverse().find(u => u.message?.chat?.id);
   if (!last) throw new Error('no chat found: open your bot in Telegram and send it /start, then run again');
+  writeFileSync(CHAT_FILE, String(last.message.chat.id));
   return String(last.message.chat.id);
 }
 
