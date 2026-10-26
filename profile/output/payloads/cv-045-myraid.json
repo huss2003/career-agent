@@ -1,0 +1,253 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Hussain Singapuri",
+    "title": "AI-Native Full Stack Engineer",
+    "phone": "+91 9561277305",
+    "email": "Hussainsingapuri24@gmail.com",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/hussain-singapuri-18437225a/",
+      "display": "linkedin.com/in/hussain-singapuri-18437225a"
+    },
+    "github": {
+      "url": "https://github.com/huss2003",
+      "display": "github.com/huss2003"
+    },
+    "portfolio": {
+      "url": "https://hussain-singapuri.vercel.app",
+      "display": "hussain-singapuri.vercel.app"
+    },
+    "location": "Pune, India"
+  },
+  "summary": "AI-Native Full Stack Engineer with 3 years of professional experience in TypeScript, Node, React and PostgreSQL at a US-based medical-device company. Uses Claude Code daily and has built AI agents (multi-agent-research-crew, site-to-agent). Ships production-grade APIs with end-to-end tests and security hardening, backed by penetration testing of 5+ live Play Store apps.",
+  "competencies": [
+    "AI agents",
+    "Claude Code",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "PostgreSQL",
+    "API design",
+    "Testing"
+  ],
+  "experience": [
+    {
+      "company": "NeuroNetworks AI Ed",
+      "role": "CTO & Principal Course Architect",
+      "location": "Pune, India",
+      "dates": "2026 - Present",
+      "bullets": [
+        "Built and run the website neuronetwrks.com with a Python static-site generator deployed on Vercel, including programmatic SEO",
+        "Designing Neuromind Practical AI Lab, a browser-based IDE and sandbox with an AI tutor: phased spec, server sizing, engineering team plan and CAPEX/OPEX model",
+        "Lead technology for an Indian AI and tech education brand (Neuronetworks AI Ed Private Limited) offering programmes for students after Class 10",
+        "Architected the curriculum: a 1-year AI Foundation course and five 3-year specialisations (AI/ML Engineering, Software Development, Data Science & AI, Product & UX / AI Design, Cybersecurity)"
+      ]
+    },
+    {
+      "company": "US-based medical-device company",
+      "role": "Full Stack Developer",
+      "location": "Remote",
+      "dates": "Mar 2023 - Sep 2026",
+      "bullets": [
+        "Built and maintained full-stack web applications for the company",
+        "Built AI agents for internal use",
+        "Built several apps, including a CRM",
+        "Performed penetration / security testing on 5+ of the company's mobile apps, all live on the Google Play Store"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal portfolio with full-stack backend",
+      "url": "https://hussain-singapuri.vercel.app",
+      "tech": "Node 20, Postgres (Neon), Stripe, Resend, GSAP",
+      "description": "Production API design with a rate-limited lead pipeline, slot-hold booking, Stripe sessions with signed webhooks, HMAC-signed CRM events and nonce-based CSP. Covered by 10 end-to-end API tests."
+    },
+    {
+      "name": "site-to-agent",
+      "url": "https://github.com/huss2003/site-to-agent",
+      "tech": "Next.js, TypeScript, pgvector",
+      "description": "Agentic AI that turns any website into a grounded chat agent, with hybrid BM25 + vector retrieval (RRF), cited answers, SSRF-hardened fetching and an eval harness."
+    },
+    {
+      "name": "Orbital Surplus",
+      "url": "https://orbital-surplus.vercel.app",
+      "tech": "three.js, Node 20, Postgres (Neon), Stripe, Resend",
+      "description": "Fictional-brand demo store. Race-safe stock holds in one transaction, idempotent payment confirmation (Stripe test mode), admin refunds and 9 end-to-end API tests."
+    },
+    {
+      "name": "multi-agent-research-crew",
+      "url": "https://github.com/huss2003/multi-agent-research-crew",
+      "tech": "Python, asyncio, Claude",
+      "description": "Planner, researcher, writer and verifier AI agents on a custom DAG orchestrator with retries, timeouts, token budgets and claim-level citation checking."
+    },
+    {
+      "name": "contractor-ai-ops-dashboard",
+      "url": "https://github.com/huss2003/contractor-ai-ops-dashboard",
+      "tech": "Next.js, TypeScript, Recharts, Postgres RLS",
+      "description": "Multi-tenant analytics with signed event ingestion, Postgres RLS and number-checked AI weekly summaries."
+    },
+    {
+      "name": "ai-lead-receptionist",
+      "url": "https://github.com/huss2003/ai-lead-receptionist",
+      "tech": "Next.js, TypeScript, Twilio, Claude, Supabase",
+      "description": "AI agent that qualifies leads over SMS and web chat and books jobs, with an owner dashboard."
+    },
+    {
+      "name": "More projects",
+      "url": "https://github.com/huss2003",
+      "description": "nanoserve, lead-intel-engine, PageForge, Nightjar & Co., Lumen, Kilnwood Roasters, Cairnmoor, Lowlight Video Club, Safey Inventory, TripSync"
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor's, Computer Science (AI & Machine Learning)",
+      "org": "Vishwakarma Institute of Technology, Pune",
+      "year": "2022-2025"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Claude Code in Action",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Code 101",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Developer - Foundations (CCDV-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Orchestrator - Foundations (CCAO-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Generative AI Leader",
+      "org": "Google Cloud",
+      "year": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Dart",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "category": "AI / LLM",
+      "items": [
+        "Claude Code and AI coding agents",
+        "AI agents",
+        "multi-agent orchestration",
+        "tool use / function calling",
+        "RAG (hybrid BM25 + vector, RRF)",
+        "evals",
+        "prompt-injection defence",
+        "LLM inference serving",
+        "Claude API",
+        "Gemini API"
+      ]
+    },
+    {
+      "category": "Back end",
+      "items": [
+        "Node.js",
+        "REST APIs",
+        "FastAPI",
+        "asyncio",
+        "webhooks (HMAC signing)",
+        "Stripe Checkout and refunds",
+        "auth (scrypt, sessions, throttling)",
+        "Resend"
+      ]
+    },
+    {
+      "category": "Front end",
+      "items": [
+        "React 19",
+        "Next.js",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TanStack Start / Query",
+        "GSAP",
+        "Lenis",
+        "three.js",
+        "WebGL",
+        "Canvas 2D",
+        "responsive and accessible UI",
+        "motion and interaction design"
+      ]
+    },
+    {
+      "category": "Data",
+      "items": [
+        "PostgreSQL",
+        "Neon",
+        "Supabase (RLS, Edge Functions)",
+        "pgvector",
+        "PGlite",
+        "SQLite",
+        "Sanity CMS"
+      ]
+    },
+    {
+      "category": "Security",
+      "items": [
+        "mobile app penetration testing",
+        "CSP and security headers",
+        "SSRF hardening",
+        "input validation"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "items": [
+        "Docker",
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    {
+      "category": "Automation & integrations",
+      "items": [
+        "workflow automation",
+        "CRM integrations (HubSpot)",
+        "PostHog",
+        "Twilio SMS",
+        "web crawling / scraping"
+      ]
+    },
+    {
+      "category": "Mobile",
+      "items": [
+        "Flutter",
+        "Riverpod",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "Design",
+      "items": [
+        "UI/UX design",
+        "design systems",
+        "technical SEO",
+        "JSON-LD structured data",
+        "programmatic SEO"
+      ]
+    }
+  ]
+}
