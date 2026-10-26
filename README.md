@@ -48,6 +48,17 @@ It is built from two open-source projects:
 | `profile/data/last-run.md` | Summary of the latest run |
 | `profile/data/freehire-last-scan.md` | Today's shortlist, including roles not yet evaluated |
 
+### Daily updates on your phone (Telegram, free)
+
+Every job scoring 4.0+ arrives as one Telegram message with the score, why it fits, the **Apply** link and the full-kit link. The ATS CV, the designed CV and the cover letter are attached as files.
+
+Setup (2 minutes):
+1. In Telegram, open **@BotFather**, send `/newbot`, pick any name, and copy the token it gives you.
+2. Open your new bot and send it `/start`.
+3. In GitHub, go to repo → Settings → Secrets and variables → Actions → New secret. Name: `TELEGRAM_BOT_TOKEN`. Value: the token.
+
+The next run sends every kit not yet sent. Each kit is sent once (tracked in `profile/data/telegram-sent.tsv`).
+
 ### Application kits (jobs scoring 4.0+)
 
 `profile/applications/<NNN-company>/kit.md` is everything you need to apply in a few minutes:

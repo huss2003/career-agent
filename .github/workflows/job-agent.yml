@@ -149,6 +149,13 @@ jobs:
           node scripts/build-kits.mjs || echo "::warning::kit builder exited non-zero"
           python scripts/render-kits.py
 
+      - name: Send new kits to Telegram (if set up)
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/notify-telegram.mjs
+
       - name: Summary
         run: node scripts/run-summary.mjs >> "$GITHUB_STEP_SUMMARY"
 
