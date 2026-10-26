@@ -33,6 +33,8 @@ Read these files from `main` and summarise them. Lead with the best-scoring role
 | `profile/data/last-run.md` | The latest run: each job, its score out of 5, the report, the designed CV |
 | `profile/data/applications.md` | The full tracker: every job ever evaluated, with status |
 | `profile/reports/NNN-company-date.md` | One full evaluation: fit, gaps, legitimacy, salary notes, draft cover letter |
+| `profile/data/email-status.md` | Whether the last email went out (and why not, if it failed) |
+| `profile/data/api-spend.tsv` | Every Claude call with its cost; the daily cap is $5 |
 | `profile/data/freehire-last-scan.md` | The latest freehire shortlist, including jobs not yet evaluated |
 | `profile/output/designed/*.pdf` | Designed CVs (volt layout, project screenshots) |
 | `profile/output/*.pdf` | career-ops' ATS-safe CVs |

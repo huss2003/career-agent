@@ -51,6 +51,12 @@ for (const name of files) {
   const note = (text.match(/^note:\s*(.+)$/im)?.[1] || '').replace(/[\t\n]/g, ' ').slice(0, 200);
   const stripped = text.replace(/https?:\/\/\S+/g, '').replace(/^note:.*$/im, '').trim();
 
+  if (/^email-test:?\s*$/im.test(text)) {
+    console.log('  email      test email requested');
+    if (!DRY) { mkdirSync(path.join(CO_DIR, 'batch'), { recursive: true }); writeFileSync(path.join(CO_DIR, 'batch', 'email-test'), '1'); }
+    done(name); continue;
+  }
+
   if (/^telegram-test:?\s*$/im.test(text)) {
     console.log('  telegram   test message requested');
     if (!DRY) { mkdirSync(path.join(CO_DIR, 'batch'), { recursive: true }); writeFileSync(path.join(CO_DIR, 'batch', 'telegram-test'), '1'); }

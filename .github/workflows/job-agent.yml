@@ -2,7 +2,7 @@ name: Job agent
 
 # Budget-capped job hunt: career-ops tooling powered by lean Claude API calls (Sonnet, hard daily $ cap).
 #   - every morning (scheduled): freehire scan → evaluate until 20 jobs score 4.0+ with a passing CV,
-#     the daily budget is reached, or 07:45 IST; then Telegram delivery before 8 AM
+#     the daily budget is reached, or 07:45 IST; then one email with every job + CVs before 8 AM
 #   - files pushed to inbox/: job URLs or pasted JDs (the Claude app, GitHub mobile, or the Indeed feed)
 #   - manual run: Actions tab → Job agent → Run workflow
 # Results are committed back to profile/: reports, tracker, ATS CVs, designed CVs, application kits, spend ledger.
@@ -107,12 +107,14 @@ jobs:
           python scripts/render-designed.py
           python scripts/render-kits.py
 
-      - name: Send new jobs to Telegram
+      - name: Email new jobs (Gmail)
         if: always()
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: node scripts/notify-telegram.mjs
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          npm install --no-save --no-audit --no-fund --silent nodemailer@6
+          node scripts/notify-email.mjs
 
       - name: Commit results
         if: always()

@@ -48,16 +48,19 @@ It is built from two open-source projects:
 | `profile/data/last-run.md` | Summary of the latest run |
 | `profile/data/freehire-last-scan.md` | Today's shortlist, including roles not yet evaluated |
 
-### Daily updates on your phone (Telegram, free)
+### Daily email (free, through your Gmail)
 
-Every job scoring 4.0+ arrives as one Telegram message with the score, why it fits, the **Apply** link and the full-kit link. The ATS CV, the designed CV and the cover letter are attached as files.
+Each morning, one email to Hussainsingapuri24@gmail.com:
+- **One card per new job scoring 4.0+:** score, why it fits, how the job uses AI, warnings, an **Apply** button and the full-kit link.
+- **Attachments for every job:** the ATS CV, the designed CV and the cover letter.
+- **On a day with nothing new,** a one-line "no new jobs" note, so silence never means it broke.
 
-Setup (2 minutes):
-1. In Telegram, open **@BotFather**, send `/newbot`, pick any name, and copy the token it gives you.
-2. Open your new bot and send it `/start`.
-3. In GitHub, go to repo → Settings → Secrets and variables → Actions → New secret. Name: `TELEGRAM_BOT_TOKEN`. Value: the token.
+Setup (3 minutes):
+1. Turn on 2-Step Verification for the Google account: myaccount.google.com → Security.
+2. Open myaccount.google.com/apppasswords, create an app password named `job agent`, and copy the 16 characters.
+3. In GitHub, go to repo → Settings → Secrets and variables → Actions → New secret. Name: `GMAIL_APP_PASSWORD`. Value: the app password.
 
-The next run sends every kit not yet sent. Each kit is sent once (tracked in `profile/data/telegram-sent.tsv`).
+Each run writes its email result to `profile/data/email-status.md`. To send a test, drop `email-test:` in `inbox/`.
 
 ### Application kits (jobs scoring 4.0+)
 
