@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ contact.name }} — Resume — {{ job.company }}</title>
+<style>
+{% include "_fonts.css" %}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  width: 210mm; min-height: 297mm; display: flex; flex-direction: column;
+  font-family: var(--sans); font-size: {{ font_size }}pt; line-height: 1.42;
+  color: var(--ink); background: var(--paper);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+a { color: inherit; text-decoration: none; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+
+/* ---------- the one bold moment: the band ---------- */
+.band {
+  background: var(--band); color: var(--band-ink);
+  padding: 9mm 13mm 6.5mm 11mm;
+  display: grid; grid-template-columns: auto 1fr auto; gap: 6.5mm; align-items: center;
+}
+.portrait {
+  width: 30mm; height: 30mm; border-radius: 50%;
+  border: 1.4pt solid var(--band-ink); overflow: hidden;
+  display: grid; place-items: center; align-self: center;
+}
+.portrait img { width: 100%; height: 100%; object-fit: cover; }
+.portrait .mono { font-family: var(--serif); font-size: 30pt; line-height: 1; letter-spacing: -0.5pt; }
+.name {
+  font-family: var(--serif); font-weight: 400;
+  font-size: 44pt; line-height: 0.92; letter-spacing: -1.2pt; margin: 0;
+}
+.headline { font-size: 11.2pt; font-weight: 500; margin-top: 2.4mm; max-width: 112mm; line-height: 1.3; }
+.qr { text-align: center; font-size: 7.4pt; line-height: 1.25; }
+.qr svg { width: 21mm; height: 21mm; display: block; margin: 0 auto 1.2mm; }
+
+/* ---------- body grid ---------- */
+.body { display: grid; grid-template-columns: 62mm 1fr; flex: 1; }
+aside { background: var(--fog); padding: 6.5mm 6mm 8mm 11mm; font-size: 0.95em; }
+main  { padding: 7mm 13mm 8mm 8mm; }
+
+h2 {
+  font-family: var(--serif); font-weight: 400; font-size: 15pt; line-height: 1;
+  margin: 0 0 2.4mm; letter-spacing: -0.2pt;
+}
+aside h2 { font-size: 13.5pt; }
+section + section { margin-top: 4.6mm; }
+
+/* sidebar */
+.contact { font-size: 0.92em; }
+.contact li { display: grid; grid-template-columns: 4.2mm 1fr; gap: 2mm; align-items: center; margin-bottom: 1.5mm; word-break: break-word; }
+.contact svg { width: 3.4mm; height: 3.4mm; color: var(--moss); fill: none; }
+.contact svg[role="img"] { fill: var(--moss); }
+.facts { display: flex; gap: 6mm; margin-top: 3.4mm; padding-top: 2.6mm; border-top: 0.6pt solid var(--band-ink); }
+.facts li { display: flex; align-items: center; gap: 1.8mm; font-size: 7.8pt; line-height: 1.2; max-width: 40mm; }
+.facts b { font-family: var(--serif); font-weight: 400; font-size: 19pt; line-height: 1; white-space: nowrap; }
+.skills .group { margin-bottom: 2mm; }
+.skills .label { font-weight: 600; margin-bottom: 0.6mm; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.7mm; }
+.chips span { background: var(--paper); border: 0.5pt solid var(--rule); border-radius: 0.8mm; padding: 0.1mm 1.1mm; font-size: 0.84em; line-height: 1.45; }
+.edu .degree { font-weight: 600; }
+.edu .meta, .certs li { color: var(--soft); }
+.certs li { margin-bottom: 0.9mm; line-height: 1.3; padding-left: 3mm; position: relative; color: var(--ink); }
+.certs li::before { content: ""; position: absolute; left: 0; top: 1.7mm; width: 1.2mm; height: 1.2mm; background: var(--moss); border-radius: 50%; }
+
+/* main */
+.summary { font-size: 1.04em; }
+.role { margin-bottom: 3.6mm; }
+.role-head { display: flex; justify-content: space-between; gap: 4mm; align-items: baseline; }
+.role-title { font-weight: 700; }
+.role-org { color: var(--soft); }
+.dates { color: var(--soft); white-space: nowrap; font-size: 0.92em; font-variant-numeric: tabular-nums; }
+.bullets li { position: relative; padding-left: 3.4mm; margin-top: 0.9mm; }
+.bullets li::before { content: ""; position: absolute; left: 0.4mm; top: 0.62em; width: 1.6mm; height: 0.5pt; background: var(--moss); }
+
+.featured { display: grid; grid-template-columns: repeat({{ featured|length if featured|length < 3 else 3 }}, 1fr); gap: 4mm; }
+.card { break-inside: avoid; }
+.card .shot {
+  aspect-ratio: 16 / 10; width: 100%; border-radius: 1.4mm; overflow: hidden;
+  background: var(--fog); border: 0.5pt solid var(--rule); margin-bottom: 1.8mm;
+}
+.card .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card .shot.blank { display: flex; flex-direction: column; justify-content: flex-end; padding: 2.4mm; background: var(--ink); color: var(--paper); border: 0; }
+.card .shot.blank .big { font-family: var(--serif); font-size: 17pt; line-height: 1; }
+.card .shot.blank .small { font-size: 7pt; opacity: 0.72; margin-top: 1mm; }
+.card h3 { font-family: var(--serif); font-weight: 400; font-size: 12.6pt; margin: 0; line-height: 1.05; }
+.card .stack { color: var(--soft); font-size: 0.86em; margin: 0.6mm 0 0.8mm; }
+.card p { font-size: 0.95em; }
+.card .url { color: var(--moss); font-size: 0.86em; margin-top: 0.8mm; display: block; }
+
+.more li { display: grid; grid-template-columns: 34mm 1fr; gap: 3mm; padding: 1.5mm 0; border-top: 0.5pt solid var(--rule); }
+.more li:last-child { border-bottom: 0.5pt solid var(--rule); }
+.more .t { font-family: var(--serif); font-size: 11.5pt; line-height: 1.1; }
+.more .t small { display: block; font-family: var(--sans); font-size: 7.4pt; color: var(--moss); margin-top: 0.6mm; }
+</style>
+</head>
+<body>
+
+<header class="band" id="band">
+  <div class="portrait">
+    {% if photo %}<img src="{{ photo }}" alt="">{% else %}<span class="mono">{{ initials }}</span>{% endif %}
+  </div>
+  <div>
+    <h1 class="name">{{ contact.name }}</h1>
+    <div class="headline">{{ resume.headline }}</div>
+    {% if resume.highlights %}
+    <ul class="facts">
+      {% for h in resume.highlights %}<li><b>{{ h.value }}</b><span>{{ h.label }}</span></li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  <a class="qr" href="{{ contact.portfolio }}">{{ qr_svg | safe }}Live portfolio</a>
+</header>
+
+<div class="body">
+  <aside>
+    <section>
+      <h2>Contact</h2>
+      <ul class="contact">
+        <li>{{ icons.mail | safe }}<span>{{ contact.email }}</span></li>
+        <li>{{ icons.phone | safe }}<span>{{ contact.phone }}</span></li>
+        <li>{{ icons["map-pin"] | safe }}<span>{{ contact.location }}</span></li>
+        <li>{{ icons.globe | safe }}<a href="{{ contact.portfolio }}">{{ contact.portfolio | replace("https://", "") }}</a></li>
+        <li>{{ icons.github | safe }}<a href="{{ contact.github }}">{{ contact.github | replace("https://", "") }}</a></li>
+        <li>{{ icons.linkedin | safe }}<a href="{{ contact.linkedin }}">LinkedIn profile</a></li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      {% for s in resume.skills %}
+      <div class="group">
+        <div class="label">{{ s.category }}</div>
+        <div class="chips">{% for i in s["items"] %}<span>{{ i }}</span>{% endfor %}</div>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="edu">
+      <h2>Education</h2>
+      {% for ed in resume.education %}
+      <div class="degree">{{ ed.degree }}</div>
+      <div class="meta">{{ ed.institution }}<br>{{ ed.dates }}</div>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul class="certs">{% for c in resume.certifications %}<li>{{ c }}</li>{% endfor %}</ul>
+    </section>
+  </aside>
+
+  <main>
+    <section>
+      <h2>Profile</h2>
+      <p class="summary">{{ resume.summary }}</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      {% for e in resume.experience %}
+      <div class="role">
+        <div class="role-head">
+          <div><span class="role-title">{{ e.title }}</span><br><span class="role-org">{{ e.organization }}{% if e.location %}, {{ e.location }}{% endif %}</span></div>
+          <div class="dates">{{ e.dates }}</div>
+        </div>
+        <ul class="bullets">{% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </section>
+
+    {% if featured %}
+    <section>
+      <h2>Selected work</h2>
+      <div class="featured">
+        {% for p in featured %}
+        <div class="card">
+          {% if p.image %}
+          <div class="shot"><img src="{{ p.image }}" alt=""></div>
+          {% else %}
+          <div class="shot blank"><div class="big">{{ p.name }}</div><div class="small">{{ p.stack }}</div></div>
+          {% endif %}
+          <h3>{{ p.name }}</h3>
+          {% if p.image and p.stack %}<div class="stack">{{ p.stack }}</div>{% endif %}
+          <p>{{ p.bullets | join(" ") }}</p>
+          {% if p.link %}<a class="url" href="{{ p.link }}">{{ "Code on GitHub" if "github.com" in p.link else p.link | replace("https://", "") }}</a>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if more %}
+    <section>
+      <h2>More projects</h2>
+      <ul class="more">
+        {% for p in more %}
+        <li>
+          <div class="t">{{ p.name }}{% if p.link %}<small><a href="{{ p.link }}">{{ "Code on GitHub" if "github.com" in p.link else p.link | replace("https://", "") }}</a></small>{% endif %}</div>
+          <div>{{ p.bullets | join(" ") }}{% if p.stack %} <span class="role-org">({{ p.stack }})</span>{% endif %}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </main>
+</div>
+</body>
+</html>

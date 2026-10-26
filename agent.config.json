@@ -1,0 +1,47 @@
+{
+  "_comment": "Settings for the job agent. Edit freely; the workflow reads this file on every run.",
+
+  "model": "claude-sonnet-5-5",
+  "jobs_per_run": 5,
+  "parallel_workers": 2,
+  "min_scan_score": 6,
+
+  "freehire": {
+    "open_within_days": 3,
+    "first_run_open_within_days": 14,
+    "locations": [
+      { "label": "India", "params": { "countries": "in" } },
+      { "label": "Remote (global / APAC)", "params": { "work_mode": "remote", "regions": "global,apac" } }
+    ],
+    "common_params": {
+      "seniority": "junior,middle,senior",
+      "seniority_include_unspecified": "true",
+      "experience_years_max": "5",
+      "experience_include_unspecified": "true",
+      "role_type_exclude": "people_manager",
+      "reality_exclude": "stale",
+      "sort": "posted_at",
+      "order": "desc",
+      "limit": "100",
+      "description_format": "markdown"
+    },
+    "searches": [
+      { "label": "AI builder archetypes", "params": { "ai_archetype": "agent_builder,rag_app_builder,fullstack_ai_engineer" } },
+      { "label": "Dev roles that use AI tools", "params": { "category": "ai_engineering,fullstack,frontend,software_engineering,creative", "skills": "claude-code,github-copilot,cursor,claude,chatgpt,openai,agentic-ai,llm,generative-ai,prompt-engineering,rag,mcp,langchain,n8n,zapier,ai-enablement" } },
+      { "label": "AI automation", "params": { "q": "AI automation" } },
+      { "label": "AI website builder", "params": { "q": "AI website builder" } },
+      { "label": "Creative developer", "params": { "q": "creative developer GSAP" } }
+    ]
+  },
+
+  "scoring": {
+    "target_archetypes": ["agent_builder", "rag_app_builder", "fullstack_ai_engineer"],
+    "target_categories": ["ai_engineering", "fullstack", "frontend", "software_engineering", "creative"],
+    "ai_tool_skills": ["claude-code", "github-copilot", "cursor", "claude", "chatgpt", "openai", "agentic-ai", "llm", "generative-ai", "prompt-engineering", "rag", "mcp", "langchain", "llamaindex", "crewai", "n8n", "zapier", "make", "ai-enablement", "conversational-ai"],
+    "my_skills": ["nextjs", "next-js", "react", "typescript", "javascript", "node", "nodejs", "python", "fastapi", "postgresql", "postgres", "supabase", "tailwind", "gsap", "three-js", "threejs", "webgl", "stripe", "vercel", "docker", "flutter"],
+    "ai_usage_phrases": ["claude code", "cursor", "copilot", "coding agent", "ai-assisted", "ai assisted", "ai-first", "ai first", "ai tools", "vibe cod", "llm", "agentic", "ai agents", "prompt engineering", "n8n", "zapier"],
+    "title_positive": ["ai", "llm", "genai", "generative", "agent", "agentic", "automation", "full stack", "fullstack", "full-stack", "frontend", "front-end", "front end", "react", "next.js", "nextjs", "creative", "web developer", "website", "product engineer", "software engineer", "software developer", "prompt"],
+    "title_negative": ["sales", "recruiter", "account executive", "data entry", "teacher", "trainer", "intern -", "java ", ".net", "salesforce", "sap ", "mainframe", "manager", "director", "head of", "principal", "staff ", "lead", "architect"],
+    "preferred_cities": ["pune"]
+  }
+}

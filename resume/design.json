@@ -1,0 +1,27 @@
+{
+  "_comment": "Settings for the designed resume. Highlights show as big numbers in the header band; images attach screenshots to projects by name (case-insensitive prefix match).",
+  "theme": "volt",
+  "highlights": [
+    { "value": "3 yrs", "label": "professional full-stack experience" },
+    { "value": "30+", "label": "projects shipped" },
+    { "value": "5", "label": "apps live on Google Play" }
+  ],
+  "project_images": {
+    "pageforge": "assets/projects/pageforge.jpg",
+    "personal portfolio": "assets/projects/portfolio.jpg",
+    "hussain singapuri": "assets/projects/portfolio.jpg",
+    "portfolio": "assets/projects/portfolio.jpg",
+    "orbital surplus": "assets/projects/orbital.jpg",
+    "nightjar": "assets/projects/nightjar.jpg",
+    "lumen": "assets/projects/lumen.jpg",
+    "kilnwood": "assets/projects/kilnwood.jpg",
+    "cairnmoor": "assets/projects/cairnmoor.jpg",
+    "lowlight": "assets/projects/lowlight.jpg"
+  },
+  "themes": {
+    "volt":  { "band": "#C6FF00", "band_ink": "#16241A", "ink": "#16241A", "moss": "#3E5C2F", "fog": "#EEF2E6", "rule": "#CBD5C0", "soft": "#56634F" },
+    "sage":  { "band": "#B9D3B0", "band_ink": "#13261A", "ink": "#18231C", "moss": "#2F5D45", "fog": "#EEF3EC", "rule": "#C8D4C6", "soft": "#53625A" },
+    "slate": { "band": "#C9D6E8", "band_ink": "#0F1D33", "ink": "#16202E", "moss": "#2C4F7C", "fog": "#EEF2F7", "rule": "#C9D2DE", "soft": "#526073" },
+    "clay":  { "band": "#F1C9A8", "band_ink": "#2A1708", "ink": "#24170F", "moss": "#8A4B1F", "fog": "#F7EFE8", "rule": "#E1CDBD", "soft": "#6B584B" }
+  }
+}

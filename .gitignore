@@ -1,0 +1,4 @@
+.career-ops/
+__pycache__/
+.env
+profile/output/designed/*.html

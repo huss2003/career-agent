@@ -1,0 +1,21 @@
+@font-face { font-family: "Instrument Serif"; font-style: normal; font-weight: 400; src: url("{{ assets }}/fonts/instrument-serif-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Instrument Serif"; font-style: italic; font-weight: 400; src: url("{{ assets }}/fonts/instrument-serif-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 400; src: url("{{ assets }}/fonts/inter-tight-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter Tight"; font-style: italic; font-weight: 400; src: url("{{ assets }}/fonts/inter-tight-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 500; src: url("{{ assets }}/fonts/inter-tight-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 600; src: url("{{ assets }}/fonts/inter-tight-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 700; src: url("{{ assets }}/fonts/inter-tight-latin-700-normal.woff2") format("woff2"); }
+
+:root {
+  /* theme tokens — overridden per theme in agent.py THEMES */
+  --band: {{ theme.band }};
+  --band-ink: {{ theme.band_ink }};
+  --ink: {{ theme.ink }};
+  --moss: {{ theme.moss }};
+  --fog: {{ theme.fog }};
+  --rule: {{ theme.rule }};
+  --soft: {{ theme.soft }};
+  --paper: #ffffff;
+  --serif: "Instrument Serif", Georgia, serif;
+  --sans: "Inter Tight", "Segoe UI", Arial, sans-serif;
+}
