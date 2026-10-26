@@ -7,6 +7,8 @@
 - Every run of this setup is an unattended GitHub Actions run (headless `claude -p` workers). Never wait for a human answer; follow the `Unattended runs` rules in `modes/_shared.md`.
 - Spelling: follow the posting's spelling (Indian/UK English by default).
 - The CV PDF uses page_format `a4` unless the posting is clearly US-based.
+- **Candidate slug:** `{candidate}` in every output filename is `hussain-singapuri` (profile.yml stores the name under `candidate.full_name`).
+- **freehire jobs:** for a `https://freehire.me/jobs/<slug>` URL, the clean job description is saved at `jds/freehire-<slug>.md` in the data root. Use that file as the JD text, and archive ITS text verbatim under `## Job Description (archived verbatim)`. The fetched freehire web page contains navigation and "similar jobs" clutter: never archive or evaluate that clutter. The file's "Apply (source)" line is the employer/source posting.
 - **Save the render payload.** In `pdf` / batch PDF generation, after the final payload is built (Step 17, after any rewrites), also copy it to `output/payloads/cv-{report}-{company-slug}.json` (create the folder if missing). A downstream step renders Hussain's designed resume from that file. Copy the file only; never change its content for this.
 - Draft a cover letter for every role scoring 4.0/5 or higher.
 

@@ -81,6 +81,18 @@ for (const name of files) {
 
   if (found.length && stripped.length < 400) {
     for (const u of found) {
+      const slug = u.match(/freehire\.me\/jobs\/([^/?#]+)/)?.[1];
+      if (slug && !DRY) { // clean JD file for freehire links (see modes/_custom.md)
+        try {
+          const r = await fetch(`https://freehire.me/api/v1/jobs/${slug}`);
+          const job = r.ok ? (await r.json()).data : null;
+          if (job) {
+            const { jdMarkdown } = await import('./freehire-scan.mjs');
+            mkdirSync(path.join(DATA_ROOT, 'jds'), { recursive: true });
+            writeFileSync(path.join(DATA_ROOT, 'jds', `freehire-${slug}.md`), jdMarkdown(job));
+          }
+        } catch { /* the worker falls back to fetching the page */ }
+      }
       console.log(`  queue URL  ${u}`);
       if (!DRY) appendFileSync(inputPath, `${++id}\t${u}\tinbox\t${note}\n`);
       urls++;

@@ -126,6 +126,29 @@ function offerUrl(job) {
   return `https://freehire.me/jobs/${job.public_slug}`;
 }
 
+function htmlToText(s) {
+  if (!/<[a-z][\s\S]*>/i.test(s)) return s;
+  return s
+    .replace(/<\s*(br|\/p|\/div|\/h[1-6]|\/ul|\/ol)\s*\/?>/gi, '\n')
+    .replace(/<\s*li[^>]*>/gi, '\n- ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;|&#x27;/g, "'")
+    .replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+
+export function jdMarkdown(job) {
+  return [
+    `# ${job.title} — ${job.company}`, '',
+    `Posted: ${job.posted_at ? job.posted_at.slice(0, 10) : 'not visible in source'}`,
+    `Location: ${job.location || ''} · Work mode: ${job.work_mode || 'not stated'}`,
+    `Apply (source): ${job.url || ''}`,
+    `freehire page: https://freehire.me/jobs/${job.public_slug}`, '',
+    htmlToText(String(job.description || '').trim()), '',
+    job.skills?.length ? `Skills tagged by freehire: ${job.skills.join(', ')}` : '',
+  ].join('\n');
+}
+
 // ----------------------------------------------------------------- main ----
 async function main() {
   const firstRun = !existsSync(path.join(DATA_ROOT, 'data/freehire-seen.tsv'));
@@ -183,6 +206,10 @@ async function main() {
     const note = `${p.job.company} - ${p.job.title} | freehire score ${p.score} | apply: ${p.job.url || p.url}`.replace(/[\t\n]/g, ' ');
     appendFileSync(inputPath, `${++id}\t${p.url}\tfreehire\t${note}\n`);
   }
+  // Clean JD text for each queued job: freehire's web page carries navigation and "similar jobs"
+  // clutter, so the worker reads this file instead (see modes/_custom.md).
+  mkdirSync(path.join(DATA_ROOT, 'jds'), { recursive: true });
+  for (const p of picked) writeFileSync(path.join(DATA_ROOT, 'jds', `freehire-${p.job.public_slug}.md`), jdMarkdown(p.job));
   const offers = picked.map(p => ({ url: p.url, title: p.job.title, company: p.job.company, location: p.job.location || '', source: 'freehire' }));
   const scan = await import(pathToFileURL(path.join(CO_DIR, 'scan.mjs')).href);
   await scan.appendToScanHistory(offers, today, 'added');
@@ -192,4 +219,4 @@ async function main() {
   appendFileSync(seenPath, picked.map(p => `${today}\t${p.score}\t${p.url}\t${p.job.company}\t${p.job.title}`.replace(/\n/g, ' ')).join('\n') + '\n');
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+if (import.meta.url === `file://${process.argv[1]}`) main().catch(e => { console.error(e); process.exit(1); });
