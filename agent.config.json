@@ -5,6 +5,8 @@
   "jobs_per_run": 5,
   "parallel_workers": 2,
   "min_scan_score": 6,
+  "kit_min_score": 4.0,
+  "kits_per_run": 5,
 
   "freehire": {
     "open_within_days": 3,

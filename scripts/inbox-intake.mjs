@@ -44,6 +44,25 @@ for (const name of files) {
   const note = (text.match(/^note:\s*(.+)$/im)?.[1] || `inbox ${name}`).replace(/[\t\n]/g, ' ').slice(0, 200);
   const stripped = text.replace(/https?:\/\/\S+/g, '').trim();
 
+  // Kit requests: "kit: <report number>" (build or rebuild an application kit regardless of score).
+  const kitLines = [...text.matchAll(/^kit:\s*#?(\d+)\s*$/gim)].map(m => m[1].padStart(3, '0'));
+  if (kitLines.length) {
+    for (const num of kitLines) {
+      console.log(`  kit        report ${num}`);
+      if (!DRY) {
+        try {
+          const kitsDir = path.join(DATA_ROOT, 'applications');
+          for (const d of existsSync(kitsDir) ? readdirSync(kitsDir) : []) {
+            if (d.startsWith(`${num}-`)) for (const f of ['kit.json', 'kit.md']) { const p = path.join(kitsDir, d, f); if (existsSync(p)) renameSync(p, `${p}.old`); }
+          }
+          execFileSync('node', [path.join(REPO, 'scripts', 'build-kits.mjs'), '--report', num, '--any-score'], { cwd: REPO, stdio: 'inherit', env: process.env });
+        } catch { console.log(`  ⚠ kit build failed for report ${num}`); }
+      }
+    }
+    if (!DRY) { mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`)); }
+    continue;
+  }
+
   // Status updates: "status: <tracker # or company> | <State> | <optional note>", one per line.
   const statusLines = [...text.matchAll(/^status:\s*(.+)$/gim)].map(m => m[1].split('|').map(s => s.trim()));
   if (statusLines.length) {

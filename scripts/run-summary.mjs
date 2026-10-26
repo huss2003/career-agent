@@ -27,6 +27,9 @@ const notes = new Map(existsSync(input)
 const reports = existsSync(path.join(DATA_ROOT, 'reports')) ? readdirSync(path.join(DATA_ROOT, 'reports')) : [];
 const designed = existsSync(path.join(DATA_ROOT, 'output', 'designed')) ? readdirSync(path.join(DATA_ROOT, 'output', 'designed')) : [];
 const reportFor = n => n && reports.find(r => r.startsWith(`${String(n).padStart(3, '0')}-`));
+const kitsDir = path.join(DATA_ROOT, 'applications');
+const kits = existsSync(kitsDir) ? readdirSync(kitsDir) : [];
+const kitFor = n => n && kits.find(k => k.startsWith(`${String(n).padStart(3, '0')}-`) && existsSync(path.join(kitsDir, k, 'kit.md')));
 const designedFor = n => n && designed.find(d => d.includes(`_${String(n).padStart(3, '0')}-`) && d.endsWith('.pdf'));
 
 const done = rows.filter(r => r.status === 'completed');
@@ -35,12 +38,13 @@ const L = [`# Job agent run — ${when}`, ''];
 if (!rows.length) L.push('No jobs were evaluated in this run.');
 else {
   L.push(`${done.length} evaluated · ${rows.filter(r => r.status === 'skipped').length} skipped · ${rows.filter(r => r.status === 'failed').length} failed`, '');
-  L.push('| Score | Job | Status | Report | Designed CV |', '|---|---|---|---|---|');
+  L.push('| Score | Job | Status | Report | Designed CV | Application kit |', '|---|---|---|---|---|---|');
   for (const r of rows.sort((a, b) => (parseFloat(b.score) || 0) - (parseFloat(a.score) || 0))) {
     const rep = reportFor(r.report_num);
     const des = designedFor(r.report_num);
+    const kit = kitFor(r.report_num);
     const job = (notes.get(r.id) || r.url).split(' | ')[0].replace(/\|/g, '/');
-    L.push(`| ${r.score || '—'} | [${job}](${r.url}) | ${r.status}${r.error ? ` (${r.error.slice(0, 60)})` : ''} | ${rep ? `[${rep}](../reports/${rep})` : '—'} | ${des ? `[PDF](../output/designed/${encodeURI(des)})` : '—'} |`);
+    L.push(`| ${r.score || '—'} | [${job}](${r.url}) | ${r.status}${r.error ? ` (${r.error.slice(0, 60)})` : ''} | ${rep ? `[${rep}](../reports/${rep})` : '—'} | ${des ? `[PDF](../output/designed/${encodeURI(des)})` : '—'} | ${kit ? `[kit](../applications/${kit}/kit.md)` : '—'} |`);
   }
 }
 L.push('', 'Scores are out of 5. career-ops recommends applying only at 4.0 or above. Nothing was submitted: you review and click Apply yourself.');

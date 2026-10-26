@@ -96,6 +96,8 @@ section + section { margin-top: 4.6mm; }
 .more li { display: grid; grid-template-columns: 34mm 1fr; gap: 3mm; padding: 1.5mm 0; border-top: 0.5pt solid var(--rule); }
 .more li:last-child { border-bottom: 0.5pt solid var(--rule); }
 .more .t { font-family: var(--serif); font-size: 11.5pt; line-height: 1.1; }
+.also { margin-top: 3mm; font-size: 0.9em; color: var(--soft); }
+.also span { font-family: var(--serif); font-size: 11.5pt; color: var(--ink); margin-right: 1.5mm; }
 .more .t small { display: block; font-family: var(--sans); font-size: 7.4pt; color: var(--moss); margin-top: 0.6mm; }
 </style>
 </head>
@@ -207,6 +209,9 @@ section + section { margin-top: 4.6mm; }
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
+    {% if resume.also %}
+    <p class="also"><span>Also built</span> {{ resume.also }} · <a href="{{ contact.github }}">{{ contact.github | replace("https://", "") }}</a></p>
     {% endif %}
   </main>
 </div>

@@ -42,6 +42,29 @@ It is built from two open-source projects:
 | `profile/data/last-run.md` | Summary of the latest run |
 | `profile/data/freehire-last-scan.md` | Today's shortlist, including roles not yet evaluated |
 
+### Application kits (jobs scoring 4.0+)
+
+`profile/applications/<NNN-company>/kit.md` is everything you need to apply in a few minutes:
+- the real apply link (employer or source page, resolved through freehire)
+- which CV to upload where
+- every standard form field filled from your profile
+- drafted answers to the form's actual questions, where freehire or career-ops can read the form, otherwise to the questions that kind of employer usually asks
+- a tailored cover letter, also as a designed `cover-letter.pdf`
+- a LinkedIn note and an email
+- knock-out warnings, plus a short "only you can answer" list (things like notice period)
+
+Ask the Claude app to "apply to <company>" and it will fill the form from the kit and show you everything before you click Submit. Want a kit for a lower-scoring job? Drop `kit: <report number>` into `inbox/`.
+
+### Tailoring
+
+Every CV is rebuilt around the posting's requirements:
+- **Summary and core strengths** use the posting's own keywords, but only where you have real proof.
+- **Skills** keep every category, ordered with the required ones first.
+- **Experience** bullets are reordered and reworded in the posting's vocabulary.
+- **Projects** include every one that proves a required skill, strongest first. The rest are listed under "Also built", so nothing is dropped.
+- **The ATS CV** can run to two pages. **The designed CV** stays one page.
+- **Keyword coverage** is measured, recorded in the report, and pushed toward 70%+ using true facts only.
+
 Update a status by dropping a file in `inbox/` that holds the line `status: Acme | Applied | sent 26 Oct`.
 
 ## Settings — `agent.config.json`

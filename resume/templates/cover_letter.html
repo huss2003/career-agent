@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ contact.name }} — Cover letter — {{ job.company }}</title>
+<style>
+{% include "_fonts.css" %}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; width: 210mm; font-family: var(--sans); font-size: 10.6pt; line-height: 1.6; color: var(--ink);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+a { color: inherit; text-decoration: none; }
+.band { background: var(--band); color: var(--band-ink); padding: 12mm 22mm 7mm; display: flex; justify-content: space-between; align-items: flex-end; gap: 8mm; }
+.band h1 { font-family: var(--serif); font-weight: 400; font-size: 34pt; line-height: 0.95; margin: 0; letter-spacing: -0.8pt; }
+.band .contact { font-size: 8.6pt; line-height: 1.5; text-align: right; }
+.page { padding: 14mm 22mm 18mm; }
+.to { color: var(--soft); margin-bottom: 9mm; line-height: 1.5; }
+.to strong { color: var(--ink); font-weight: 600; }
+p { margin: 0 0 4.2mm; max-width: 158mm; }
+.greeting { font-family: var(--serif); font-size: 15pt; margin-bottom: 4mm; }
+.sign { margin-top: 9mm; }
+.sign .n { font-family: var(--serif); font-size: 20pt; line-height: 1; display: block; margin-top: 2mm; }
+</style>
+</head>
+<body>
+<header class="band">
+  <h1>{{ contact.name }}</h1>
+  <div class="contact">
+    {{ contact.email }}<br>{{ contact.phone }}<br>
+    <a href="{{ contact.portfolio }}">{{ contact.portfolio | replace("https://", "") }}</a>
+  </div>
+</header>
+<div class="page">
+  <div class="to">{{ today }}<br><strong>{{ job.company }}</strong><br>{{ job.role }}</div>
+  <p class="greeting">{{ cover_letter.greeting }}</p>
+  {% for para in cover_letter.paragraphs %}<p>{{ para }}</p>{% endfor %}
+  <div class="sign">{{ cover_letter.sign_off }}<span class="n">{{ contact.name }}</span></div>
+</div>
+</body>
+</html>

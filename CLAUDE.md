@@ -33,6 +33,22 @@ Link to files with `https://github.com/huss2003/career-agent/blob/main/<path>`.
 
 career-ops recommends applying only at **4.0/5 or above**. Say so when a role scores lower.
 
+## Application kits ("get me ready to apply to X", "apply to job #3")
+
+Every job scoring at least `kit_min_score` (default 4.0) gets a kit in `profile/applications/<NNN-company>/`:
+- `kit.md`: apply link, files to upload, standard form fields, screening answers, cover letter, LinkedIn note, email, steps
+- `cover-letter.pdf`: designed cover letter
+- `kit.json` and `context.json`: the same data, structured
+
+To build a kit for a job that scored lower, or to rebuild one, queue `inbox/<timestamp>-kit.md` with the line `kit: <report number>`.
+
+**Assisted apply.** When Hussain asks you to apply, follow these steps:
+1. Read the kit. Show him the "Only you can answer" and "Check before applying" items, and get his answers first.
+2. If a browser tool is available, open the kit's apply link and fill the fields from `kit.md`. The standard fields are verbatim; the screening answers include his confirmed edits. He handles logins and CAPTCHAs.
+3. For uploads, use the ATS CV for application forms and the designed CV for email or DMs. If the browser cannot reach the file, ask him to upload it.
+4. Before anything is submitted, show him a summary of every filled field. Click Submit only after he explicitly says yes for this application. Never submit on a schedule or in bulk.
+5. Afterwards, queue `status: <company> | Applied | <date>`.
+
 ## Update status ("I applied to Acme", "Acme rejected me")
 
 career-ops owns the tracker format. Do not hand-edit `applications.md`. Queue the change through the inbox: create `inbox/<timestamp>-status.md` with one line per update:

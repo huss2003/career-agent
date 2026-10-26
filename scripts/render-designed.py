@@ -91,9 +91,12 @@ def to_context(payload: dict) -> dict:
         "bullets": [strip_md(b) for b in e.get("bullets", [])],
     } for e in payload.get("experience", [])]
 
-    projects = []
+    projects, also = [], ""
     for p in payload.get("projects", []):
         desc = p.get("description") or " ".join(p.get("bullets", []))
+        if norm(p.get("name", "")) in ("more projects", "other projects"):
+            also = strip_md(desc)  # the "nothing is lost" line from _custom.md rule 6
+            continue
         projects.append({
             "name": strip_md(p.get("name", "")),
             "link": p.get("url", ""),
@@ -115,6 +118,7 @@ def to_context(payload: dict) -> dict:
         "projects": projects,
         "education": education,
         "certifications": certs,
+        "also": also,
     }
     return {"contact": contact, "resume": resume}
 
