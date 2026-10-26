@@ -1,0 +1,96 @@
+{
+  "company": "Vroom Media Group",
+  "role": "AI Automation Engineer",
+  "apply_url": "https://www.naukri.com/job-listings-ai-automation-engineer-vroom-media-group-delhi-ncr-0-to-6-years-241026000304",
+  "score": "3.8/5",
+  "fit_line": "A builder role to \"design, build and maintain AI-powered systems\" with Claude Code, and the three first projects (ticket triage, lead sourcing bot, call intelligence) map closely onto Hussain's public agent repos.",
+  "ai_in_job": "\"You'll work hands-on with Claude Code and Grok (xAI) to turn manual workflows into reliable automations, connect them to our tools (Go High Level & Monday.com)\" — AI coding agents and LLM APIs are the core of the role.",
+  "screening_answers": [
+    {
+      "question": "Why this role and Vroom Media Group?",
+      "answer": "The role is what I already build: AI agents and automations for business operations, using Claude Code every day. Your three first projects (support ticketing, a lead sourcing bot, call intelligence) are close to things I have shipped publicly: ai-lead-receptionist, lead-intel-engine and multi-agent-research-crew. I also like that the process ends with a paid, real project, because that is the best way to show how I work.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Describe your hands-on experience with Claude Code and the Grok (xAI) API. Please show real projects.",
+      "answer": "Claude Code: I use it daily to ship, and I hold the Claude Code in Action and Claude Code 101 certifications, plus CCDV-F and CCAO-F from Anthropic. Real projects: github.com/huss2003/multi-agent-research-crew (planner, researcher, writer and verifier agents on a DAG orchestrator with retries, timeouts, token budgets and claim-level citation checks), github.com/huss2003/ai-lead-receptionist (Claude agent over SMS and web chat with Twilio, qualifies leads and books jobs) and github.com/huss2003/lead-intel-engine. Grok: I have not used the xAI API in a project yet. I work with the Claude API daily and I am happy to build a Grok-backed variant of a ticket-triage flow to show you.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Tell us about an AI agent or multi-step workflow you built.",
+      "answer": "multi-agent-research-crew: a planner splits a question, researchers run in parallel, a writer drafts and a verifier checks each claim against its citation. The orchestrator is a custom Python asyncio DAG with retries, timeouts and token budgets, so a failed step does not break the run. The same reliability thinking applies to a support-ticket triage or call-summary workflow. Code: github.com/huss2003/multi-agent-research-crew",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Do you have experience integrating with CRMs or work management platforms (Monday.com, Go High Level)?",
+      "answer": "I built a CRM at a US-based medical-device company, where I worked for 3 years as a Full Stack Developer, and built internal AI agents there. In my own projects I integrated HubSpot (PageForge) and send HMAC-signed CRM events from my portfolio backend. I have not used Monday.com or Go High Level yet. Both are API and webhook driven, which I work with regularly, and I would pick them up quickly.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Are you available to work 9am–5pm Eastern Time, Monday to Friday? (about 6:30pm–2:30am IST)",
+      "answer": "[CONFIRM: can you sustain the overnight IST schedule? Answer plainly yes or no.] Draft if yes: Yes. I am based in Pune (IST) and can work 9am–5pm Eastern, Monday to Friday.",
+      "source": "likely question",
+      "needs_you": true
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "The posted range of USD 1,500–2,500 per month works for me. Based on three public agent projects and three years of full-stack experience, I would aim for the upper half of the range. [CONFIRM: you are happy with the USD range, and how it is paid to India (contractor invoice, payroll provider).]",
+      "source": "likely question",
+      "needs_you": true
+    },
+    {
+      "question": "What is your notice period / when can you start?",
+      "answer": "[CONFIRM: exact start date. My previous role ended in Sep 2026; profile.yml lists a 30-day default notice period.] Draft: I can start within [CONFIRM: number of days / date].",
+      "source": "likely question",
+      "needs_you": true
+    },
+    {
+      "question": "Where are you located and is this a remote role for you?",
+      "answer": "I am based in Pune, India, and work fully remote. I am comfortable working with a distributed team and documenting what I build so others can use it daily.",
+      "source": "likely question",
+      "needs_you": false
+    }
+  ],
+  "needs_you": [
+    "Can you sustain 9am–5pm Eastern (about 6:30pm–2:30am IST, 7:30pm–3:30am in winter), Monday to Friday? Decide before applying.",
+    "Exact start date / notice period (profile.yml says 30 days, but the previous role ended Sep 2026).",
+    "Confirm the USD 1,500–2,500 per month range is acceptable and how it would be paid to India (employee or contractor).",
+    "Current CTC, if the Naukri form asks for it (not in any profile file).",
+    "Whether to build a small Grok (xAI) demo before the intro call."
+  ],
+  "knockout_warnings": [
+    "\"Available to work 9am-5pm Eastern Time, Monday to Friday.\" — overnight in India; a flat no here is likely a knockout for them.",
+    "\"Proven hands-on experience building with Claude Code and the Grok (xAI) API. Please show us real projects.\" — no Grok experience on record; answer honestly.",
+    "\"Monday.com & GHL experience is a big plus.\" — none on record (a plus, not a requirement).",
+    "Posting came via an aggregator (Naukri through freehire) and the employer could not be independently verified; the apply-state is unconfirmed."
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the AI Automation Engineer role. You ask for hands-on Claude Code experience and real projects: I use Claude Code every day, hold the Claude Code in Action and Claude Code 101 certifications along with CCDV-F and CCAO-F from Anthropic, and my work is public at github.com/huss2003. For Grok, I have not used the xAI API in a project yet; I work with the Claude API daily and would gladly build a Grok-backed demo.",
+      "Your first three projects are close to things I have already built. ai-lead-receptionist is a Claude agent over SMS and web chat with Twilio that qualifies leads and books jobs, close to your support triage and routing. lead-intel-engine discovers, enriches and scores leads with a robots-aware, rate-limited crawler, like your sourcing bot. multi-agent-research-crew runs agents on a DAG with retries, timeouts and token budgets, which is how I think about reliable, monitored workflows.",
+      "In 3 years as a Full Stack Developer at a US-based medical-device company I built internal AI agents and a CRM, and I integrate HubSpot, webhooks and REST APIs in my own projects. I have not used Monday.com or Go High Level, but I would learn both on the paid project. I am based in Pune and happy to talk through the schedule. Portfolio: hussain-singapuri.vercel.app."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Hi, I applied for the AI Automation Engineer role. I use Claude Code daily and have public agent repos (support/lead triage, multi-agent workflows): github.com/huss2003. Happy to share a demo. – Hussain",
+  "email": {
+    "subject": "Application: AI Automation Engineer – Hussain Singapuri",
+    "body": "Hello,\n\nI would like to apply for the AI Automation Engineer role. I use Claude Code every day and have built public AI agent projects that map to your first three: ai-lead-receptionist (support/lead intake and booking over SMS and chat), lead-intel-engine (lead discovery, enrichment and scoring) and multi-agent-research-crew (multi-step agents with retries and verification). I have not used the Grok API or Monday.com / Go High Level yet, and I can build a small Grok demo before an intro call.\n\nPortfolio: https://hussain-singapuri.vercel.app\nGitHub: https://github.com/huss2003\n\nI have attached my CV. I am based in Pune, India.\n\nKind regards,\nHussain Singapuri\nHussainsingapuri24@gmail.com | +91 9561277305"
+  },
+  "checklist": [
+    "Decide first whether the overnight Eastern-time schedule is acceptable; if not, consider skipping this role.",
+    "Fill the [CONFIRM] items in screening answers 5, 6 and 7 (availability, salary route, start date).",
+    "Open the apply link on Naukri and log in yourself.",
+    "Upload the ATS CV: profile/output/cv-candidate-001-vroom-media-group-2026-10-26.pdf",
+    "Paste the screening answers into any form questions, using the Grok answer as written.",
+    "Add portfolio hussain-singapuri.vercel.app and github.com/huss2003 in the portfolio field.",
+    "Optionally paste the cover letter; use the designed CV (profile/output/designed/Hussain_Singapuri_Resume_001-vroom-media-group.pdf) for email or DMs.",
+    "Review every filled field, then submit yourself.",
+    "Afterwards queue: status: Vroom Media Group | Applied | <date>"
+  ]
+}
