@@ -4,4 +4,48 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 ## Pending
 
+- [ ] https://freehire.me/jobs/ai-engineer-ai-agent-developer-jobaaj-com-c5zgivdx | Jobaaj Com | AI Engineer / AI Agent Developer | Pune; Gurugram; Bengaluru
+
+- [ ] https://freehire.me/jobs/ai-automation-engineer-vroom-media-group-vvhu4umw | Vroom Media Group | AI Automation Engineer | Delhi / NCR
+- [ ] https://freehire.me/jobs/ai-ml-engineer-genai-spearhead-professional-hwziqhyk | Spearhead Professional | AI/ML Engineer - GenAI | Hyderabad; Pune; Bengaluru
+
+
+- [ ] https://freehire.me/jobs/ai-fullstack-engineer-peoplefy-infosolutions-gb3ozg2c | Peoplefy Infosolutions | AI Fullstack Engineer | Pune
+- [ ] https://freehire.me/jobs/ai-engineer-hiringhood-lmol3wip | Hiringhood | AI Engineer | India
+- [ ] https://jobs.lever.co/jobgether/6626eea5-f4df-48f1-9853-c24516e34954 | Jobgether | Agentic AI / Python Engineer | India
+
+
+- [ ] https://freehire.me/jobs/ai-engineer-agentic-ai-cloud-discovery-pragmatike-fgvaytjp | PRAGMATIKE | AI Engineer – Agentic AI & Cloud Discovery
+
 ## Processed
+
+- [x] [32](../reports/032-alternative-path-2026-10-26.md) | https://freehire.me/jobs/full-stack-developer-alternative-path-xjp5mo2x | Alternative Path | Full Stack Developer | 4/5 | PDF ✅
+- [x] [30](../reports/030-infocusp-innovations-2026-10-26.md) | https://freehire.me/jobs/llm-engineer-2-infocusp-innovations-otroawbj | Infocusp Innovations | LLM Engineer - 2 | 2.9/5 | PDF ❌
+- [x] [31](../reports/031-comprinno-technologies-2026-10-26.md) | https://freehire.me/jobs/data-ai-engineer-comprinno-technologies-pvt-ltd-cezfw242 | Comprinno Technologies Pvt.Ltd | Data & AI Engineer | 3.4/5 | PDF ✅
+- [x] SKIP | https://freehire.me/jobs/junior-full-stack-developer-ai2-aim-nybazft5 | Ai2 Aim | Junior Full Stack Developer | N/A | PDF ❌
+- [x] [25](../reports/025-avaloq-2026-10-26.md) | https://jobs.smartrecruiters.com/Avaloq1/744000157122889-ai-engineer | Avaloq1 | AI Engineer | 3.6/5 | PDF ✅
+- [x] [26](../reports/026-bmc-software-2026-10-26.md) | https://freehire.me/jobs/senior-ai-engineer-bmc-software-b4g4f4ow | BMC Software | Senior AI Engineer | 3.4/5 | PDF ✅
+- [x] [27](../reports/027-clearroute-2026-10-26.md) | https://freehire.me/jobs/senior-ai-full-stack-engineer-clearroute-jodtmic3 | ClearRoute | Senior AI Full Stack Engineer | 3.3/5 | PDF ✅
+- [x] [28](../reports/028-arangodb-2026-10-26.md) | https://freehire.me/jobs/frontend-engineer-arangodb-jsekugh4 | ArangoDB | Frontend Engineer | 4/5 | PDF ✅
+- [x] [29](../reports/029-cummins-2026-10-26.md) | https://freehire.me/jobs/software-engineer-senior-automation-ai-fa-espx-dev2-saasfaprod1-fa-ocs-oraclecloud-com-cx-1-7azv7673 | Cummins | Software Engineer - Senior (Automation & AI) | 2.2/5 | PDF ❌
+- [x] [17](../reports/017-niq-2026-10-26.md) | https://jobs.smartrecruiters.com/NielsenIQ/744000157041863-genai-engineer-database | NielsenIQ | GenAI Engineer - Database | 2.4/5 | PDF ❌
+- [x] [18](../reports/018-tenarai-technologies-2026-10-26.md) | https://freehire.me/jobs/gen-ai-engineer-n8n-tenarai-technologies-private-limited-vzqomctq | TENARAI TECHNOLOGIES PRIVATE LIMITED | Gen AI Engineer - n8n | 2.9/5 | PDF ❌
+- [x] [19](../reports/019-straive-2026-10-26.md) | https://freehire.me/jobs/ai-engineer-senior-ai-engineer-straive-waj22ggf | Straive | AI Engineer / Senior AI Engineer | 3.8/5 | PDF ✅
+- [x] [20](../reports/020-intraedge-technology-2026-10-26.md) | https://freehire.me/jobs/ai-ml-engineer-intraedge-technology-oc5s7h76 | IntraEdge Technology | Ai Ml Engineer | 2.9/5 | PDF ❌
+- [x] [21](../reports/021-generac-2026-10-26.md) | https://freehire.me/jobs/full-stack-software-engineer-ii-generac-ylisgxip | generac | Full Stack Software Engineer II | 3.9/5 | PDF ✅
+- [x] [22](../reports/022-keyideas-infotech-2026-10-26.md) | https://freehire.me/jobs/ai-automation-engineer-mern-stack-and-llm-integrations-keyideas-infotech-uudczqvl | Keyideas Infotech | AI Automation Engineer - MERN Stack and LLM Integrations | 4.4/5 | PDF ✅
+- [x] [23](../reports/023-mastercard-2026-10-26.md) | https://freehire.me/jobs/senior-ai-engineer-mastercard-gze5tnns | Mastercard | Senior AI Engineer | 3.6/5 | PDF ✅
+- [x] [24](../reports/024-hatchtra-innotech-2026-10-26.md) | https://freehire.me/jobs/ai-ml-professionals-hatchtra-innotech-vwp4iapa | Hatchtra Innotech | AI/ML Professionals | 3.3/5 | PDF ✅
+- [x] [10](../reports/010-northern-trust-2026-10-26.md) | https://freehire.me/jobs/associate-ai-engineer-pune-multiple-roles-northern-trust-4d5vkjcv | Northern Trust | Associate, AI Engineer - Pune - Multiple roles | 3.8/5 | PDF ✅
+- [x] SKIP | https://freehire.me/jobs/ai-engineer-cornerstone-hkdghh6u | cornerstone | AI Engineer | N/A | PDF ❌
+- [x] [12](../reports/012-pwc-india-2026-10-26.md) | https://freehire.me/jobs/in-senior-associate-agentic-ai-genai-d-a-advisory-pune-pwc-india-g67rr2jg | PwC India | IN_Senior Associate_Agentic AI & GenAI_D&A_Advisory_Pune | 3.3/5 | PDF ✅
+- [x] [13](../reports/013-acuiti-labs-2026-10-26.md) | https://freehire.me/jobs/software-engineer-ai-python-java-acuiti-labs-a76ual3z | Acuiti Labs | Software Engineer – AI (Python & Java) | 3.5/5 | PDF ✅
+- [x] [14](../reports/014-betterworks-systems-inc-2026-10-26.md) | https://freehire.me/jobs/software-engineer-i-betterworks-systems-inc-inm2g5y6 | BetterWorks Systems, Inc. | Software Engineer I | 4.2/5 | PDF ✅
+- [x] [16](../reports/016-nice-2026-10-26.md) | https://boards.eu.greenhouse.io/nice/jobs/5005872101?gh_jid=5005872101 | Nice | Senior Software Engineer | 3.5/5 | PDF ✅
+- [x] [3](../reports/003-codvo-2026-10-26.md) | https://freehire.me/jobs/full-stack-developer-backend-frontend-and-ai-applications-codvo-adb44pmg | Codvo | Full Stack Developer Backend, Frontend and AI Applications | 3.5/5 | PDF ✅
+- [x] [4](../reports/004-barclays-2026-10-26.md) | https://freehire.me/jobs/full-stack-developer-barclays-yxs6pvcv | Barclays | Full Stack Developer | 2.6/5 | PDF ❌
+- [x] [5](../reports/005-prodapt-solutions-2026-10-26.md) | https://freehire.me/jobs/generative-ai-engineer-stl-pune-prodapt-solutions-5v654euz | Prodapt Solutions | Generative AI Engineer- STL, Pune | 4/5 | PDF ✅
+- [x] [6](../reports/006-generac-2026-10-26.md) | https://freehire.me/jobs/ai-engineer-ii-generac-73zx4eij | generac | AI Engineer II | 3.7/5 | PDF ✅
+- [x] [7](../reports/007-coditude-2026-10-26.md) | https://freehire.me/jobs/ai-product-engineer-coditude-bhnbh2u3 | Coditude | AI Product Engineer | 4.4/5 | PDF ✅
+- [x] [8](../reports/008-fis-2026-10-26.md) | https://freehire.me/jobs/agentic-ai-engineer-fis-vzqi5vgu | FIS | Agentic AI Engineer | 3.2/5 | PDF ✅
+- [x] [9](../reports/009-honeybee-tech-solutions-2026-10-26.md) | https://freehire.me/jobs/python-ai-developer-honeybee-tech-solutions-bufl6f6j | Honeybee Tech Solutions | Python/AI Developer | 4.2/5 | PDF ✅

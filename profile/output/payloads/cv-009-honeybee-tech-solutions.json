@@ -1,0 +1,203 @@
+{
+ "lang": "en",
+ "page_format": "a4",
+ "candidate": {
+  "name": "Hussain Singapuri",
+  "title": "Python / AI Developer",
+  "phone": "+91 9561277305",
+  "email": "Hussainsingapuri24@gmail.com",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/hussain-singapuri-18437225a/",
+   "display": "linkedin.com/in/hussain-singapuri-18437225a"
+  },
+  "github": {
+   "url": "https://github.com/huss2003",
+   "display": "github.com/huss2003"
+  },
+  "portfolio": {
+   "url": "https://hussain-singapuri.vercel.app",
+   "display": "hussain-singapuri.vercel.app"
+  },
+  "location": "Pune, India",
+  "photo": "",
+  "photo_style": "rounded"
+ },
+ "summary": "Python / AI Developer with 3 years of professional full-stack experience at a US-based medical-device company, building web applications, a **CRM** and internal **AI agents**. Builds **REST APIs** in Core **Python (FastAPI, asyncio)** on **PostgreSQL / SQL**, and integrates **LLM** and **Generative AI** models (Claude, Gemini) into agentic workflows with RAG, tool use, evals and guardrails. Uses **Git** version control, GitHub Actions and Docker daily, with AI application deployment on cloud platforms (Vercel, Supabase, Neon), and ships fast with **Claude Code**. Claude Certified Developer.",
+ "competencies": [
+  "Core Python",
+  "FastAPI & REST APIs",
+  "SQL & PostgreSQL",
+  "LLM Integration",
+  "Generative AI",
+  "AI Agents & Agentic Workflows",
+  "RAG & Retrieval",
+  "Git & GitHub Actions"
+ ],
+ "experience": [
+  {
+   "company": "NeuroNetworks AI Ed",
+   "role": "CTO & Principal Course Architect",
+   "location": "Pune, India",
+   "dates": "2026 - Present",
+   "bullets": [
+    "Built and run the website neuronetwrks.com with a Python static-site generator deployed on Vercel, including programmatic SEO",
+    "Lead technology for an Indian AI and tech education brand (Neuronetworks AI Ed Private Limited) offering programmes for students after Class 10",
+    "Architected the curriculum: a 1-year AI Foundation course and five 3-year specialisations (AI/ML Engineering, Software Development, Data Science & AI, Product & UX / AI Design, Cybersecurity)",
+    "Designing Neuromind Practical AI Lab, a browser-based IDE and sandbox with an AI tutor: phased spec, server sizing, engineering team plan and CAPEX/OPEX model"
+   ]
+  },
+  {
+   "company": "US-based medical-device company",
+   "role": "Full Stack Developer",
+   "location": "Remote",
+   "dates": "Mar 2023 - Sep 2026",
+   "bullets": [
+    "Built full-stack web applications and several apps, including a **CRM**, for the company",
+    "Built **AI agents** for internal use",
+    "Performed penetration / security testing on 5+ of the company's mobile apps, all live on the Google Play Store"
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "name": "multi-agent-research-crew",
+   "url": "https://github.com/huss2003/multi-agent-research-crew",
+   "badge": "Open Source",
+   "tech": "Python, asyncio, Claude",
+   "description": "Agentic workflow in Python (asyncio, Claude): planner, parallel researcher, writer and verifier agents on a custom DAG orchestrator with retries, timeouts, token budgets and claim-level citation checking."
+  },
+  {
+   "name": "site-to-agent",
+   "url": "https://github.com/huss2003/site-to-agent",
+   "badge": "Open Source",
+   "tech": "Next.js, TypeScript, pgvector",
+   "description": "LLM integration and RAG: crawler, hybrid BM25 + vector retrieval with RRF (pgvector), cited answers, SSRF-hardened fetching and an eval harness."
+  },
+  {
+   "name": "lead-intel-engine",
+   "url": "https://github.com/huss2003/lead-intel-engine",
+   "badge": "Open Source",
+   "tech": "Python, FastAPI, SQLite",
+   "description": "Python / FastAPI service with SQLite that discovers, enriches and scores local-business leads with a robots-aware, rate-limited crawler and transparent scoring."
+  },
+  {
+   "name": "ai-lead-receptionist",
+   "url": "https://github.com/huss2003/ai-lead-receptionist",
+   "badge": "Open Source",
+   "tech": "Next.js, TypeScript, Twilio, Claude, Supabase",
+   "description": "AI receptionist for home-service businesses: missed-call text-back, SMS and web chat that qualifies leads and books jobs, owner dashboard."
+  },
+  {
+   "name": "PageForge",
+   "url": "https://pageforge-hazel.vercel.app/abm",
+   "badge": "Portfolio project",
+   "tech": "Next.js 16, React 19, Tailwind v4, Sanity, Supabase, Gemini, PostHog, HubSpot",
+   "description": "Guardrails for LLM output: AI drafts only from approved facts, a deterministic validator flags unsupported numbers, a reviewer signs off claim by claim."
+  },
+  {
+   "name": "Orbital Surplus",
+   "url": "https://orbital-surplus.vercel.app",
+   "badge": "Portfolio project, fictional brand",
+   "tech": "three.js, GSAP, WebXR, Node 20, Postgres (Neon), Stripe, Resend",
+   "description": "PostgreSQL transactions on a money path: race-safe stock holds in one transaction, idempotent payment confirmation via signed Stripe webhook (test mode); 9 end-to-end API tests."
+  },
+  {
+   "name": "nanoserve",
+   "url": "https://github.com/huss2003/nanoserve",
+   "badge": "Open Source",
+   "tech": "Python, PyTorch, FastAPI",
+   "description": "LLM inference engine from scratch: paged KV cache, continuous batching, speculative decoding, OpenAI-compatible streaming API; 3.1x throughput over sequential decoding."
+  },
+  {
+   "name": "Personal portfolio with full-stack backend",
+   "url": "https://hussain-singapuri.vercel.app",
+   "badge": "Portfolio project",
+   "tech": "Vanilla ES modules, GSAP, Node 20, Postgres (Neon), Stripe, Resend",
+   "description": "Rate-limited enquiry form, booking with paid Stripe sessions (slot holds, signed webhooks), HMAC-signed CRM events, nonce-based CSP; 10 end-to-end API tests."
+  },
+  {
+   "name": "More projects",
+   "url": "https://github.com/huss2003",
+   "badge": "",
+   "tech": "",
+   "description": "Nightjar & Co., contractor-ai-ops-dashboard, Safey Inventory, TripSync, Lumen, Kilnwood Roasters, Cairnmoor, Lowlight Video Club"
+  }
+ ],
+ "education": [
+  {
+   "title": "Bachelor's, Computer Science (AI & Machine Learning)",
+   "org": "Vishwakarma Institute of Technology, Pune",
+   "location": "Pune",
+   "year": "2022-2025"
+  }
+ ],
+ "certifications": [
+  {
+   "title": "Claude Certified Developer",
+   "org": "Anthropic, Foundations (CCDV-F)",
+   "year": ""
+  },
+  {
+   "title": "Claude Certified Orchestrator",
+   "org": "Anthropic, Foundations (CCAO-F)",
+   "year": ""
+  },
+  {
+   "title": "Generative AI Leader",
+   "org": "Google Cloud",
+   "year": ""
+  },
+  {
+   "title": "Claude Code in Action",
+   "org": "Anthropic",
+   "year": ""
+  },
+  {
+   "title": "Claude Code 101",
+   "org": "Anthropic",
+   "year": ""
+  }
+ ],
+ "skills": [
+  {
+   "category": "AI / LLM",
+   "items": "Claude API, Gemini API, AI agents, multi-agent orchestration, tool use / function calling, RAG (hybrid BM25 + vector, RRF), evals, prompt-injection defence, LLM inference serving, Claude Code and AI coding agents"
+  },
+  {
+   "category": "Data",
+   "items": "PostgreSQL, Neon, Supabase (RLS, Edge Functions), PGlite, pgvector, SQLite, Sanity CMS"
+  },
+  {
+   "category": "Languages",
+   "items": "TypeScript, JavaScript, Python, SQL, Dart, HTML, CSS"
+  },
+  {
+   "category": "Back end",
+   "items": "Node.js, FastAPI, asyncio, REST APIs, webhooks (HMAC signing), auth (scrypt, sessions, throttling), Stripe Checkout and refunds, Resend"
+  },
+  {
+   "category": "Front end",
+   "items": "React 19, Next.js, TypeScript, JavaScript, Tailwind CSS, shadcn/ui, TanStack Start / Query, GSAP, Lenis, three.js, WebGL, Canvas 2D, responsive and accessible UI, motion and interaction design"
+  },
+  {
+   "category": "DevOps",
+   "items": "Git (version control), GitHub Actions, Docker, Vercel, AI application deployment on cloud platforms (Vercel, Supabase, Neon)"
+  },
+  {
+   "category": "Security",
+   "items": "mobile app penetration testing, CSP and security headers, SSRF hardening, input validation"
+  },
+  {
+   "category": "Automation & integrations",
+   "items": "workflow automation, CRM integrations (HubSpot), PostHog, Twilio SMS, web crawling / scraping"
+  },
+  {
+   "category": "Mobile",
+   "items": "Flutter, Riverpod, Firebase"
+  },
+  {
+   "category": "Design",
+   "items": "UI/UX design, design systems, technical SEO, JSON-LD structured data, programmatic SEO"
+  }
+ ]
+}

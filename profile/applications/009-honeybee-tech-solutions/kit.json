@@ -1,0 +1,104 @@
+{
+  "company": "Honeybee Tech Solutions",
+  "role": "Python/AI Developer",
+  "apply_url": "https://www.naukri.com/job-listings-python-ai-developer-honeybee-tech-solutions-private-limited-pune-1-to-3-years-231026928689",
+  "score": "4.2/5",
+  "fit_line": "Python, FastAPI, REST APIs, SQL and Git match the must-haves, and the 'Good to Have' GenAI side (\"LLM integration, AI agents, and Agentic Workflow Development\") is work Hussain already does; on-site in Pune.",
+  "ai_in_job": "GenAI is a 'Good to Have', not the core: \"Experience integrating Generative AI (GenAI) models\" and \"Knowledge of LLM integration, AI agents, and Agentic Workflow Development.\" Coding-agent use is not stated.",
+  "screening_answers": [
+    {
+      "question": "Why do you want this Python/AI Developer role at Honeybee Tech Solutions?",
+      "answer": "The role is backend Python with REST APIs and databases, plus GenAI and agent work on the side. That is what I have been building: FastAPI services, SQL databases and LLM agents. It is also on-site in Pune, where I live. I know little about Honeybee beyond the posting, so I would like to learn what you build and where the AI work fits.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Describe your experience with Python and Python web frameworks (Django, Flask, FastAPI).",
+      "answer": "I use Python and FastAPI. nanoserve is an LLM inference engine I built from scratch in Python, PyTorch and FastAPI, with an OpenAI-compatible streaming API and 3.1x throughput over sequential decoding in benchmarks. lead-intel-engine is a FastAPI and SQLite service with a rate-limited crawler and scoring. I have not used Django or Flask in production. FastAPI covers the same ground for REST work, and I would pick up either quickly.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "What is your experience with REST API development and databases (SQL/NoSQL)?",
+      "answer": "I have built REST APIs with FastAPI and Node, including HMAC-signed webhooks and Stripe, Twilio and HubSpot integrations. On the database side I work with PostgreSQL (Neon, Supabase with row-level security), SQLite and pgvector. In Orbital Surplus, stock holds run in one transaction so only one shopper gets the last unit, and 9 end-to-end API tests cover it. My databases so far are relational; I have not worked with NoSQL in a project.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Do you have experience with GenAI, LLM integration, AI agents and agentic workflows? Have you used LangChain or LlamaIndex?",
+      "answer": "Yes. At the US-based medical-device company I built internal AI agents. In my own projects, multi-agent-research-crew runs planner, researcher, writer and verifier agents on a custom asyncio DAG with retries, token budgets and claim-level citation checks. site-to-agent grounds chat answers in a website using hybrid BM25 and vector retrieval, with cited answers and an eval harness. I use the Claude and Gemini APIs and hold Claude Certified Developer and Google Cloud Generative AI Leader certificates. I wrote my own orchestration and retrieval rather than using LangChain or LlamaIndex, so I have not used those two, but I would use them where they fit.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Tell us about a project you are proud of.",
+      "answer": "nanoserve. I wanted to understand how LLM serving works, so I built an inference engine from scratch: paged KV cache, prefix caching, continuous batching with preemption and speculative decoding, behind a FastAPI streaming API. In benchmarks it reached 3.1x the throughput of sequential decoding. I benchmarked first and optimised after. Code: github.com/huss2003/nanoserve",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "I am looking for INR 30,000 or more per month. I am flexible on structure; the work and the total package matter to me.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "What is your current CTC / last drawn salary?",
+      "answer": "[CONFIRM: current/last drawn CTC is not in any file; Hussain must give the figure, or decide to say it is negotiable]",
+      "source": "likely question",
+      "needs_you": true
+    },
+    {
+      "question": "What is your notice period / when can you join?",
+      "answer": "Immediate. My previous role ended in September 2026.",
+      "source": "likely question",
+      "needs_you": false
+    },
+    {
+      "question": "Are you comfortable working on-site in Pune? Where are you based?",
+      "answer": "Yes. I am based in Pune and happy to work on-site.",
+      "source": "likely question",
+      "needs_you": false
+    }
+  ],
+  "needs_you": [
+    "Current / last drawn CTC (if the Naukri form or recruiter asks); not in any file",
+    "Confirm the role exists at Honeybee: the listing came via freehire from Naukri and was not found on the company's own site",
+    "Confirm pay is at or above INR 30,000 per month; the posting states no salary",
+    "Confirm you are comfortable saying you have no Django, Flask, NoSQL, LangChain or LlamaIndex experience (the answers say so plainly)"
+  ],
+  "knockout_warnings": [
+    "Naukri title says '1-3 years'; Hussain has 3 years of professional experience, so he is at the top of the band (the JD text itself has no years requirement)",
+    "\"Hands-on experience with Python web frameworks such as Django, Flask, or FastAPI.\": FastAPI only, no Django or Flask",
+    "\"Experience in Database Management (SQL/NoSQL).\": SQL only, no NoSQL",
+    "\"Familiarity with AI frameworks such as LangChain, LlamaIndex, or similar tools.\": neither is in the CV (a 'Good to Have')",
+    "No salary stated; the INR 30,000 per month floor cannot be tested",
+    "Employer unconfirmed (aggregator listing, Proceed with Caution)"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Honeybee Tech Solutions hiring team,",
+    "paragraphs": [
+      "I am applying for the Python/AI Developer role in Pune. I have three years of professional full-stack experience at a US-based medical-device company, where I built web applications, a CRM and internal AI agents. I live in Pune and can join immediately.",
+      "Your must-haves are Core Python, REST APIs, databases and Git. nanoserve (github.com/huss2003/nanoserve) is an LLM inference engine I built in Python and FastAPI, with an OpenAI-compatible streaming API and 3.1x throughput over sequential decoding. lead-intel-engine (github.com/huss2003/lead-intel-engine) is a FastAPI and SQLite service. My APIs also cover signed webhooks and Stripe, Twilio and HubSpot integrations, backed by PostgreSQL.",
+      "For the GenAI side, multi-agent-research-crew (github.com/huss2003/multi-agent-research-crew) runs planner, researcher, writer and verifier agents with claim-level citation checks, and site-to-agent adds hybrid retrieval with an eval harness. I have used FastAPI rather than Django or Flask, and I wrote my own agent orchestration rather than using LangChain. I would learn either quickly. Portfolio: https://hussain-singapuri.vercel.app"
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Hi, I'm Hussain, a Pune-based developer (FastAPI, REST, SQL, LLM agents). I've applied for the Python/AI Developer role at Honeybee Tech Solutions and can join immediately. Happy to connect.",
+  "email": {
+    "subject": "Application: Python/AI Developer (Pune) - Hussain Singapuri",
+    "body": "Dear Honeybee Tech Solutions hiring team,\n\nI am applying for the Python/AI Developer role in Pune. I have three years of professional full-stack experience, and I build Python and FastAPI backends with REST APIs and SQL databases, plus LLM agents and RAG (nanoserve, multi-agent-research-crew, site-to-agent).\n\nI am based in Pune, can join immediately and am happy to work on-site. My CV and a cover letter are attached. Portfolio: https://hussain-singapuri.vercel.app, GitHub: https://github.com/huss2003\n\nKind regards,\nHussain Singapuri\n+91 9561277305\nHussainsingapuri24@gmail.com"
+  },
+  "checklist": [
+    "Check whether the role is on Honeybee's own careers page; if not, note that it is unconfirmed",
+    "Confirm the pay is at or above INR 30,000 per month if the listing or a recruiter states it",
+    "Open the Naukri apply link and log in yourself",
+    "Upload the ATS CV (profile/output/cv-candidate-009-honeybee-tech-solutions-2026-10-26.pdf)",
+    "Paste answers 2 to 4 for the framework, database and GenAI questions if the form asks",
+    "Enter salary expectation INR 30,000+ per month and notice period Immediate",
+    "Decide what to put for current CTC",
+    "Review every filled field, then submit yourself",
+    "Use the designed CV and cover-letter PDF for any email or recruiter DM",
+    "After applying, queue: status: Honeybee Tech Solutions | Applied | <date>"
+  ]
+}
