@@ -68,6 +68,7 @@ async function main() {
       (kit.needs_you || []).length ? `✍️ You answer: ${esc(kit.needs_you.slice(0, 3).join(' · ').slice(0, 300))}` : '',
       '',
       `👉 <a href="${esc(kit.apply_url || ctx.apply_url)}">Apply here</a>  ·  <a href="${GH}profile/applications/${d}/kit.md">Full kit (answers, cover letter)</a>`,
+      ctx.ats_score ? `🧾 ATS check ${ctx.ats_score}/100 · fact check passed${ctx.keyword_coverage ? ` · JD keyword match ${ctx.keyword_coverage}` : ''}` : '',
       'Attached: ATS CV (for the form), designed CV (email/DMs), cover letter.',
     ].filter((l, i, a) => l !== '' || a[i - 1] !== '');
     await call('sendMessage', { chat_id: chat, text: lines.join('\n').slice(0, 4000), parse_mode: 'HTML', disable_web_page_preview: true });

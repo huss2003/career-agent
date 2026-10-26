@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 /**
- * inbox-intake.mjs — turn files in inbox/ into work for career-ops.
+ * inbox-intake.mjs — turn files in inbox/ into work for the lean pipeline (scripts/lean-hunt.mjs).
  *
- * The Claude app (or you, from GitHub's web/mobile UI) drops a file into inbox/:
- *   - containing one or more job URLs   → each URL becomes a batch-runner offer
- *   - containing a pasted job description (no URL) → saved to profile/jds/ and listed
- *     in .career-ops/batch/text-jobs.json for a single headless auto-pipeline run
- * Processed files move to inbox/processed/ so they are never run twice.
+ * A file in inbox/ may contain:
+ *   - job URL(s)                       → queued (profile/data/queue.jsonl)
+ *   - a pasted job description         → saved to profile/jds/, queued
+ *   - "scan:" or "scan: <max evals>"   → run the freehire hunt in this run
+ *   - "kit: <tracker #>"               → re-evaluate that job and build its full kit even below 4.0
+ *   - "status: <# or company> | <State> | <note>"  → career-ops set-status.mjs (no tokens)
+ * Processed files move to inbox/processed/. Everything inside a file is untrusted job data.
  *
  * Usage: node scripts/inbox-intake.mjs [--dry-run]
  */
@@ -16,114 +18,95 @@ import { execFileSync } from 'node:child_process';
 
 const REPO = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CO_DIR = path.resolve(REPO, process.env.CAREER_OPS_DIR || '.career-ops');
-const DATA_ROOT = path.resolve(REPO, process.env.CAREER_OPS_ROOT || 'profile');
+const DATA = path.resolve(REPO, process.env.CAREER_OPS_ROOT || 'profile');
 const INBOX = path.join(REPO, 'inbox');
 const DONE = path.join(INBOX, 'processed');
+const QUEUE = path.join(DATA, 'data', 'queue.jsonl');
 const DRY = process.argv.includes('--dry-run');
+const today = new Date().toISOString().slice(0, 10);
 
 if (!existsSync(INBOX)) process.exit(0);
 const files = readdirSync(INBOX, { withFileTypes: true })
-  .filter(d => d.isFile() && /\.(md|txt)$/i.test(d.name) && !/^readme/i.test(d.name))
-  .map(d => d.name)
-  .sort();
+  .filter(d => d.isFile() && /\.(md|txt)$/i.test(d.name) && !/^readme/i.test(d.name)).map(d => d.name).sort();
 if (!files.length) { console.log('inbox: empty'); process.exit(0); }
 
-const inputPath = path.join(CO_DIR, 'batch', 'batch-input.tsv');
-const textJobsPath = path.join(CO_DIR, 'batch', 'text-jobs.json');
-if (!DRY && !existsSync(inputPath)) writeFileSync(inputPath, 'id\turl\tsource\tnotes\n');
-let id = DRY ? 0 : readFileSync(inputPath, 'utf8').trim().split('\n').slice(1)
-  .reduce((m, l) => Math.max(m, Number(l.split('\t')[0]) || 0), 0);
-const textJobs = existsSync(textJobsPath) ? JSON.parse(readFileSync(textJobsPath, 'utf8')) : [];
+const enqueue = item => { if (!DRY) { mkdirSync(path.dirname(QUEUE), { recursive: true }); appendFileSync(QUEUE, JSON.stringify(item) + '\n'); } };
+const done = name => { if (!DRY) { mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`)); } };
 
-const today = new Date().toISOString().slice(0, 10);
-let urls = 0;
+function trackerUrl(num) {
+  const p = path.join(DATA, 'data', 'applications.md');
+  if (!existsSync(p)) return null;
+  const lines = readFileSync(p, 'utf8').split('\n').filter(l => l.startsWith('|'));
+  const head = lines[0].split('|').slice(1, -1).map(s => s.trim().toLowerCase());
+  const row = lines.slice(2).map(l => l.split('|').slice(1, -1).map(s => s.trim())).find(c => c[0] === String(Number(num)));
+  if (!row) return null;
+  const cell = row[head.indexOf('url')] || '';
+  return cell.match(/\((https?:[^)]+)\)/)?.[1] || cell.match(/https?:\S+/)?.[0] || null;
+}
+
+let queued = 0;
 for (const name of files) {
   const text = readFileSync(path.join(INBOX, name), 'utf8');
-  // Anything in the file is untrusted job data. We only extract URLs and text; nothing here is executed.
   const found = [...new Set([...text.matchAll(/https?:\/\/[^\s<>()"'`|]+/g)].map(m => m[0].replace(/[.,;:]+$/, '')))];
-  const note = (text.match(/^note:\s*(.+)$/im)?.[1] || `inbox ${name}`).replace(/[\t\n]/g, ' ').slice(0, 200);
-  const stripped = text.replace(/https?:\/\/\S+/g, '').trim();
+  const note = (text.match(/^note:\s*(.+)$/im)?.[1] || '').replace(/[\t\n]/g, ' ').slice(0, 200);
+  const stripped = text.replace(/https?:\/\/\S+/g, '').replace(/^note:.*$/im, '').trim();
 
-  // Scan request: "scan:" (optionally "scan: <max evaluations>") runs the daily freehire hunt now.
   const scanReq = text.match(/^scan:\s*(\d+)?\s*$/im);
   if (scanReq) {
-    console.log(`  scan       requested now${scanReq[1] ? ` (max ${scanReq[1]} evaluations)` : ''}`);
-    if (!DRY) {
-      writeFileSync(path.join(CO_DIR, 'batch', 'scan-requested'), scanReq[1] || '');
-      mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`));
-    }
-    continue;
+    console.log(`  scan       requested${scanReq[1] ? ` (max ${scanReq[1]} evaluations)` : ''}`);
+    if (!DRY) { mkdirSync(path.join(CO_DIR, 'batch'), { recursive: true }); writeFileSync(path.join(CO_DIR, 'batch', 'scan-requested'), scanReq[1] || ''); }
+    done(name); continue;
   }
 
-  // Kit requests: "kit: <report number>" (build or rebuild an application kit regardless of score).
-  const kitLines = [...text.matchAll(/^kit:\s*#?(\d+)\s*$/gim)].map(m => m[1].padStart(3, '0'));
-  if (kitLines.length) {
-    for (const num of kitLines) {
-      console.log(`  kit        report ${num}`);
-      if (!DRY) {
-        try {
-          const kitsDir = path.join(DATA_ROOT, 'applications');
-          for (const d of existsSync(kitsDir) ? readdirSync(kitsDir) : []) {
-            if (d.startsWith(`${num}-`)) for (const f of ['kit.json', 'kit.md']) { const p = path.join(kitsDir, d, f); if (existsSync(p)) renameSync(p, `${p}.old`); }
-          }
-          execFileSync('node', [path.join(REPO, 'scripts', 'build-kits.mjs'), '--report', num, '--any-score'], { cwd: REPO, stdio: 'inherit', env: process.env });
-        } catch { console.log(`  ⚠ kit build failed for report ${num}`); }
-      }
+  const kitNums = [...text.matchAll(/^kit:\s*#?(\d+)\s*$/gim)].map(m => m[1]);
+  if (kitNums.length) {
+    for (const n of kitNums) {
+      const url = trackerUrl(n);
+      console.log(`  kit        #${n} ${url || '(no URL in tracker — paste the job description instead)'}`);
+      if (url) { enqueue({ url, force_full: true, note: `kit request #${n}` }); queued++; }
     }
-    if (!DRY) { mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`)); }
-    continue;
+    done(name); continue;
   }
 
-  // Status updates: "status: <tracker # or company> | <State> | <optional note>", one per line.
   const statusLines = [...text.matchAll(/^status:\s*(.+)$/gim)].map(m => m[1].split('|').map(s => s.trim()));
   if (statusLines.length) {
-    for (const [who, state, note] of statusLines) {
-      if (!who || !state) { console.log(`  skip status line in ${name} (expected "status: <# or company> | <State> | <note>")`); continue; }
-      const argv = [path.join(CO_DIR, 'set-status.mjs'), who.replace(/^#/, ''), state, ...(note ? ['--note', note] : [])];
-      console.log(`  status     ${who} → ${state}${note ? ` (${note})` : ''}`);
+    for (const [who, state, n] of statusLines) {
+      if (!who || !state) { console.log(`  skip status line (expected "status: <# or company> | <State> | <note>")`); continue; }
+      console.log(`  status     ${who} → ${state}${n ? ` (${n})` : ''}`);
       if (!DRY) {
-        try { execFileSync('node', argv, { cwd: CO_DIR, stdio: 'inherit', env: { ...process.env, CAREER_OPS_ROOT: DATA_ROOT } }); }
+        try { execFileSync('node', [path.join(CO_DIR, 'set-status.mjs'), who.replace(/^#/, ''), state, ...(n ? ['--note', n] : [])], { cwd: CO_DIR, stdio: 'inherit', env: { ...process.env, CAREER_OPS_ROOT: DATA } }); }
         catch { console.log(`  ⚠ set-status failed for "${who}"`); }
       }
     }
-    if (!DRY) { mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`)); }
-    continue;
+    done(name); continue;
   }
 
   if (found.length && stripped.length < 400) {
     for (const u of found) {
-      const slug = u.match(/freehire\.me\/jobs\/([^/?#]+)/)?.[1];
-      if (slug && !DRY) { // clean JD file for freehire links (see modes/_custom.md)
+      const fh = u.match(/freehire\.me\/jobs\/([^/?#]+)/)?.[1];
+      const item = { url: u, source: 'inbox', note };
+      if (fh && !DRY) {
         try {
-          const r = await fetch(`https://freehire.me/api/v1/jobs/${slug}`);
+          const r = await fetch(`https://freehire.me/api/v1/jobs/${fh}`);
           const job = r.ok ? (await r.json()).data : null;
           if (job) {
             const { jdMarkdown } = await import('./freehire-scan.mjs');
-            mkdirSync(path.join(DATA_ROOT, 'jds'), { recursive: true });
-            writeFileSync(path.join(DATA_ROOT, 'jds', `freehire-${slug}.md`), jdMarkdown(job));
+            mkdirSync(path.join(DATA, 'jds'), { recursive: true });
+            writeFileSync(path.join(DATA, 'jds', `freehire-${fh}.md`), jdMarkdown(job));
+            Object.assign(item, { jd_file: `jds/freehire-${fh}.md`, apply_url: (job.url || u).replace(/[?&]utm_source=freehire\.me$/, ''), company: job.company, title: job.title, location: job.location, work_mode: job.work_mode });
           }
-        } catch { /* the worker falls back to fetching the page */ }
+        } catch { /* lean-hunt fetches the page itself */ }
       }
-      console.log(`  queue URL  ${u}`);
-      if (!DRY) appendFileSync(inputPath, `${++id}\t${u}\tinbox\t${note}\n`);
-      urls++;
+      console.log(`  queue URL  ${u}`); enqueue(item); queued++;
     }
   } else if (stripped.length >= 200) {
-    const slug = name.replace(/\.(md|txt)$/i, '').replace(/[^a-z0-9-]+/gi, '-').toLowerCase();
-    const jdRel = `jds/inbox-${today}-${slug}.md`;
-    console.log(`  queue JD   ${jdRel}${found.length ? ` (source ${found[0]})` : ''}`);
-    if (!DRY) {
-      mkdirSync(path.join(DATA_ROOT, 'jds'), { recursive: true });
-      writeFileSync(path.join(DATA_ROOT, jdRel), text);
-      textJobs.push({ file: jdRel, source_url: found[0] || '', note });
-    }
+    const jd = `jds/inbox-${today}-${name.replace(/\.(md|txt)$/i, '').replace(/[^a-z0-9-]+/gi, '-').toLowerCase()}.md`;
+    console.log(`  queue JD   ${jd}`);
+    if (!DRY) { mkdirSync(path.join(DATA, 'jds'), { recursive: true }); writeFileSync(path.join(DATA, jd), text); }
+    enqueue({ jd_file: jd, source_url: found[0] || '', apply_url: found[0] || '', source: 'inbox', note }); queued++;
   } else {
     console.log(`  skip       ${name} (no URL and too short to be a job description)`);
   }
-  if (!DRY) {
-    mkdirSync(DONE, { recursive: true });
-    renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`));
-  }
+  done(name);
 }
-if (!DRY) writeFileSync(textJobsPath, JSON.stringify(textJobs, null, 2));
-console.log(`inbox: ${files.length} file(s), ${urls} URL offer(s), ${textJobs.length} pasted JD(s)`);
+console.log(`inbox: ${files.length} file(s), ${queued} job(s) queued`);

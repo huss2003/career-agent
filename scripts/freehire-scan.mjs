@@ -120,6 +120,13 @@ function score(job) {
   if (has(S.title_positive, title)) { s += 2; why.push('title match'); }
   if (has(S.title_negative, title)) { s -= 6; why.push('title excluded'); }
 
+  // Learned from the first 28 evaluations (26 Oct 2026): every Senior/Sr. title scored < 3.7,
+  // Java-centred and data/ML-platform roles scored < 3.6. Rank them below likely 4.0+ roles.
+  if (/\b(senior|sr\.?)\b/.test(title)) { s -= 5; why.push('senior title'); }
+  const webStack = skills.some(k => ['javascript', 'typescript', 'react', 'nextjs', 'next-js', 'nodejs', 'node', 'python'].includes(k));
+  if (/\bjava\b/.test(title) || (skills.includes('java') && !webStack)) { s -= 4; why.push('Java-centred'); }
+  if (/\b(data engineer|database|data scientist|machine learning|ml engineer|mlops|data & ai|ai\/ml)\b/.test(title)) { s -= 3; why.push('data/ML-platform role'); }
+
   const sen = job.seniority || job.enrichment?.seniority;
   if (['lead', 'staff', 'principal', 'c_level'].includes(sen)) s -= 6;
   if (sen === 'senior') s -= 1;
@@ -214,6 +221,19 @@ async function main() {
   mkdirSync(path.join(DATA_ROOT, 'data'), { recursive: true });
   writeFileSync(path.join(DATA_ROOT, 'data/freehire-last-scan.md'), lines.join('\n') + '\n');
   if (!picked.length) return;
+
+  // Lean pipeline mode: hand over a ranked candidate list; lean-hunt marks jobs seen only once evaluated.
+  if (args.includes('--candidates-out')) {
+    mkdirSync(path.join(DATA_ROOT, 'jds'), { recursive: true });
+    const list = picked.map(p => {
+      const jd = `jds/freehire-${p.job.public_slug}.md`;
+      writeFileSync(path.join(DATA_ROOT, jd), jdMarkdown(p.job));
+      return { source: 'freehire', url: p.url, apply_url: (p.job.url || p.url).replace(/[?&]utm_source=freehire\.me$/, ''), company: p.job.company,
+        title: p.job.title, location: p.job.location || '', work_mode: p.job.work_mode || '', jd_file: jd, scan_score: p.score };
+    });
+    writeFileSync(flag('--candidates-out'), JSON.stringify(list, null, 2));
+    return;
+  }
 
   // Queue for career-ops: batch input (this run) + pipeline/scan-history (career-ops helpers keep their formats).
   const batchDir = path.join(CO_DIR, 'batch');

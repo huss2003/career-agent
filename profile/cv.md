@@ -58,8 +58,8 @@ Mar 2023 - Sep 2026
 
 ## Certifications
 
-- Claude Certified Developer – Foundations (CCDV-F), Anthropic
-- Claude Certified Orchestrator – Foundations (CCAO-F), Anthropic
+- Claude Certified Developer - Foundations (CCDV-F), Anthropic
+- Claude Certified Orchestrator - Foundations (CCAO-F), Anthropic
 - Claude Code in Action, Anthropic
 - Claude Code 101, Anthropic
 - Generative AI Leader, Google Cloud

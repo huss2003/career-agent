@@ -1,0 +1,19 @@
+{
+  "allow_metrics": [
+    "101 certifications",
+    "101 certification",
+    "101 course"
+  ],
+  "allow_facts": [
+    "Claude Code 101"
+  ],
+  "forbidden_phrases": [
+    "Fortune 500",
+    "patented",
+    "clients such as",
+    "paying clients",
+    "Orbital Surplus client",
+    "Nightjar client"
+  ],
+  "warn_phrases": []
+}

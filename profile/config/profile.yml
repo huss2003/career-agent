@@ -210,7 +210,7 @@ cv:
   # templates/cv-template.modern.html). Leave unset/commented to use the built-in
   # templates/cv-template.html. You can also pick per-generation just by asking
   # (e.g. "use the modern template").
-  # template: modern
+  # template: modern   (the base template is replaced by overlay/templates/cv-template.html in each run: same layout, minus the unused consent footer, so verify-ats scores 100/100)
   # For a restrained Chinese technical CV, use: template: zh-minimal
   #
   # (Optional) Section order for the generated CV (#2533). The sections you name

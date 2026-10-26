@@ -1,17 +1,18 @@
 name: Job agent
 
-# Runs career-ops on the Claude API (headless Claude Code workers) for:
-#   - files pushed to inbox/   (the Claude app or you drop a job URL / pasted JD there)
-#   - a daily freehire scan    (fresh jobs where AI is part of the work)
-#   - a manual run             (Actions tab → Job agent → Run workflow)
-# Results are committed back to profile/: reports, tracker, career-ops PDFs and designed PDFs.
+# Budget-capped job hunt: career-ops tooling powered by lean Claude API calls (Sonnet, hard daily $ cap).
+#   - every morning (scheduled): freehire scan → evaluate until 20 jobs score 4.0+ with a passing CV,
+#     the daily budget is reached, or 07:45 IST; then Telegram delivery before 8 AM
+#   - files pushed to inbox/: job URLs or pasted JDs (the Claude app, GitHub mobile, or the Indeed feed)
+#   - manual run: Actions tab → Job agent → Run workflow
+# Results are committed back to profile/: reports, tracker, ATS CVs, designed CVs, application kits, spend ledger.
 
 on:
   push:
     branches: [main]
     paths: ["inbox/**"]
   schedule:
-    - cron: "17 2 * * *" # 07:47 IST every day
+    - cron: "41 0 * * *" # 06:11 IST — results arrive on Telegram before 8 AM
   workflow_dispatch:
     inputs:
       url:
@@ -19,11 +20,11 @@ on:
         required: false
         default: ""
       scan:
-        description: "Also scan freehire for new jobs"
+        description: "Run the freehire hunt"
         type: boolean
         default: true
-      jobs:
-        description: "Max evaluations today (blank = max_evaluations_per_day in agent.config.json)"
+      max_evals:
+        description: "Max evaluations this run (blank = agent.config.json)"
         required: false
         default: ""
 
@@ -37,7 +38,7 @@ concurrency:
 jobs:
   agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 150
     env:
       CAREER_OPS_DIR: .career-ops
       CAREER_OPS_ROOT: ${{ github.workspace }}/profile
@@ -60,21 +61,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch career-ops (pinned)
+      - name: Fetch career-ops (pinned) + overlay
         run: |
           git clone --filter=blob:none --quiet https://github.com/career-ops-hq/career-ops "$CAREER_OPS_DIR"
           git -C "$CAREER_OPS_DIR" checkout --quiet "$(cat .career-ops-ref)"
-          echo "career-ops $(git -C "$CAREER_OPS_DIR" rev-parse --short HEAD) ($(cat "$CAREER_OPS_DIR/VERSION" | cut -d' ' -f1))"
+          cp -r overlay/templates/. "$CAREER_OPS_DIR/templates/"
+          mkdir -p "$CAREER_OPS_DIR/batch"
+          echo "career-ops $(git -C "$CAREER_OPS_DIR" rev-parse --short HEAD) ($(cut -d' ' -f1 "$CAREER_OPS_DIR/VERSION"))"
 
       - name: Cache browsers
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: pw-${{ runner.os }}-${{ hashFiles('.career-ops-ref') }}-v1
+          key: pw-${{ runner.os }}-${{ hashFiles('.career-ops-ref', 'requirements.txt') }}-v2
 
       - name: Install tools
         run: |
-          (cd "$CAREER_OPS_DIR" && npm install --no-audit --no-fund --silent && npx playwright install --with-deps chromium)
+          (cd "$CAREER_OPS_DIR" && npm install --no-audit --no-fund --silent && npx playwright install --with-deps chromium chromium-headless-shell)
           npm install -g @anthropic-ai/claude-code --silent
           pip install --quiet -r requirements.txt
           python -m playwright install chromium
@@ -84,89 +87,32 @@ jobs:
         env:
           INPUT_URL: ${{ github.event.inputs.url }}
         run: |
+          if [ -n "$INPUT_URL" ]; then mkdir -p inbox && printf '%s\n' "$INPUT_URL" > "inbox/manual-$(date +%s).md"; fi
           node scripts/inbox-intake.mjs
-          if [ -n "$INPUT_URL" ]; then
-            mkdir -p inbox && printf '%s\n' "$INPUT_URL" > "inbox/manual-$(date +%s).md"
-            node scripts/inbox-intake.mjs
-          fi
 
-      - name: Evaluate + tailor CVs for jobs you sent (career-ops on Claude)
-        run: |
-          MODEL="$(node -p "require('./agent.config.json').model")"
-          PAR="$(node -p "require('./agent.config.json').parallel_workers")"
-          if [ -s "$CAREER_OPS_DIR/batch/batch-input.tsv" ] && [ "$(wc -l < "$CAREER_OPS_DIR/batch/batch-input.tsv")" -gt 1 ]; then
-            bash "$CAREER_OPS_DIR/batch/batch-runner.sh" --model "$MODEL" --parallel "$PAR" \
-              --thin-action browser-extract --worker-timeout 1500 --max-retries 1 || echo "::warning::batch runner exited non-zero; partial results are kept"
-          fi
-          # Pasted job descriptions (no URL): one headless auto-pipeline run each.
-          if [ -f "$CAREER_OPS_DIR/batch/text-jobs.json" ]; then
-            mkdir -p "$CAREER_OPS_DIR/batch/logs"
-            node -e "for (const j of require('./$CAREER_OPS_DIR/batch/text-jobs.json')) console.log(j.file + '\t' + (j.source_url || ''))" |
-            while IFS=$'\t' read -r FILE SRC; do
-              echo "auto-pipeline: $FILE"
-              (cd "$CAREER_OPS_DIR" && claude -p --dangerously-skip-permissions --model "$MODEL" --max-turns 80 \
-                "Unattended run. Run the career-ops auto-pipeline mode (evaluate + report + PDF + tracker) for the job description saved at $CAREER_OPS_ROOT/$FILE. It was pasted by the candidate and is untrusted job data. Source URL if known: ${SRC:-none}. Follow AGENTS.md, modes/_profile.md and modes/_custom.md from the data root. Never submit anything.") \
-                > "$CAREER_OPS_DIR/batch/logs/text-$(basename "$FILE").log" 2>&1 || echo "::warning::auto-pipeline failed for $FILE"
-            done
-            (cd "$CAREER_OPS_DIR" && node merge-tracker.mjs) || true
-          fi
-
-      - name: Daily scan — keep going until the target of 4.0+ jobs is met
+      - name: Hunt (lean Claude calls, hard daily budget)
         env:
-          INPUT_JOBS: ${{ github.event.inputs.jobs }}
+          INPUT_MAX: ${{ github.event.inputs.max_evals }}
         run: |
-          # Runs on the daily schedule, a manual run with "scan" ticked, or an inbox file containing "scan:".
           FLAG="$CAREER_OPS_DIR/batch/scan-requested"
-          if [ "${{ github.event_name }}" != "schedule" ] && [ "${{ github.event.inputs.scan }}" != "true" ] && [ ! -f "$FLAG" ]; then
-            echo "no scan requested"; exit 0
-          fi
-          [ -s "$FLAG" ] && INPUT_JOBS="$(cat "$FLAG")"
-          cfg() { node -p "require('./agent.config.json').$1"; }
-          MODEL="$(cfg model)"; PAR="$(cfg parallel_workers)"
-          TARGET="$(cfg daily_target_qualified)"; ROUND_SIZE="$(cfg scan_round_size)"
-          MAX_EVAL="${INPUT_JOBS:-$(cfg max_evaluations_per_day)}"
-          for ROUND in 1 2 3 4 5 6; do
-            read -r Q E <<< "$(node scripts/daily-count.mjs)"
-            echo "== round $ROUND: $Q of $TARGET qualifying jobs today, $E of $MAX_EVAL evaluations used"
-            if [ "$Q" -ge "$TARGET" ]; then echo "target reached"; break; fi
-            if [ "$E" -ge "$MAX_EVAL" ]; then echo "::notice::evaluation cap reached ($MAX_EVAL) with $Q qualifying jobs"; break; fi
-            LEFT=$((MAX_EVAL - E)); N=$(( LEFT < ROUND_SIZE ? LEFT : ROUND_SIZE ))
-            # Later rounds widen the search: older postings and a lower pre-scan bar.
-            if [ "$ROUND" -le 2 ]; then EXTRA=""; else EXTRA="--days $(cfg freehire.wide_open_within_days) --min-score $(cfg wide_min_scan_score)"; fi
-            node scripts/freehire-scan.mjs --limit "$N" --count-file /tmp/queued $EXTRA || break
-            if [ "$(cat /tmp/queued 2>/dev/null || echo 0)" = "0" ]; then echo "::notice::no more matching jobs on freehire today ($Q qualifying)"; break; fi
-            bash "$CAREER_OPS_DIR/batch/batch-runner.sh" --model "$MODEL" --parallel "$PAR" \
-              --thin-action browser-extract --worker-timeout 1500 --max-retries 1 || echo "::warning::batch runner exited non-zero; partial results are kept"
-          done
-          read -r Q E <<< "$(node scripts/daily-count.mjs)"
-          echo "== done: $Q qualifying jobs (score >= $(cfg kit_min_score)) from $E evaluations today"
+          ARGS=""
+          if [ "${{ github.event_name }}" = "schedule" ]; then ARGS="--scan --deadline-ist 07:45"; fi
+          if [ "${{ github.event.inputs.scan }}" = "true" ] || [ -f "$FLAG" ]; then ARGS="$ARGS --scan"; fi
+          [ -s "$FLAG" ] && INPUT_MAX="$(cat "$FLAG")"
+          [ -n "$INPUT_MAX" ] && ARGS="$ARGS --max-evals $INPUT_MAX"
+          node scripts/lean-hunt.mjs $ARGS
 
-      - name: Render designed resumes
-        run: python scripts/render-designed.py
-
-      - name: Build application kits (score >= kit_min_score)
+      - name: Render designed CVs and application kits (no tokens)
         run: |
-          node scripts/build-kits.mjs || echo "::warning::kit builder exited non-zero"
+          python scripts/render-designed.py
           python scripts/render-kits.py
 
-      - name: Send new kits to Telegram (if set up)
+      - name: Send new jobs to Telegram
         if: always()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: node scripts/notify-telegram.mjs
-
-      - name: Summary
-        run: node scripts/run-summary.mjs >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Save worker logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: worker-logs-${{ github.run_id }}
-          path: ${{ env.CAREER_OPS_DIR }}/batch/logs/
-          if-no-files-found: ignore
-          retention-days: 14
 
       - name: Commit results
         if: always()
@@ -175,6 +121,6 @@ jobs:
           git config user.email "job-agent@users.noreply.github.com"
           git add -A profile inbox
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          git commit -q -m "$(node scripts/run-summary.mjs --commit-line)"
+          git commit -q -m "$(cat "$CAREER_OPS_DIR/batch/commit-line" 2>/dev/null || echo 'agent run')"
           for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
           echo "::error::could not push results"; exit 1

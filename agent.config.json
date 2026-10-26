@@ -1,19 +1,17 @@
 {
   "_comment": "Settings for the job agent. Edit freely; the workflow reads this file on every run.",
   "model": "claude-sonnet-5-5",
-  "daily_target_qualified": 10,
-  "max_evaluations_per_day": 30,
-  "scan_round_size": 8,
-  "jobs_per_run": 8,
-  "parallel_workers": 3,
+  "budget_usd_per_day": 5.0,
+  "budget_reserve_usd": 0.3,
+  "max_usd_per_call": 0.35,
+  "daily_target_qualified": 20,
+  "max_evaluations_per_day": 120,
+  "lean_parallel": 3,
   "min_scan_score": 6,
-  "wide_min_scan_score": 4,
   "kit_min_score": 4.0,
-  "kits_per_run": 12,
   "freehire": {
-    "open_within_days": 3,
+    "open_within_days": 7,
     "first_run_open_within_days": 14,
-    "wide_open_within_days": 10,
     "locations": [
       {
         "label": "Pune",

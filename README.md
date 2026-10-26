@@ -96,7 +96,14 @@ Update a status by dropping a file in `inbox/` that holds the line `status: Acme
 | `min_scan_score` | `6` | Only jobs scoring at least this in the free pre-scan get a paid evaluation |
 | `freehire.locations` / `searches` | India + remote | What to search |
 
-Each full evaluation reads your profile and the posting and writes a report and a CV, so it uses real API tokens. Start with 5 jobs a day and watch your usage in the Claude Console.
+### Budget: hard cap of $5/day (Sonnet)
+
+The daily hunt uses **lean calls**: one Sonnet request per job, with your profile in a cached system prompt and no agent loop.
+
+- **Below 4.0:** the reply is a few lines, about **$0.02**.
+- **4.0 and above:** the same call returns the report, tailored CV and kit, about **$0.12**.
+- **Everything else costs no tokens:** career-ops' JD fetching, CV build, fact check, ATS check, PDF and tracker.
+- **The cap is enforced, not just estimated:** every call is logged to `profile/data/api-spend.tsv` and carries `--max-budget-usd`. The hunt stops before the day's total would pass `budget_usd_per_day` minus a $0.30 reserve. A typical day of 20 qualified jobs plus about 50 rejections is about $3.
 
 ## Rules the agent follows
 
