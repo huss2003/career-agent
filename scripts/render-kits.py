@@ -53,6 +53,7 @@ def standard_fields(c: dict) -> list[tuple[str, str]]:
         ("Current role", "CTO & Principal Course Architect, NeuroNetworks AI Ed (2026 – present)"),
         ("Highest education", "Bachelor's, Computer Science (AI & ML), Vishwakarma Institute of Technology, Pune, 2022–2025"),
         ("Expected salary", c["salary"] or "[CONFIRM]"),
+        ("Notice period", "Immediate"),
         ("Work authorization", "Authorized to work in India"),
         ("Preferred work mode", "Remote, hybrid, or on-site in Pune"),
     ]

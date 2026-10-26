@@ -44,6 +44,17 @@ for (const name of files) {
   const note = (text.match(/^note:\s*(.+)$/im)?.[1] || `inbox ${name}`).replace(/[\t\n]/g, ' ').slice(0, 200);
   const stripped = text.replace(/https?:\/\/\S+/g, '').trim();
 
+  // Scan request: "scan:" (optionally "scan: <max evaluations>") runs the daily freehire hunt now.
+  const scanReq = text.match(/^scan:\s*(\d+)?\s*$/im);
+  if (scanReq) {
+    console.log(`  scan       requested now${scanReq[1] ? ` (max ${scanReq[1]} evaluations)` : ''}`);
+    if (!DRY) {
+      writeFileSync(path.join(CO_DIR, 'batch', 'scan-requested'), scanReq[1] || '');
+      mkdirSync(DONE, { recursive: true }); renameSync(path.join(INBOX, name), path.join(DONE, `${today}-${name}`));
+    }
+    continue;
+  }
+
   // Kit requests: "kit: <report number>" (build or rebuild an application kit regardless of score).
   const kitLines = [...text.matchAll(/^kit:\s*#?(\d+)\s*$/gim)].map(m => m[1].padStart(3, '0'));
   if (kitLines.length) {

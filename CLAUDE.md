@@ -20,6 +20,10 @@ The push starts the workflow. A run takes about 10–25 minutes. Tell Hussain it
 
 Prefer the employer's own posting URL over LinkedIn or Naukri. LinkedIn pages usually need a login, so for those, put the pasted job description in the file instead of the URL.
 
+## Run the daily hunt now ("find me jobs", "get me 10 jobs")
+
+Queue `inbox/<timestamp>-scan.md` containing `scan:` (optionally `scan: <max evaluations>`). The workflow then scans freehire and evaluates in rounds until `daily_target_qualified` jobs score 4.0+ or the cap is hit. This can take 1–3 hours.
+
 ## Show results ("what did the agent find?", "how did it go?")
 
 Read these files from `main` and summarise them. Lead with the best-scoring roles.

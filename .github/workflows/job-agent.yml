@@ -112,10 +112,15 @@ jobs:
           fi
 
       - name: Daily scan — keep going until the target of 4.0+ jobs is met
-        if: github.event_name == 'schedule' || github.event.inputs.scan == 'true'
         env:
           INPUT_JOBS: ${{ github.event.inputs.jobs }}
         run: |
+          # Runs on the daily schedule, a manual run with "scan" ticked, or an inbox file containing "scan:".
+          FLAG="$CAREER_OPS_DIR/batch/scan-requested"
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "${{ github.event.inputs.scan }}" != "true" ] && [ ! -f "$FLAG" ]; then
+            echo "no scan requested"; exit 0
+          fi
+          [ -s "$FLAG" ] && INPUT_JOBS="$(cat "$FLAG")"
           cfg() { node -p "require('./agent.config.json').$1"; }
           MODEL="$(cfg model)"; PAR="$(cfg parallel_workers)"
           TARGET="$(cfg daily_target_qualified)"; ROUND_SIZE="$(cfg scan_round_size)"

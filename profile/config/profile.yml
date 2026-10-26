@@ -273,7 +273,7 @@ cover_letter:
   # Your notice period in calendar days. Surfaced as a prompt default when the
   # JD requests an immediate start. The user confirms the actual value before it
   # appears in the letter.
-  # notice_period_days: (not set — Hussain to confirm; was a template default)
+  notice_period_days: 0   # Immediate joiner (stated by Hussain, Oct 2026)
   # Which cover-letter template to use by default. Kebab-case name of a file in
   # templates/ named cover-letter-template.<name>.html. Unset -> built-in
   # templates/cover-letter-template.html.

@@ -57,6 +57,10 @@ Software developer turned AI engineer. Spent 3 years as a full-stack developer a
 **When offered below target:**
 > "I'm comparing with other opportunities in the [higher range]. I'm drawn to [company] because of [reason]. Can we explore [target]?"
 
+## Availability
+
+- Notice period: **immediate** (stated by Hussain, Oct 2026). His previous role ended Sep 2026. Answer notice-period / start-date questions with "Immediate".
+
 ## Your Location Policy
 
 **Hard rules (dealbreakers — SKIP, do not evaluate):**
