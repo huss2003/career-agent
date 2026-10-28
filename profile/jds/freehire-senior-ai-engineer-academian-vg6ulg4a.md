@@ -1,6 +1,6 @@
 # Senior AI Engineer — Academian
 
-Posted: 2025-03-18
+Posted: 2026-10-27
 Location: Pune, MH, India · Work mode: hybrid
 Apply (source): https://academian.keka.com/careers/jobdetails/74272?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/senior-ai-engineer-academian-vg6ulg4a

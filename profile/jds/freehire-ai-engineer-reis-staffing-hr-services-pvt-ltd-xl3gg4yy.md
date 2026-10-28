@@ -1,0 +1,10 @@
+# AI Engineer — REIS Staffing & HR Services Pvt Ltd
+
+Posted: 2026-10-27
+Location: Bangalore, Karnataka; Hyderabad, Telangana; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/ai-engineer/reis-staffing-hr-services-pvt-ltd/19947243?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/ai-engineer-reis-staffing-hr-services-pvt-ltd-xl3gg4yy
+
+We are seeking a skilled AI Engineer to join our dynamic team. The ideal candidate will have a strong background in artificial intelligence and machine learning, with a focus on generative AI technologies. As an AI Engineer, you will be responsible for developing and implementing AI models and algorithms that enhance our products and services. You will work closely with cross-functional teams to understand business requirements and translate them into technical specifications. Key responsibilities include designing and optimizing AI models, conducting experiments to validate model performance, and collaborating with data scientists and software engineers to integrate AI solutions into existing systems. The successful candidate will possess strong programming skills in Python and have experience with prompt engineering and large language models (LLMs). A deep understanding of agentic AI concepts will be essential for this role. Additionally, you should be comfortable working in a fast-paced environment and be able to adapt to new technologies and methodologies. Required skills include proficiency in Python, knowledge of AI and machine learning frameworks, and experience with generative AI applications. If you are passionate about AI and eager to contribute to innovative projects, we encourage you to apply.
+
+Skills tagged by freehire: agentic-ai, ai, generative-ai, llm, machine-learning, prompt-engineering, python
