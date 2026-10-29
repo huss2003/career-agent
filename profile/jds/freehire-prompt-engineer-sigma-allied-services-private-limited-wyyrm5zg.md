@@ -1,0 +1,10 @@
+# Prompt Engineer — Sigma Allied Services Private Limited
+
+Posted: 2026-10-28
+Location: Hyderabad, Telangana; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/prompt-engineer/sigma-allied-services-private-limited/19951942?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/prompt-engineer-sigma-allied-services-private-limited-wyyrm5zg
+
+We are seeking a skilled Prompt Engineer to join our innovative team focused on developing cutting-edge solutions in the field of Generative AI. The ideal candidate will have a strong background in prompt engineering and a deep understanding of large language models (LLMs) such as GPT. This role involves collaborating with cross-functional teams to design, implement, and optimize prompts that enhance the performance of AI models. Key Responsibilities: - Develop and refine prompts for various applications of LLMs to ensure optimal performance and accuracy. - Collaborate with data scientists and AI researchers to understand model capabilities and limitations. - Conduct experiments to evaluate the effectiveness of different prompt strategies and iterate based on findings. - Stay updated with the latest advancements in Generative AI and contribute to the continuous improvement of our AI systems. - Document processes and results to share insights with the team and stakeholders. Required Skills: - Strong expertise in prompt engineering and experience with LLMs, particularly GPT. - Proficiency in Python and familiarity with Natural Language Processing (NLP) techniques. - Ability to analyze and interpret data to inform prompt design decisions. - Excellent problem-solving skills and a collaborative mindset. - Strong communication skills to effectively convey technical concepts to non-technical stakeholders. If you are passionate about AI and eager to work on innovative projects that push the boundaries of technology, we would love to hear from you.
+
+Skills tagged by freehire: ai, generative-ai, llm, nlp, prompt-engineering, python

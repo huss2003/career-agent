@@ -1,6 +1,6 @@
 # Gen AI Engineer - AD — KPMG Global Services
 
-Posted: 2026-10-27
+Posted: 2026-10-28
 Location: Pune, Maharashtra, India · Work mode: not stated
 Apply (source): https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30047731?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/gen-ai-engineer-ad-kpmg-global-services-z3it7iib

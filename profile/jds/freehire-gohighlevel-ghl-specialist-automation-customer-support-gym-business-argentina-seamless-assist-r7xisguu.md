@@ -1,4 +1,4 @@
-# GoHighLevel (GHL) Specialist — Automation & Customer Support (Gym Business) — Argentina — Seamless Assist
+# GoHighLevel (GHL) Specialist — Automation & Customer Support (Gym Business) — Seamless Assist
 
 Posted: 2026-10-24
 Location: Buenos Aires, Argentina · Work mode: remote

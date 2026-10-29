@@ -1,6 +1,6 @@
 # Full Stack Engineer (Frontend Oriented) — Identity & Security — Binance
 
-Posted: 2026-10-25
+Posted: 2026-10-28
 Location: Hong Kong; Singapore; Taiwan; United Arab Emirates · Work mode: remote
 Apply (source): https://job-boards.eu.greenhouse.io/binance/jobs/5007086101?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-engineer-frontend-oriented-identity-security-binance-wshglrmj
