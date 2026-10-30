@@ -1,0 +1,10 @@
+# AI Engineer — MEEDEN LABS PRIVATE LIMITED
+
+Posted: 2026-10-27
+Location: Bangalore, Karnataka; Chennai, Tamil Nadu; Hyderabad, Telangana; Mumbai City; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/ai-engineer/meeden-labs-private-limited/19944276?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/ai-engineer-meeden-labs-private-limited-jr5mqmrc
+
+We are seeking an experienced AI Engineer to join our dynamic team. The ideal candidate will have a strong background in artificial intelligence and machine learning, with a focus on developing and implementing advanced AI solutions. As an AI Engineer, you will work on cutting-edge projects that leverage technologies such as Agentic AI, LangGraph, and Azure OpenAI to create innovative applications and enhance existing systems. Key Responsibilities: - Design, develop, and deploy AI models and algorithms that meet business requirements. - Collaborate with cross-functional teams to integrate AI solutions into various applications. - Conduct research and stay updated on the latest advancements in AI technologies, particularly in areas such as LLM (Large Language Models) and RAG (Retrieval-Augmented Generation). - Optimize and fine-tune AI models for performance and scalability. - Document processes and maintain clear communication with stakeholders regarding project progress and outcomes. Required Skills: - Proficiency in Agentic AI, LangGraph, LLM, RAG, Azure OpenAI, and LangChain. - Strong programming skills in languages commonly used in AI development. - Experience with machine learning frameworks and libraries. - Excellent problem-solving abilities and a passion for innovation in AI. - Strong communication skills to effectively collaborate with team members and stakeholders. If you are a motivated AI Engineer looking to make a significant impact in the field of artificial intelligence, we encourage you to apply and join our team in Karnataka, Maharashtra, Tamil Nadu, or Andhra Pradesh.
+
+Skills tagged by freehire: agentic-ai, ai, azure, langchain, langgraph, llm, machine-learning, openai, rag

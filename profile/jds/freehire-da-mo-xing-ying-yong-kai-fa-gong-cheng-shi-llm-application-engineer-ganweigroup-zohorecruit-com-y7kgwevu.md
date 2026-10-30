@@ -1,4 +1,4 @@
-# 大模型应用开发工程师LLM Application Engineer — ganweigroup.zohorecruit.com
+# 大模型应用开发工程师LLM Application Engineer — Ganwei Company
 
 Posted: 2025-12-18
 Location: Remote, China · Work mode: remote

@@ -15,4 +15,4 @@ freehire page: https://freehire.me/jobs/ai-engineer-opsly-p5bp4grr
 - Knowledge of graphs.
 - DevOps knowledge (preferred, not essential).
 
-Skills tagged by freehire: agentic-ai, ai, aws, aws-bedrock, devops, llm, machine-learning, openai, prompt-engineering, rag
+Skills tagged by freehire: agentic-ai, ai, aws, aws-bedrock, deepseek, devops, llm, machine-learning, openai, prompt-engineering, rag

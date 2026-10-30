@@ -5,6 +5,140 @@ Location: Pune, Maharashtra, India · Work mode: not stated
 Apply (source): https://sonataone.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6ac38d29b1602?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-php-engineer-sonataone-ea5h65xh
 
-&lt;p&gt;&lt;strong&gt;Job Description&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Job Title-&lt;/strong&gt; Full-Stack PHP Engineer&lt;br /&gt;&lt;strong&gt;Location-&lt;/strong&gt; Pune | Hybrid&lt;br /&gt;&lt;strong&gt;Qualifications-&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Junior Engineer: 2–4 Years&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Mid-Level Engineer: 3–8 Years&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Lead Engineer: 8+ Years&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Primary Skills-&lt;/strong&gt; PHP 7/8, Laravel / Symfony, React / Angular / Vue.js, SQL / MySQL, REST APIs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ABOUT THE ROLE&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We are looking for versatile Full-Stack PHP Engineers to join our Engineering team across multiple Business Units and technology initiatives. The role supports new product development, application enhancements, modernization, integrations, and specialized engineering projects.&lt;/p&gt;&lt;p&gt;The ideal candidate will have strong hands-on PHP expertise with the ability to work across frontend, backend, databases, cloud, DevOps, and emerging technologies. Engineers should be comfortable working with both modern PHP applications and legacy enterprise systems, including troubleshooting, maintaining, and modernizing older applications.&lt;/p&gt;&lt;p&gt;The role requires strong problem-solving skills, adaptability to unfamiliar codebases, effective use of AI-assisted development tools, and ownership of high-quality engineering outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ROLES AND RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Design, develop, test, maintain, and modernize PHP applications.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Develop applications using modern PHP frameworks such as Laravel and Symfony.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Build and consume REST APIs and enterprise integrations.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Develop full-stack applications using PHP with React, Angular, Vue.js, or similar technologies.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Work with both modern and legacy PHP applications and identify modernization opportunities.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Upgrade PHP versions, frameworks, libraries, and dependencies.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Refactor legacy PHP applications toward modern and maintainable architectures.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Work with relational and NoSQL databases and optimize database performance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Develop integrations with enterprise applications and third-party services.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Work with AWS or Azure cloud platforms.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Implement CI/CD pipelines and automated testing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Troubleshoot application and production issues.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improve application performance, security, reliability, and maintainability.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Participate in technical design, architecture discussions, and code reviews.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Integrate AI/ML services, LLM APIs, and intelligent automation where applicable.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Collaborate with engineers, product teams, architects, and Business Unit stakeholders.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Adapt to different projects and technology environments based on business priorities.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;QUALIFICATIONS & REQUIRED SKILLS&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;PHP Development&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Strong hands-on PHP development experience.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;PHP 8.x preferred, with experience in PHP 7.x.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Strong understanding of object-oriented PHP.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experience with namespaces, Composer, dependency management, and modern PHP practices.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experience developing and consuming REST APIs.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Legacy PHP&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Experience working with PHP 5.x or older PHP applications.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experience with legacy PHP frameworks and custom MVC architectures.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experience working with older third-party libraries.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Understanding of procedural or tightly coupled PHP applications.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Ability to troubleshoot, maintain, and modernize legacy PHP applications.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;PHP Frameworks&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Hands-on experience with at least one modern PHP framework:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Laravel&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Symfony&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Equivalent modern PHP framework&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Frontend Development&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Hands-on experience with at least one:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;React&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Angular&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Vue.js&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;JavaScript / TypeScript&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Strong SQL fundamentals.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Strong experience with MySQL preferred.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experience with PostgreSQL or other relational databases.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Understanding of database performance and optimization.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Engineering Practices&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Git and source-control workflows.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Automated testing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CI/CD.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Debugging and troubleshooting.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;API design and integration.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Secure coding practices.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;MANDATORY SKILLS&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;PHP 7/8&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Laravel / Symfony&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;React / Angular / Vue.js&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;SQL / MySQL&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;REST APIs&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Object-Oriented PHP&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Composer & Dependency Management&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Git&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Automated Testing&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CI/CD&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Legacy Application Troubleshooting / Modernization&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;GOOD TO HAVE SKILLS&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;AWS or Azure.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Docker / Containerization.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Kubernetes.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Infrastructure as Code.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Microservices architecture.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Message queues.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Serverless technologies.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Java or .NET.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Python.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;AI/ML services.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Generative AI / LLM APIs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;AI-assisted development tools such as GitHub Copilot, Claude, Cursor, or similar.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Application modernization.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Observability and monitoring.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;SENIOR / LEAD ENGINEER – ADDITIONAL EXPECTATIONS&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Drive technical design and architecture decisions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Lead application modernization initiatives.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Assess legacy PHP architectures and define pragmatic migration strategies.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Ensure application security, scalability, reliability, and maintainability.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Mentor engineers and lead technical initiatives.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Engage with stakeholders to resolve complex technical and business problems.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Provide technical direction across projects and technology environments.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;ABOUT SONATA SOFTWARE&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Sonata Software is an AI-first modernization engineering company that helps enterprises transform legacy systems into intelligent, scalable business platforms. Powered by its Platformation™ framework and Harmoni.AI platform, Sonata delivers AI-led modernization across cloud, data, AI, Dynamics, test automation, and managed services. Headquartered in Bengaluru, India, Sonata has more than $1.2 billion in revenue and 6,400+ AI engineers supporting global delivery across regions including the US, UK, India, Malaysia, Mexico, Australia, DACH, and the Nordics. With deep partnerships across Microsoft, AWS, Salesforce, and Snowflake, Sonata helps Fortune 500 enterprises accelerate innovation, improve efficiency, and drive sustainable growth. For more information, please visit &lt;a href="http://www.sonata-software.com/" target="\_blank" rel="noreferrer noopener"&gt;www.sonata-software.com&lt;/a&gt;.&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;b&gt;&lt;span style="font-size:9pt;line-height:115%;font-family:'Times New Roman', serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="color:rgb(0,0,0);font-family:'Times New Roman';font-size:medium;"&gt;&lt;br /&gt;&lt;/p&gt;
+**Job Description**
+
+**Job Title-** Full-Stack PHP Engineer  
+**Location-** Pune | Hybrid  
+**Qualifications-**
+
+- Junior Engineer: 2–4 Years
+- Mid-Level Engineer: 3–8 Years
+- Lead Engineer: 8+ Years
+
+**Primary Skills-** PHP 7/8, Laravel / Symfony, React / Angular / Vue.js, SQL / MySQL, REST APIs
+
+**ABOUT THE ROLE**
+
+We are looking for versatile Full-Stack PHP Engineers to join our Engineering team across multiple Business Units and technology initiatives. The role supports new product development, application enhancements, modernization, integrations, and specialized engineering projects.
+
+The ideal candidate will have strong hands-on PHP expertise with the ability to work across frontend, backend, databases, cloud, DevOps, and emerging technologies. Engineers should be comfortable working with both modern PHP applications and legacy enterprise systems, including troubleshooting, maintaining, and modernizing older applications.
+
+The role requires strong problem-solving skills, adaptability to unfamiliar codebases, effective use of AI-assisted development tools, and ownership of high-quality engineering outcomes.
+
+**ROLES AND RESPONSIBILITIES**
+
+- Design, develop, test, maintain, and modernize PHP applications.
+- Develop applications using modern PHP frameworks such as Laravel and Symfony.
+- Build and consume REST APIs and enterprise integrations.
+- Develop full-stack applications using PHP with React, Angular, Vue.js, or similar technologies.
+- Work with both modern and legacy PHP applications and identify modernization opportunities.
+- Upgrade PHP versions, frameworks, libraries, and dependencies.
+- Refactor legacy PHP applications toward modern and maintainable architectures.
+- Work with relational and NoSQL databases and optimize database performance.
+- Develop integrations with enterprise applications and third-party services.
+- Work with AWS or Azure cloud platforms.
+- Implement CI/CD pipelines and automated testing.
+- Troubleshoot application and production issues.
+- Improve application performance, security, reliability, and maintainability.
+- Participate in technical design, architecture discussions, and code reviews.
+- Integrate AI/ML services, LLM APIs, and intelligent automation where applicable.
+- Collaborate with engineers, product teams, architects, and Business Unit stakeholders.
+- Adapt to different projects and technology environments based on business priorities.
+
+**QUALIFICATIONS & REQUIRED SKILLS**
+
+**PHP Development**
+
+- Strong hands-on PHP development experience.
+- PHP 8.x preferred, with experience in PHP 7.x.
+- Strong understanding of object-oriented PHP.
+- Experience with namespaces, Composer, dependency management, and modern PHP practices.
+- Experience developing and consuming REST APIs.
+
+**Legacy PHP**
+
+- Experience working with PHP 5.x or older PHP applications.
+- Experience with legacy PHP frameworks and custom MVC architectures.
+- Experience working with older third-party libraries.
+- Understanding of procedural or tightly coupled PHP applications.
+- Ability to troubleshoot, maintain, and modernize legacy PHP applications.
+
+**PHP Frameworks**
+
+- Hands-on experience with at least one modern PHP framework:
+  
+  - Laravel
+  - Symfony
+  - Equivalent modern PHP framework
+
+**Frontend Development**
+
+- Hands-on experience with at least one:
+  
+  - React
+  - Angular
+  - Vue.js
+  - JavaScript / TypeScript
+
+**Database**
+
+- Strong SQL fundamentals.
+- Strong experience with MySQL preferred.
+- Experience with PostgreSQL or other relational databases.
+- Understanding of database performance and optimization.
+
+**Engineering Practices**
+
+- Git and source-control workflows.
+- Automated testing.
+- CI/CD.
+- Debugging and troubleshooting.
+- API design and integration.
+- Secure coding practices.
+
+**MANDATORY SKILLS**
+
+- PHP 7/8
+- Laravel / Symfony
+- React / Angular / Vue.js
+- SQL / MySQL
+- REST APIs
+- Object-Oriented PHP
+- Composer & Dependency Management
+- Git
+- Automated Testing
+- CI/CD
+- Legacy Application Troubleshooting / Modernization
+
+**GOOD TO HAVE SKILLS**
+
+- AWS or Azure.
+- Docker / Containerization.
+- Kubernetes.
+- Infrastructure as Code.
+- Microservices architecture.
+- Message queues.
+- Serverless technologies.
+- Java or .NET.
+- Python.
+- AI/ML services.
+- Generative AI / LLM APIs.
+- AI-assisted development tools such as GitHub Copilot, Claude, Cursor, or similar.
+- Application modernization.
+- Observability and monitoring.
+
+**SENIOR / LEAD ENGINEER – ADDITIONAL EXPECTATIONS**
+
+- Drive technical design and architecture decisions.
+- Lead application modernization initiatives.
+- Assess legacy PHP architectures and define pragmatic migration strategies.
+- Ensure application security, scalability, reliability, and maintainability.
+- Mentor engineers and lead technical initiatives.
+- Engage with stakeholders to resolve complex technical and business problems.
+- Provide technical direction across projects and technology environments.
+
+**ABOUT SONATA SOFTWARE**
+
+Sonata Software is an AI-first modernization engineering company that helps enterprises transform legacy systems into intelligent, scalable business platforms. Powered by its Platformation™ framework and Harmoni.AI platform, Sonata delivers AI-led modernization across cloud, data, AI, Dynamics, test automation, and managed services. Headquartered in Bengaluru, India, Sonata has more than $1.2 billion in revenue and 6,400+ AI engineers supporting global delivery across regions including the US, UK, India, Malaysia, Mexico, Australia, DACH, and the Nordics. With deep partnerships across Microsoft, AWS, Salesforce, and Snowflake, Sonata helps Fortune 500 enterprises accelerate innovation, improve efficiency, and drive sustainable growth. For more information, please visit .
 
 Skills tagged by freehire: ai, angular, api, api-design, automation, aws, azure, ci-cd, cloud, containerization, devops, docker, dotnet, generative-ai, git, github, github-copilot, infrastructure-as-code, java, javascript, kubernetes, laravel, llm, machine-learning, microservices, mvc, mysql, nosql, observability, php, postgresql, python, rdbms, react, rest, salesforce, secure-coding, serverless, snowflake, sql, symfony, test-automation, typescript, vue

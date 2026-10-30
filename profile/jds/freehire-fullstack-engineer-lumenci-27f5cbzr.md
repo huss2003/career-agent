@@ -29,4 +29,4 @@ freehire page: https://freehire.me/jobs/fullstack-engineer-lumenci-27f5cbzr
 - Exposure to PostgreSQL / relational databases
 - Experience in LegalTech, patent/IP, enterprise SaaS or other domain-heavy B2B products
 
-Skills tagged by freehire: agentic-ai, ai, anthropic, api, automation, azure, chromadb, ci-cd, docker, embeddings, fastapi, generative-ai, git, github, langchain, langgraph, llm, ollama, openai, pinecone, postgresql, python, rag, rdbms, react, saas, typescript, vector-databases, weaviate
+Skills tagged by freehire: agentic-ai, ai, anthropic, api, automation, azure, chromadb, ci-cd, docker, embeddings, fastapi, generative-ai, git, github, langchain, langgraph, llm, ollama, openai, pinecone, postgresql, python, rdbms, react, saas, typescript, vector-databases, weaviate

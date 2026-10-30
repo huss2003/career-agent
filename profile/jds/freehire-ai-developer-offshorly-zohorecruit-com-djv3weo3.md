@@ -1,4 +1,4 @@
-# AI Developer — offshorly.zohorecruit.com
+# AI Developer — Offshorly
 
 Posted: 2025-10-08
 Location: Philippines · Work mode: remote
