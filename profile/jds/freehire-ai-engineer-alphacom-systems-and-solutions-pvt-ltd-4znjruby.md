@@ -1,0 +1,10 @@
+# AI Engineer — Alphacom Systems and Solutions Pvt Ltd
+
+Posted: 2026-10-30
+Location: Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/ai-engineer/alphacom-systems-and-solutions-pvt-ltd/19969527?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/ai-engineer-alphacom-systems-and-solutions-pvt-ltd-4znjruby
+
+We are seeking a skilled AI Engineer to join our dynamic team in Maharashtra. The ideal candidate will have a strong background in artificial intelligence and machine learning, with a focus on developing and implementing innovative AI solutions. As an AI Engineer, you will work closely with cross-functional teams to design, build, and deploy AI models that leverage Azure Open AI technologies and other advanced frameworks. Key Responsibilities: - Develop and implement AI models and algorithms using Python and other relevant programming languages. - Collaborate with data scientists and software engineers to integrate AI solutions into existing systems. - Utilize Azure Open AI and GenAI technologies to enhance AI capabilities and improve performance. - Conduct research on the latest AI trends and technologies to ensure our solutions remain cutting-edge. - Optimize and fine-tune AI models for performance and scalability. - Document processes and maintain clear communication with stakeholders regarding project progress and challenges. Required Skills: - Proficiency in Python programming and experience with AI frameworks. - Familiarity with Azure Open AI and Generative AI (GenAI) technologies. - Understanding of Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) techniques. - Strong problem-solving skills and the ability to work collaboratively in a team environment. - Excellent communication skills to convey complex technical concepts to non-technical stakeholders. If you are passionate about AI and eager to contribute to innovative projects, we encourage you to apply for this exciting opportunity. Join us in shaping the future of technology with your expertise in AI engineering.
+
+Skills tagged by freehire: ai, azure, generative-ai, llm, machine-learning, python, rag

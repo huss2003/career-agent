@@ -1,6 +1,6 @@
 # AI Engineer — Beyondsoft Consulting
 
-Posted: 2024-10-29
+Posted: 2024-10-30
 Location: Vietnam, VN · Work mode: remote
 Apply (source): https://careers-beyondsoft.icims.com/jobs/10999/ai-engineer/job?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/ai-engineer-beyondsoft-consulting-fk5xxsk5

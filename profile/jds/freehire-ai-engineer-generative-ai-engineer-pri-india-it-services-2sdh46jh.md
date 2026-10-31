@@ -1,0 +1,102 @@
+# AI Engineer (Generative AI Engineer) — Pri India It Services
+
+Posted: 2026-10-29
+Location: Pune; Gurugram; Bengaluru · Work mode: hybrid
+Apply (source): https://www.naukri.com/job-listings-ai-engineer-generative-ai-engineer-pri-india-it-services-pune-gurugram-bengaluru-4-to-7-years-291026022216?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/ai-engineer-generative-ai-engineer-pri-india-it-services-2sdh46jh
+
+**Role Overview**
+
+We are seeking a highly skilled **AI Engineer / Generative AI Engineer** to accelerate a portfolio of strategic AI initiatives across data, analytics, business processes, and content operations.
+
+This is a hands-on technical role focused on designing, building, integrating, and deploying AI solutions that deliver measurable business value. The successful candidate will have experience implementing modern AI technologies, conversational AI platforms, intelligent agents, and AI-powered automation solutions within enterprise environments.
+
+The ideal candidate will be comfortable working across Microsoft, Azure, and Databricks ecosystems and possess the ability to rapidly prototype and productionize AI-enabled capabilities.
+
+**Key Responsibilities**
+
+**Conversational Analytics & Data Access**
+
+- Design and develop conversational interfaces that enable users to interact with enterprise data and analytics platforms using natural language.
+- Build AI-powered solutions that provide conversational access to data within Databricks, Power BI, and other business intelligence platforms.
+- Develop secure and governed access patterns for AI-driven analytics experiences.
+
+**AI Platforms & Agent Development**
+
+- Design, implement, and configure solutions leveraging:
+  
+  - Databricks Genie Spaces
+  - AI Agents
+  - Model Context Protocol (MCP)
+  - Microsoft Copilot and Copilot extensibility frameworks
+  - Azure AI services and Large Language Models (LLMs)
+- Build and deploy intelligent multi-agent workflows to support business processes and decision-making.
+
+**Enterprise AI Integration**
+
+- Integrate AI capabilities within Microsoft Teams and other enterprise productivity tools.
+- Develop conversational experiences enabling users to access data, insights, workflows, and business applications through natural language interactions.
+- Establish scalable patterns for AI application deployment and governance.
+
+**Process Automation & AI Enablement**
+
+- Identify and implement AI-driven automation opportunities across operational and business processes.
+- Design solutions that improve efficiency, reduce manual effort, and enhance user productivity.
+- Create reusable AI frameworks, accelerators, and implementation patterns.
+
+**AI-Enabled Content Creation**
+
+- Develop AI solutions to improve content creation, review, and approval processes.
+- Integrate AI capabilities with existing enterprise content management and review platforms.
+- Implement solutions that accelerate content drafting, review cycles, compliance validation, and approval workflows.
+
+**AI Monitoring & Data Quality**
+
+- Design and develop AI-driven monitoring capabilities for data platforms and pipelines.
+- Build intelligent solutions that proactively detect:
+  
+  - Data quality issues
+  - Data source failures
+  - Pipeline disruptions
+  - Platform performance anomalies
+- Implement monitoring and alerting capabilities across Azure and Databricks environments.
+
+**Required Skills & Experience**
+
+**AI & Generative AI**
+
+- Strong hands-on experience developing and deploying Generative AI solutions in enterprise environments.
+- Experience working with Large Language Models (LLMs), Retrieval Augmented Generation (RAG), AI agents, and conversational AI applications.
+- Experience building production-ready AI applications and APIs.
+
+**Databricks & Data Platforms**
+
+- Experience with Databricks, including:
+  
+  - Databricks Genie Spaces
+  - Unity Catalog
+  - Delta Lake
+  - Lakehouse architecture
+- Strong understanding of enterprise analytics and data platforms.
+
+**Microsoft & Azure Ecosystem**
+
+- Microsoft Copilot integration and extensibility experience.
+- Azure AI Services, Azure OpenAI, Azure Databricks, and related cloud-native services.
+- Experience building conversational experiences within Microsoft Teams and M365 environments.
+
+**Software Engineering & Development**
+
+- Strong proficiency in Python and modern software engineering practices.
+- Experience developing cloud-native applications, APIs, and integration services.
+- Familiarity with AI orchestration frameworks and agent development patterns.
+- Understanding of DevOps, CI/CD, security, and enterprise deployment practices.
+
+**Preferred Qualifications**
+
+- Experience in life sciences, healthcare, pharmaceutical, or regulated industries.
+- Experience implementing enterprise AI governance and responsible AI practices.
+- Knowledge of Microsoft Copilot Studio, LangChain, Semantic Kernel, AutoGen, CrewAI, or similar frameworks.
+- Relevant certifications in Azure, Databricks, AI Engineering, or Generative AI technologies.
+
+Skills tagged by freehire: agentic-ai, ai, ai-enablement, analytics, api, autogen, automation, azure, business-intelligence, ci-cd, cloud, cloud-native, conversational-ai, crewai, data-quality, databricks, delta-lake, devops, generative-ai, lakehouse, langchain, llm, mcp, microsoft-copilot, openai, powerbi, python, rag, semantic-kernel, unity, unity-catalog
