@@ -1,0 +1,257 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Hussain Singapuri",
+    "title": "React JS Developer",
+    "phone": "+91 9561277305",
+    "email": "Hussainsingapuri24@gmail.com",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/hussain-singapuri-18437225a/",
+      "display": "linkedin.com/in/hussain-singapuri-18437225a"
+    },
+    "github": {
+      "url": "https://github.com/huss2003",
+      "display": "github.com/huss2003"
+    },
+    "portfolio": {
+      "url": "https://hussain-singapuri.vercel.app",
+      "display": "hussain-singapuri.vercel.app"
+    },
+    "location": "Pune, India"
+  },
+  "summary": "React JS Developer with 3 years of professional full-stack experience at a US-based medical-device company. Builds responsive, modern UIs in React and Next.js (PageForge on Next.js 16 and React 19, Lumen, Cairnmoor) with JavaScript, TypeScript, HTML and CSS. Integrates REST APIs and third-party services, and designs UI/UX as well as coding it. 30+ shipped projects.",
+  "competencies": [
+    "React 19",
+    "Next.js",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "REST APIs",
+    "Responsive UI",
+    "TypeScript"
+  ],
+  "experience": [
+    {
+      "company": "NeuroNetworks AI Ed",
+      "role": "CTO & Principal Course Architect",
+      "location": "Pune, India",
+      "dates": "2026 - Present",
+      "bullets": [
+        "Built and run the website neuronetwrks.com with a Python static-site generator deployed on Vercel, including programmatic SEO",
+        "Lead technology for an Indian AI and tech education brand (Neuronetworks AI Ed Private Limited) offering programmes for students after Class 10",
+        "Designing Neuromind Practical AI Lab, a browser-based IDE and sandbox with an AI tutor: phased spec, server sizing, engineering team plan and CAPEX/OPEX model",
+        "Architected the curriculum: a 1-year AI Foundation course and five 3-year specialisations (AI/ML Engineering, Software Development, Data Science & AI, Product & UX / AI Design, Cybersecurity)"
+      ]
+    },
+    {
+      "company": "US-based medical-device company",
+      "role": "Full Stack Developer",
+      "location": "Remote",
+      "dates": "Mar 2023 - Sep 2026",
+      "bullets": [
+        "Built and maintained full-stack web applications for the company",
+        "Built several apps, including a CRM",
+        "Built AI agents for internal use",
+        "Performed penetration / security testing on 5+ of the company's mobile apps, all live on the Google Play Store"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PageForge",
+      "url": "https://pageforge-hazel.vercel.app/abm",
+      "tech": "Next.js 16, React 19, Tailwind v4, Sanity, Supabase, Gemini, PostHog, HubSpot",
+      "description": "Next.js and React app that turns an account brief into a branded landing page, integrating CMS, database, analytics and CRM APIs. A deterministic validator flags unsupported numbers and a reviewer signs off claim by claim."
+    },
+    {
+      "name": "Safey Inventory",
+      "url": "https://github.com/huss2003/Safey-QMS",
+      "tech": "TanStack Start, React 19, Tailwind v4, shadcn/ui, TanStack Query",
+      "description": "React 19 traceability and production app with forward and backward batch tracing, FIFO allocation, low-stock alerts and reporting. Uses reusable shadcn/ui components and TanStack Query for server state."
+    },
+    {
+      "name": "Lumen",
+      "url": "https://lumen-release.vercel.app",
+      "tech": "Next.js, TypeScript, GSAP ScrollTrigger, Lenis, Canvas 2D",
+      "description": "Next.js scroll-driven product launch site with pinned sections, a live-drawn canvas lens and a filterable grid, showing modern UI development and interaction design."
+    },
+    {
+      "name": "Cairnmoor",
+      "url": "https://cairnmoor.vercel.app",
+      "tech": "Next.js, TypeScript, GSAP (MorphSVG), Lenis",
+      "description": "Next.js luxury retreat website with dedicated mobile layouts and a reduced-motion version, proving responsive design and accessibility care."
+    },
+    {
+      "name": "Kilnwood Roasters",
+      "url": "https://kilnwood-roasters.vercel.app",
+      "tech": "Next.js, TypeScript, GSAP, Lenis",
+      "description": "Motion-led Next.js editorial site with a pinned horizontal product lineup, a scroll-driven process timeline and scroll-velocity marquees."
+    },
+    {
+      "name": "Personal portfolio with full-stack backend",
+      "url": "https://hussain-singapuri.vercel.app",
+      "tech": "Vanilla ES modules, GSAP, Node 20, Postgres (Neon), Stripe, Resend",
+      "description": "Plain JavaScript (ES modules) front end with REST API integration for a rate-limited enquiry form, booking and Stripe sessions. Server-rendered SEO with JSON-LD and 10 end-to-end API tests."
+    },
+    {
+      "name": "More projects",
+      "url": "https://github.com/huss2003",
+      "description": "nanoserve, multi-agent-research-crew, site-to-agent, ai-lead-receptionist, lead-intel-engine, contractor-ai-ops-dashboard, Orbital Surplus, Nightjar & Co., Lowlight Video Club, TripSync"
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor's, Computer Science (AI & Machine Learning)",
+      "org": "Vishwakarma Institute of Technology, Pune",
+      "year": "2022-2025"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Claude Code in Action",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Code 101",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Developer - Foundations (CCDV-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Orchestrator - Foundations (CCAO-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Generative AI Leader",
+      "org": "Google Cloud",
+      "year": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front end",
+      "items": [
+        "Next.js",
+        "React 19",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TanStack Start / Query",
+        "responsive and accessible UI",
+        "GSAP",
+        "Lenis",
+        "three.js",
+        "WebGL",
+        "Canvas 2D",
+        "motion and interaction design"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Python",
+        "SQL",
+        "Dart"
+      ]
+    },
+    {
+      "category": "Back end",
+      "items": [
+        "REST APIs",
+        "Node.js",
+        "FastAPI",
+        "asyncio",
+        "webhooks (HMAC signing)",
+        "Stripe Checkout and refunds",
+        "auth (scrypt, sessions, throttling)",
+        "Resend"
+      ]
+    },
+    {
+      "category": "Design",
+      "items": [
+        "UI/UX design",
+        "design systems",
+        "technical SEO",
+        "JSON-LD structured data",
+        "programmatic SEO"
+      ]
+    },
+    {
+      "category": "Data",
+      "items": [
+        "PostgreSQL",
+        "Neon",
+        "Supabase (RLS, Edge Functions)",
+        "PGlite",
+        "pgvector",
+        "SQLite",
+        "Sanity CMS"
+      ]
+    },
+    {
+      "category": "Automation & integrations",
+      "items": [
+        "CRM integrations (HubSpot)",
+        "PostHog",
+        "Twilio SMS",
+        "workflow automation",
+        "web crawling / scraping"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "items": [
+        "Vercel",
+        "Docker",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "category": "Security",
+      "items": [
+        "CSP and security headers",
+        "input validation",
+        "SSRF hardening",
+        "mobile app penetration testing"
+      ]
+    },
+    {
+      "category": "AI / LLM",
+      "items": [
+        "Claude Code and AI coding agents",
+        "AI agents",
+        "multi-agent orchestration",
+        "tool use / function calling",
+        "RAG (hybrid BM25 + vector, RRF)",
+        "evals",
+        "prompt-injection defence",
+        "LLM inference serving",
+        "Claude API",
+        "Gemini API"
+      ]
+    },
+    {
+      "category": "Mobile",
+      "items": [
+        "Flutter",
+        "Riverpod",
+        "Firebase"
+      ]
+    }
+  ]
+}

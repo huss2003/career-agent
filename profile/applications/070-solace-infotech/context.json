@@ -1,0 +1,16 @@
+{
+  "company": "Solace Infotech",
+  "role": "React JS Developer",
+  "score": "4.0/5",
+  "report": "profile/reports/070-solace-infotech-2026-10-31.md",
+  "files": {
+    "ats_cv": "profile/output/cv-hussain-singapuri-070-solace-infotech-2026-10-31.pdf",
+    "designed_cv": "profile/output/designed/Hussain_Singapuri_Resume_070-solace-infotech.pdf"
+  },
+  "posting_url": "https://to.indeed.com/aawrw6r9rc4j",
+  "apply_url": "https://to.indeed.com/aawrw6r9rc4j",
+  "ats_score": 100,
+  "fact_check": "pass",
+  "keyword_coverage": "24%",
+  "mode": "lean"
+}
