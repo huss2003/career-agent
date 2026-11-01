@@ -1,11 +1,9 @@
-# Full-Stack AI Engineer - AI Ecommerce Shopping Assistance —  CLOUDESIGN TECHNOLOGY
+# AI Engineer - AI Ecommerce Shopping Assistance - Python & Typescript —  CLOUDESIGN TECHNOLOGY
 
 Posted: 2026-10-26
 Location: Pune, Maharashtra, India · Work mode: not stated
 Apply (source): https://cloudesign.keka.com/careers/jobdetails/145615?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-ai-engineer-ai-ecommerce-shopping-assistance-cloudesign-technology-ct6rhga2
-
-# Full-Stack AI Engineer
 
 **Focus: Agentic AI, AI Shopping Assistants & Virtual Try-On**
 
