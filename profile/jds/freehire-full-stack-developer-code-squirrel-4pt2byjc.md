@@ -2,7 +2,7 @@
 
 Posted: 2026-10-31
 Location: Central Plaza, Australia · Work mode: remote
-Apply (source): https://au.whatjobs.com/pub_api__cpl__130260271__7084?geoID=9312&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me
+Apply (source): https://au.whatjobs.com/pub_api__cpl__130260271__7084?utm_campaign=publisher&utm_medium=api&geoID=9312&utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-developer-code-squirrel-4pt2byjc
 
 We're a Brisbane-based software development and AI consulting agency, and we love what we do. Since 2019 we've been building web, mobile, cloud and integration projects for clients in healthcare, legal, construction and professional services, plus a few products of our own. There are around 30 of us across Australia and the Philippines.

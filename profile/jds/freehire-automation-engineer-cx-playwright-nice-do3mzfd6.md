@@ -1,6 +1,6 @@
 # Automation Engineer, CX (Playwright) — Nice
 
-Posted: 2026-10-28
+Posted: 2026-11-01
 Location: India - Pune · Work mode: hybrid
 Apply (source): https://boards.eu.greenhouse.io/nice/jobs/5018656101?gh_jid=5018656101&utm_source=freehire.me
 freehire page: https://freehire.me/jobs/automation-engineer-cx-playwright-nice-do3mzfd6

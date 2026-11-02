@@ -1,6 +1,6 @@
-# freehire shortlist — 2026-11-01
+# freehire shortlist — 2026-11-02
 
-1080 jobs seen in the last 7 days · 1040 new · 120 sent for full evaluation.
+1016 jobs seen in the last 7 days · 992 new · 120 sent for full evaluation.
 
 | Score | Role | Company | Where | Why | Link | Queued |
 |---|---|---|---|---|---|---|
