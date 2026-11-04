@@ -1,9 +1,10 @@
-# freehire shortlist — 2026-11-03
+# freehire shortlist — 2026-11-04
 
-956 jobs seen in the last 7 days · 931 new · 120 sent for full evaluation.
+956 jobs seen in the last 7 days · 923 new · 120 sent for full evaluation.
 
 | Score | Role | Company | Where | Why | Link | Queued |
 |---|---|---|---|---|---|---|
+| 19 | AI Engineer | Dentsu Webchutney | Pune | Pune; AI tools: agentic-ai, conversational-ai, generative-ai, langchain, llamaindex; JD mentions llm, agentic, prompt engineering; your stack: docker, fastapi, python; title match | [open](https://freehire.me/jobs/ai-engineer-dentsu-webchutney-2d5gbry7) | yes |
 | 19 | Software Engineer II | Pattern | Pune, India | Pune; AI tools: claude-code, llm, mcp, openai; JD mentions claude code, coding agent, llm; your stack: docker, postgresql, python, typescript; title match | [open](https://jobs.lever.co/pattern/323c0107-c3df-465c-829d-c24c9b0c7524) | yes |
 | 19 | AI Engineer | Dentsu | DGS India - Pune - Indiqube Orchid | Pune; AI tools: agentic-ai, conversational-ai, generative-ai, langchain, llamaindex; JD mentions llm, agentic, prompt engineering; your stack: docker, fastapi, python; title match | [open](https://freehire.me/jobs/ai-engineer-dentsu-lmnvisaa) | yes |
 | 19 | Full Stack Developer - React.js/Node.js | Indexnine Technologies | Pune | Pune; AI tools: agentic-ai, crewai, github-copilot, mcp, openai; JD mentions cursor, copilot, agentic; your stack: nextjs, nodejs, postgresql, react; title match | [open](https://freehire.me/jobs/full-stack-developer-react-js-node-js-indexnine-technologies-mj3ljki2) | yes |
@@ -11,7 +12,6 @@
 | 19 | Software Developer in Test | Onit, Inc. | Pune, Maharashtra | Pune; AI tools: agentic-ai, github-copilot, llm, mcp; JD mentions copilot, ai tools, llm; your stack: docker, javascript, python, typescript; title match | [open](https://jobs.lever.co/onit/e012d399-665e-4713-a9c6-17a9a58f39cc) | yes |
 | 19 | AI Engineer | Synechron | Pune - Hinjewadi (Ascendas) | Pune; AI tools: agentic-ai, generative-ai, llm, mcp, openai; JD mentions llm, agentic, ai agents; your stack: docker, javascript, python, typescript; title match | [open](https://freehire.me/jobs/ai-engineer-synechron-pc3hcyz7) | yes |
 | 19 | AI Engineer – Python, LLM/GenAI, RAG, AWS & AI Agents | Synechron | Pune - Hinjewadi (Ascendas) | Pune; AI tools: agentic-ai, ai-enablement, generative-ai, llm, mcp; JD mentions llm, agentic, ai agents; your stack: docker, javascript, python, typescript; title match | [open](https://freehire.me/jobs/ai-engineer-python-llm-genai-rag-aws-ai-agents-synechron-cfstphkx) | yes |
-| 19 | Full-Stack PHP Engineer | SonataOne | Pune, Maharashtra, India | Pune; AI tools: generative-ai, github-copilot, llm; JD mentions cursor, copilot, ai-assisted; your stack: docker, javascript, postgresql, python; title match | [open](https://freehire.me/jobs/full-stack-php-engineer-sonataone-ea5h65xh) | yes |
 | 19 | AI Engineer - LLM/RAG | Prismforce Pvt Ltd | Pune | Pune; AI tools: agentic-ai, generative-ai, langchain, llamaindex, llm; JD mentions llm, ai agents, prompt engineering; your stack: docker, fastapi, python; title match | [open](https://freehire.me/jobs/ai-engineer-llm-rag-prismforce-pvt-ltd-i7dpg6g6) | yes |
 | 19 | Agentic AI Engineer | Glauben Technologies | Hyderabad; Pune; Bangalore | Pune; AI tools: agentic-ai, crewai, generative-ai, langchain, llm; JD mentions llm, agentic, ai agents; your stack: fastapi, postgresql, python; title match | [open](https://freehire.me/jobs/agentic-ai-engineer-glauben-technologies-gve2fbbx) | yes |
 | 19 | Full Stack Developer - Generative AI | Orcapod Consulting Services | Pune | Pune; AI tools: agentic-ai, generative-ai, llm, mcp, openai; JD mentions copilot, llm, agentic; your stack: nodejs, python, react, typescript; title match | [open](https://freehire.me/jobs/full-stack-developer-generative-ai-orcapod-consulting-services-ya6c6tly) | yes |
