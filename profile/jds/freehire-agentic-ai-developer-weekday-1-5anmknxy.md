@@ -1,0 +1,63 @@
+# Agentic AI Developer — weekday-1
+
+Posted: 2026-11-04
+Location: India · Work mode: remote
+Apply (source): https://apply.workable.com/j/E4A0C3FD74?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/agentic-ai-developer-weekday-1-5anmknxy
+
+**This role is for one of Weekday’s clients**
+
+Min Experience: 3+ years  
+Location: India  
+JobType: full-time
+
+We are looking for an experienced **Agentic AI Developer / Engineer** to design, develop, and deploy intelligent, autonomous AI agents capable of reasoning, decision-making, and automating complex business workflows. The ideal candidate should have strong hands-on experience in Python, Large Language Models (LLMs), and LangChain, along with a solid understanding of agent-based architectures and AI-driven automation.
+
+You will be responsible for building scalable AI solutions that leverage LLMs, multi-agent systems, Retrieval-Augmented Generation (RAG), and advanced orchestration frameworks to solve real-world business problems. The candidate should be comfortable working with emerging AI technologies and translating business requirements into reliable, production-ready AI applications.
+
+**Requirements**
+
+## Key Responsibilities
+
+- Design, develop, and deploy autonomous AI agents capable of performing complex tasks, reasoning, planning, and making decisions with minimal human intervention.
+- Build LLM-powered applications using Python, LangChain, and other relevant AI frameworks.
+- Develop agentic workflows using frameworks such as LangGraph, CrewAI, and similar orchestration tools.
+- Implement Retrieval-Augmented Generation (RAG) pipelines to enable AI systems to retrieve, process, and generate responses using enterprise knowledge bases.
+- Design and implement multi-agent systems where multiple AI agents collaborate to accomplish complex tasks.
+- Integrate LLMs with external APIs, databases, enterprise applications, and third-party services.
+- Work with OpenAI and Azure OpenAI models to develop intelligent AI-powered solutions.
+- Explore and implement Model Context Protocol (MCP) for connecting AI agents with external tools, data sources, and services.
+- Optimize prompts, model performance, response accuracy, latency, and token consumption.
+- Develop scalable backend services and REST APIs to support AI-powered applications.
+- Evaluate, test, debug, and continuously improve AI agent performance, reliability, and security.
+- Collaborate with product managers, software engineers, and cross-functional teams to identify opportunities for AI-driven automation.
+
+## Must-Have Skills
+
+- Strong programming experience in **Python** with hands-on expertise in building backend applications and AI solutions.
+- Solid understanding of **Large Language Models (LLMs)**, their capabilities, limitations, and practical applications.
+- Hands-on experience with **LangChain** for developing LLM-powered applications, chains, tools, and AI workflows.
+- Understanding of prompt engineering, function calling, embeddings, and context management.
+- Experience building and integrating AI-powered applications using APIs and external data sources.
+- Strong problem-solving and analytical skills with the ability to build scalable and maintainable solutions.
+
+## Good-to-Have Skills
+
+- Hands-on experience with **OpenAI and Azure OpenAI** APIs and models.
+- Familiarity with **MCP (Model Context Protocol)** and AI tool integrations.
+- Experience with LangGraph, CrewAI, AutoGen, or similar agent orchestration frameworks.
+- Knowledge of RAG architectures, vector databases such as Pinecone, Weaviate, ChromaDB, or FAISS.
+- Exposure to multi-agent systems, autonomous workflows, and AI-based decision-making.
+- Familiarity with cloud platforms such as AWS, Azure, or Google Cloud.
+- Understanding of Docker, Kubernetes, CI/CD pipelines, and production deployment practices.
+
+## Experience & Qualifications
+
+- 3–6 years of overall experience in software development, AI engineering, or backend development.
+- Demonstrable hands-on experience developing LLM-based applications and AI-powered solutions.
+- Strong understanding of modern AI architectures and emerging agentic AI technologies.
+- A bachelor's degree in Computer Science, Engineering, or a related technical discipline is preferred.
+
+**Ideal Candidate:** Someone passionate about Generative AI and autonomous systems, with the ability to build intelligent AI agents that go beyond basic chatbots and deliver measurable business value through reasoning, automation, and multi-agent collaboration.
+
+Skills tagged by freehire: agentic-ai, ai, api, autogen, automation, aws, azure, chromadb, ci-cd, cloud, crewai, docker, embeddings, faiss, gcp, generative-ai, kubernetes, langchain, langgraph, llm, mcp, openai, pinecone, prompt-engineering, python, rag, rest, vector-databases, weaviate
