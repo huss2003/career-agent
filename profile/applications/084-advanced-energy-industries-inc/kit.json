@@ -1,0 +1,71 @@
+{
+  "company": "Advanced Energy Industries, Inc.",
+  "role": "Agentic AI Engineer",
+  "score": "4.3/5",
+  "apply_url": "https://to.indeed.com/aa7jbvgpx7zp",
+  "fit_line": "3 years of professional engineering plus public multi-agent, RAG and eval projects in Python map closely to this Pune on-site Agentic AI Engineer role.",
+  "ai_in_job": "\"production-grade agentic systems powered by Large Language Models (LLMs), integrated with enterprise tools, APIs, and data sources\"",
+  "screening_answers": [
+    {
+      "question": "What is your notice period / when can you start?",
+      "answer": "Immediate. My previous role ended in Sep 2026 and I am based in Pune, so on-site work is fine.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Describe your Python and LLM API experience.",
+      "answer": "3 years of professional software development, with Python as the main language of my agent work. I built multi-agent-research-crew (asyncio DAG orchestrator on Claude with retries, timeouts, token budgets and citation checking), nanoserve (FastAPI, PyTorch) and internal AI agents at a US-based medical-device company. I also use the Gemini API.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with MCP (Model Context Protocol)?",
+      "answer": "I have hands-on experience with tool use / function calling and Claude Code. I have not listed MCP-specific work on my CV, so I would describe it accurately in conversation. [Add any real MCP experience here.]",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "How have you built RAG and evaluated agents?",
+      "answer": "In site-to-agent I built a crawler with hybrid BM25 + vector retrieval (pgvector) fused with RRF, cited answers, SSRF-hardened fetching and an eval harness. In PageForge a deterministic validator flags unsupported numbers before human review. In multi-agent-research-crew a verifier checks claims against citations.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Which cloud platforms have you used, and what are your salary expectations?",
+      "answer": "I deploy on Vercel, Supabase and Neon with Docker and GitHub Actions. I hold the Google Cloud Generative AI Leader certification but have not listed hands-on Azure, AWS or GCP deployment. [Confirm any cloud experience and add your salary expectation here.]",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm any real MCP experience before answering the MCP question",
+    "Confirm any hands-on Azure, AWS or GCP experience",
+    "Decide your salary expectation"
+  ],
+  "knockout_warnings": [
+    "On-site in Pune, which is fine for him",
+    "The JD says 'MCP' is required and it is not on his CV; answer honestly",
+    "Overtime, weekends and travel may be required"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the Agentic AI Engineer role in Pune. I have 3 years of professional software development experience, including building internal AI agents and a CRM at a US-based medical-device company. I use Claude Code daily and work mainly in Python.",
+      "Your role centres on production agentic systems with RAG, memory, multi-agent orchestration and guardrails. My multi-agent-research-crew runs planner, researcher, writer and verifier agents on a custom DAG orchestrator with retries, timeouts, token budgets and claim-level citation checking. My site-to-agent project combines hybrid BM25 + vector retrieval (pgvector), cited answers, SSRF-hardened fetching and an eval harness. In PageForge, a deterministic validator flags unsupported numbers before a reviewer signs off.",
+      "I am based in Pune, available immediately and comfortable working on-site. I would welcome the chance to walk through these projects, and I will be honest about where I am still growing, such as MCP and cloud deployment. Portfolio: hussain-singapuri.vercel.app.",
+      "Thank you for your time."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Pune-based Agentic AI Engineer, 3 yrs professional dev. Built multi-agent orchestrator, hybrid RAG with evals, internal AI agents. Python-first, on-site OK, immediate joiner. hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: Agentic AI Engineer (Pune) - Hussain Singapuri",
+    "body": "Dear Hiring Team,\n\nI would like to apply for the Agentic AI Engineer role in Pune. I have 3 years of professional software development experience, including internal AI agents at a US-based medical-device company. My public projects cover multi-agent orchestration (multi-agent-research-crew), hybrid RAG with an eval harness (site-to-agent) and validator-based guardrails (PageForge), mostly in Python.\n\nI am based in Pune and available immediately. My CV is attached and my portfolio is at hussain-singapuri.vercel.app.\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}

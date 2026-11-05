@@ -1,0 +1,16 @@
+{
+  "company": "Advanced Energy Industries, Inc.",
+  "role": "Agentic AI Engineer",
+  "score": "4.3/5",
+  "report": "profile/reports/084-advanced-energy-industries-inc-2026-11-05.md",
+  "files": {
+    "ats_cv": "profile/output/cv-hussain-singapuri-084-advanced-energy-industries-inc-2026-11-05.pdf",
+    "designed_cv": "profile/output/designed/Hussain_Singapuri_Resume_084-advanced-energy-industries-inc.pdf"
+  },
+  "posting_url": "https://to.indeed.com/aa7jbvgpx7zp",
+  "apply_url": "https://to.indeed.com/aa7jbvgpx7zp",
+  "ats_score": 100,
+  "fact_check": "pass",
+  "keyword_coverage": "30%",
+  "mode": "lean"
+}

@@ -49,3 +49,8 @@ date_utc	time	stage	label	usd	input	cache_read	cache_write	output
 2026-11-04	23:54:22	eval	 — jds/inbox-2026-11-04-20261104-indeed-dentsu-merkle-sap-ai-core-ai-agent-devel	0.00834	2	10533	1266	412
 2026-11-04	23:54:23	eval	 — jds/inbox-2026-11-04-20261104-indeed-dentsu-merkle-ai-engineer.md	0.01135	2	10533	2400	429
 2026-11-04	23:54:53	eval	 — jds/inbox-2026-11-04-20261104-indeed-gnani-innovations-full-stack-ai-engineer	0.06766	2	10533	1221	6355
+2026-11-05	23:54:32	eval	 — jds/inbox-2026-11-05-20261105-indeed-advanced-energy-agentic-ai-engineer.md	0.09928	2	0	13153	6639
+2026-11-05	23:54:52	repair	 — jds/inbox-2026-11-05-20261105-indeed-advanced-energy-agentic-ai-engineer.md	0.03908	2	10533	3192	3004
+2026-11-05	23:55:00	eval	 — jds/inbox-2026-11-05-20261105-indeed-coupa-ai-engineer.md	0.01087	2	10533	3352	143
+2026-11-05	23:55:02	eval	 — jds/inbox-2026-11-05-20261105-indeed-nitrous-design-webflow-developer.md	0.00928	2	10533	1382	477
+2026-11-05	23:55:05	eval	 — jds/inbox-2026-11-05-20261105-indeed-swastika-web-technology-ecommerce-ai-res	0.01508	2	10533	2542	767
