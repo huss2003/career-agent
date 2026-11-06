@@ -1,0 +1,2 @@
+num	date	company	role	status	score	pdf	report	notes	url
+090	2026-11-06	Swastika Web Technology	AI Shopify Developer	Evaluated	3.8/5	❌	—	Strong LLM, agent, FastAPI and React match, but Shopify Admin/Storefront APIs and Liquid are required and he has no direct Shopify experience. LangChain is also missing.	https://to.indeed.com/aal7bhf4sggz

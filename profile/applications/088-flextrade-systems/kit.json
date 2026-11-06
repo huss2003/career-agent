@@ -1,0 +1,68 @@
+{
+  "company": "FlexTrade Systems",
+  "role": "Software Developer - AI",
+  "score": "4.2/5",
+  "apply_url": "https://to.indeed.com/aax622t2k96p",
+  "fit_line": "Pune-based full stack developer with 3 years of professional experience, React and Python, and hands-on LLM application work.",
+  "ai_in_job": "Bonus only: 'Experience working with AI or LLM-based applications'; MCP servers and context engineering are listed as bonus points.",
+  "screening_answers": [
+    {
+      "question": "Describe your full-stack experience.",
+      "answer": "3 years as a Full Stack Developer at a US-based medical-device company, building and maintaining web applications, a CRM and internal AI agents. Outside work I ship full-stack projects with React 19 / Next.js, Python (FastAPI) and Node.js backends on Postgres, including Stripe payments, auth and end-to-end API tests.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with a major cloud platform?",
+      "answer": "I deploy on Vercel and use Supabase and Neon Postgres, and I hold the Google Cloud Generative AI Leader certification. I have not run production workloads on AWS, Azure or GCP directly, but I learn tools quickly and am ready to ramp up.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "Have you worked with LLM or AI applications?",
+      "answer": "Yes. I built internal AI agents at the medical-device company and, as projects, site-to-agent (hybrid retrieval with an eval harness), multi-agent-research-crew (DAG orchestration with citation checking) and nanoserve, an inference engine with 3.1x throughput in benchmarks. I use Claude Code daily.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your notice period?",
+      "answer": "Immediate. My previous role ended in Sep 2026, and I am based in Pune.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "I'm targeting at least INR 30,000 per month and I'm flexible on structure. What matters is the total package and the work. Happy to discuss once I understand the role scope.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm the work mode (on-site or hybrid) and whether Pune office attendance suits you",
+    "State any real cloud platform experience you have beyond the CV"
+  ],
+  "knockout_warnings": [
+    "Cloud platform exposure (AWS, Azure or GCP) is requested; he has no hands-on cloud deployment listed, only the Google Cloud Generative AI Leader certification",
+    "Golang is mentioned as an option; he works in Python"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I'm applying for the Software Developer - AI role at FlexTrade Systems. I'm based in Pune and bring 3 years of professional full-stack experience at a US-based medical-device company, where I built and maintained web applications, a CRM and internal AI agents.",
+      "On the stack you list: I build front ends in React 19 and Next.js and back ends in Python (FastAPI) and Node.js, with Postgres, Docker and GitHub Actions. My portfolio backend has Stripe bookings, signed webhooks, scrypt auth and 10 end-to-end API tests, and Orbital Surplus has 9, so testable, maintainable code is a habit.",
+      "For your AI bonus points, I built site-to-agent (hybrid retrieval with an eval harness) and multi-agent-research-crew, and I hold the Claude Certified Developer - Foundations (CCDV-F) certification. I have not run production cloud workloads on AWS, Azure or GCP, but I pick up tools fast. My work is at hussain-singapuri.vercel.app and github.com/huss2003. I can start immediately."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Pune-based full stack dev, 3 yrs at a US-based medical-device company. React, Python/FastAPI, Node, Docker; built LLM apps and agents. 30+ projects at github.com/huss2003. Immediate joiner.",
+  "email": {
+    "subject": "Application: Software Developer - AI (Pune) - Hussain Singapuri",
+    "body": "Hello,\n\nI'm applying for the Software Developer - AI role. I'm in Pune with 3 years of full-stack experience at a US-based medical-device company (web apps, a CRM, internal AI agents), working in React, Python and Node.js with Postgres and Docker. I've also built LLM apps such as site-to-agent and multi-agent-research-crew. Portfolio: hussain-singapuri.vercel.app. CV attached; I can join immediately.\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}
