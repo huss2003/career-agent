@@ -1,0 +1,10 @@
+# AI Engineer — REIS Staffing & HR Services Pvt Ltd
+
+Posted: 2026-11-06
+Location: Bangalore, Karnataka; Hyderabad, Telangana; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/ai-engineer/reis-staffing-hr-services-pvt-ltd/20029895?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/ai-engineer-reis-staffing-hr-services-pvt-ltd-ghu7dh36
+
+We are seeking an experienced AI Engineer to join our dynamic team. The ideal candidate will have a strong background in artificial intelligence, particularly in generative AI (GenAI) and agentic AI. As an AI Engineer, you will be responsible for developing and implementing advanced AI models and algorithms that enhance our products and services. You will work closely with cross-functional teams to design and optimize AI solutions that meet business needs. Key Responsibilities: - Design, develop, and deploy AI models and algorithms using Python and other relevant technologies. - Collaborate with data scientists and software engineers to integrate AI capabilities into existing systems. - Conduct research on the latest advancements in AI and machine learning to ensure our solutions remain cutting-edge. - Optimize AI models for performance and scalability, ensuring they meet the required standards. - Create and maintain documentation for AI processes and models. - Participate in code reviews and contribute to team knowledge sharing. Required Skills: - Proficiency in Python programming. - Strong understanding of generative AI and agentic AI concepts. - Experience with prompt engineering and large language models (LLMs). - Familiarity with machine learning frameworks and libraries. - Excellent problem-solving skills and the ability to work in a collaborative environment. - Strong communication skills to convey complex AI concepts to non-technical stakeholders. If you are passionate about AI and eager to work on innovative projects, we encourage you to apply and join our team in Karnataka, Maharashtra, or Andhra Pradesh.
+
+Skills tagged by freehire: agentic-ai, ai, generative-ai, llm, machine-learning, prompt-engineering, python
