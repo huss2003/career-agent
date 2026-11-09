@@ -1,0 +1,68 @@
+{
+  "company": "Stark digital media services pvt. ltd.",
+  "role": "AI Engineer (Agentic & Generative AI)",
+  "score": "4.4/5",
+  "apply_url": "https://to.indeed.com/aawtmvvy9hmb",
+  "fit_line": "Pune-based applied AI engineer with agent and RAG projects built end to end in Python and FastAPI, and 3 years of professional full-stack experience.",
+  "ai_in_job": "\"Use AI-assisted development tools to ship faster and share good practices with the team\"",
+  "screening_answers": [
+    {
+      "question": "Describe a RAG system or agent you built end to end.",
+      "answer": "site-to-agent turns any website into a grounded chat agent: crawler, hybrid BM25 + vector retrieval fused with RRF on pgvector, cited answers, SSRF-hardened fetching and an eval harness for answer quality. multi-agent-research-crew adds planner, researcher, writer and verifier agents on a custom DAG orchestrator with retries, timeouts, token budgets and claim-level citation checks.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "How do you control hallucinations and add guardrails?",
+      "answer": "Ground answers in retrieved sources and require citations. In PageForge, AI drafts only from approved facts, a deterministic validator flags unsupported numbers, and a reviewer signs off claim by claim. contractor-ai-ops-dashboard uses number-checked AI summaries. I also add evals and prompt-injection defences.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with voice AI, WhatsApp agents or OCR?",
+      "answer": "Not in production. I built ai-lead-receptionist, a Claude agent over Twilio SMS and web chat that qualifies leads and books jobs, so telephony, conversational flows and webhooks are familiar. I have not built STT/TTS, WhatsApp or OCR pipelines yet and would ramp up on them quickly.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your notice period / when can you start?",
+      "answer": "Immediate. My previous role ended in Sep 2026, and I am based in Pune, so I can work on-site.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "I am targeting INR 30,000 per month or more, and I am flexible on structure. What matters to me is the total package and the work. I would like to discuss the range for this role.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm salary expectation before submitting.",
+    "Decide how to frame the voice, WhatsApp and OCR gap in an interview."
+  ],
+  "knockout_warnings": [
+    "Voice AI, WhatsApp and OCR experience is not on the CV; do not claim it.",
+    "Salary range is not stated in the posting."
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the AI Engineer (Agentic & Generative AI) role. I am based in Pune and available immediately. I have 3 years of professional full-stack experience at a US-based medical-device company, where I built AI agents for internal use, a CRM and other apps.",
+      "Your posting asks for agents and RAG built end to end. site-to-agent is a grounded chat agent with hybrid BM25 + vector retrieval on pgvector, cited answers and an eval harness. multi-agent-research-crew runs tool-calling agents on a custom DAG orchestrator with retries, token budgets and claim-level citation checks. Both are in Python, with FastAPI and Claude or Gemini APIs elsewhere in my work. I use Claude Code daily and hold CCDV-F and CCAO-F.",
+      "I have not yet built voice, WhatsApp or OCR pipelines. ai-lead-receptionist (Twilio SMS and web chat, Claude, Supabase) covers the telephony and webhook side, and I would learn the rest quickly. My portfolio is at hussain-singapuri.vercel.app. I would welcome a conversation."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "AI engineer in Pune, 3 yrs full-stack. Built RAG (pgvector, evals) and multi-agent systems in Python/FastAPI, uses Claude Code daily. Immediate joiner. Portfolio: hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: AI Engineer (Agentic & Generative AI) - Hussain Singapuri",
+    "body": "Hello,\n\nI am applying for the AI Engineer (Agentic & Generative AI) role in Pune. I have 3 years of full-stack experience at a US-based medical-device company, including internal AI agents. My projects include site-to-agent (RAG on pgvector with an eval harness) and multi-agent-research-crew (tool-calling agents on a custom orchestrator), both in Python. I can join immediately.\n\nPortfolio: hussain-singapuri.vercel.app\nGitHub: github.com/huss2003\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}
