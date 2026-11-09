@@ -1,6 +1,6 @@
-# Job agent run — 2026-11-08 23:54 UTC
+# Job agent run — 2026-11-09 07:11 UTC
 
-**0 of 20** jobs scored 4+ with a passing CV today · this run: 4 evaluated, 0 qualified · run cost $0.07 · today $0.07 of $5 · stopped: no more candidates
+**0 of 20** jobs scored 4+ with a passing CV today · this run: 0 evaluated, 0 qualified · run cost $0.00 · today $0.00 of $5 · stopped: morning deadline
 
 | Score | Role — Company | Where | Apply | Kit | ATS |
 |---|---|---|---|---|---|
