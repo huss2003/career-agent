@@ -73,3 +73,10 @@ date_utc	time	stage	label	usd	input	cache_read	cache_write	output
 2026-11-09	23:53:59	eval	 — jds/inbox-2026-11-09-20261109-indeed-stark-digital-media-ai-engineer-agentic-	0.07227	2	10533	1203	6821
 2026-11-10	23:53:10	eval	 — jds/inbox-2026-11-10-20261110-indeed-assistiya-digital-solutions-developer.md	0.03162	2	0	11997	162
 2026-11-10	23:53:20	eval	 — jds/inbox-2026-11-10-20261110-indeed-formura-full-stack-ai-engineer-3d-ecomme	0.01284	2	10533	1648	766
+2026-11-11	23:54:35	eval	 — jds/inbox-2026-11-11-20261111-indeed-bmw-techworks-ai-engineer-agentic-contex	0.03141	2	0	11872	173
+2026-11-11	23:54:41	eval	 — jds/inbox-2026-11-11-20261111-indeed-coupa-ai-engineer-11967.md	0.00990	2	10533	2917	155
+2026-11-11	23:54:43	eval	 — jds/inbox-2026-11-11-20261111-indeed-opmobility-webapp-back-end-developer.md	0.00958	2	10533	1563	462
+2026-11-11	23:55:15	eval	 — jds/inbox-2026-11-11-20261111-indeed-flynaut-ai-native-full-stack-developer.m	0.06842	2	10533	1760	6296
+2026-11-11	23:55:19	eval	 — jds/inbox-2026-11-11-20261111-indeed-puma-software-engineer-i-full-stack.md	0.06741	2	10533	2424	6029
+2026-11-11	23:55:34	repair	 — jds/inbox-2026-11-11-20261111-indeed-flynaut-ai-native-full-stack-developer.m	0.03930	2	10533	3230	3017
+2026-11-11	23:55:36	repair	 — jds/inbox-2026-11-11-20261111-indeed-puma-software-engineer-i-full-stack.md	0.03548	2	10533	3188	2645

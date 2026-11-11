@@ -1,0 +1,16 @@
+{
+  "company": "PUMA",
+  "role": "Software Engineer I (Full Stack)",
+  "score": "4.1/5",
+  "report": "profile/reports/111-puma-2026-11-11.md",
+  "files": {
+    "ats_cv": "profile/output/cv-hussain-singapuri-111-puma-2026-11-11.pdf",
+    "designed_cv": "profile/output/designed/Hussain_Singapuri_Resume_111-puma.pdf"
+  },
+  "posting_url": "https://to.indeed.com/aafbmx2yzw8s",
+  "apply_url": "https://to.indeed.com/aafbmx2yzw8s",
+  "ats_score": 100,
+  "fact_check": "pass",
+  "keyword_coverage": "60%",
+  "mode": "lean"
+}

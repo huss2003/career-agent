@@ -1,0 +1,70 @@
+{
+  "company": "Flynaut",
+  "role": "AI-Native Full-Stack Developer (Claude + Emergent)",
+  "score": "4.5/5",
+  "apply_url": "https://to.indeed.com/aathjk44dbpy",
+  "fit_line": "3 years of full-stack work plus daily Claude Code use, certified by Anthropic, and based in Pune where this role is on-site or hybrid.",
+  "ai_in_job": "\"Claude and Emergent are core to how we build, ship, and run operations.\"",
+  "screening_answers": [
+    {
+      "question": "What have you shipped with Claude Code or other AI coding tools?",
+      "answer": "Claude Code is part of his daily workflow. Examples: PageForge (Next.js, AI drafts only from approved facts, with a validator), multi-agent-research-crew (Claude agents on a custom orchestrator), ai-lead-receptionist (Claude with Twilio and Supabase), and a full-stack portfolio backend with Stripe, Postgres and 10 end-to-end API tests. Links are on hussain-singapuri.vercel.app.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "How do you make sure AI-generated code is correct and secure?",
+      "answer": "By reviewing it critically and testing it: end-to-end API tests (10 on his portfolio backend, 9 on Orbital Surplus), input validation, CSP and SSRF hardening. His security background includes penetration testing 5+ live Google Play apps. PageForge adds a deterministic validator that flags unsupported claims.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with AWS or React Native?",
+      "answer": "Not listed on his CV. His cloud and deployment work is on Vercel, Docker, GitHub Actions and Supabase, and his mobile work is Flutter with Firebase, with 5 apps live on Google Play. He is comfortable picking up AWS and React Native on the job.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your notice period?",
+      "answer": "Immediate. His previous role ended in Sep 2026, and he is based in Pune and available for on-site or hybrid work.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "He is targeting INR 30,000 per month or more and is flexible on structure. The posted range of ₹382,000 to ₹1,650,000 per year is workable, and he would like to discuss the total package and the work.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm whether he has tried Emergent or similar tools before claiming it",
+    "Confirm any AWS exposure before answering the AWS question",
+    "Confirm comfort with US-client communication hours"
+  ],
+  "knockout_warnings": [
+    "Role is on-site or hybrid in Pune, which matches his location",
+    "Posting prefers AWS and React Native; his cloud and mobile work is on Vercel, Docker and Flutter",
+    "Posting names Emergent, which is not on his CV"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "Flynaut's line, \"You will not be a developer who occasionally uses AI,\" describes how I already work. I am a Pune-based developer with 3 years of full-stack experience at a US-based medical-device company, and I use Claude Code every day. My certifications are Claude Code in Action, Claude Code 101, Claude Certified Developer - Foundations (CCDV-F) and Claude Certified Orchestrator - Foundations (CCAO-F).",
+      "At that company I built full-stack web apps, internal AI agents and a CRM, and I penetration-tested 5+ live Google Play apps. That experience means I review AI-generated code critically. My projects show the same habits: PageForge pairs AI drafting with a validator and HubSpot events, and my portfolio backend has Stripe, signed webhooks and 10 end-to-end API tests.",
+      "I have not used Emergent or AWS in my listed work, but I learn new tools quickly and can start immediately. My portfolio is at hussain-singapuri.vercel.app and my code is at github.com/huss2003. I would welcome a conversation."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Pune-based AI-native full-stack dev: 3 yrs, daily Claude Code, CCDV-F and CCAO-F certified, TypeScript/React/Node, HubSpot, 5+ pen-tested Play Store apps. Immediate joiner. Portfolio: hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: AI-Native Full-Stack Developer (Claude + Emergent) - Hussain Singapuri",
+    "body": "Hello,\n\nI am applying for the AI-Native Full-Stack Developer role in Pune. I have 3 years of full-stack experience at a US-based medical-device company, use Claude Code daily, and hold the Claude Code in Action and Claude Code 101 certifications. I have built AI agents, a CRM and HubSpot integrations, and pen-tested 5+ live Play Store apps. I am available immediately.\n\nPortfolio: hussain-singapuri.vercel.app\nGitHub: github.com/huss2003\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}

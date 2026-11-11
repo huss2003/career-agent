@@ -1,0 +1,69 @@
+{
+  "company": "PUMA",
+  "role": "Software Engineer I (Full Stack)",
+  "score": "4.1/5",
+  "apply_url": "https://to.indeed.com/aafbmx2yzw8s",
+  "fit_line": "Pune full-stack engineer with 3 years of React and TypeScript, REST and PostgreSQL experience, who builds agentic and RAG features and uses Claude Code daily.",
+  "ai_in_job": "\"Leverage AI-assisted engineering tools and modern development practices to enhance productivity and code quality\"; also builds \"agentic workflows, conversational commerce experiences, tool calling, streaming interactions\" and RAG.",
+  "screening_answers": [
+    {
+      "question": "How many years of experience do you have with React and TypeScript?",
+      "answer": "3 years as a Full Stack Developer at a US-based medical-device company, plus personal projects in Next.js, React 19 and TypeScript such as PageForge, site-to-agent and Safey Inventory.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with Java and Spring Boot?",
+      "answer": "No. My back-end work is Node.js and Python (FastAPI) with REST APIs, webhooks, auth and PostgreSQL. I pick up new stacks quickly and would ramp on Java and Spring Boot on the job.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "Describe your experience with agentic workflows, tool calling and RAG.",
+      "answer": "I built multi-agent-research-crew (planner, researcher, writer and verifier agents with retries, token budgets and citation checks) and site-to-agent (hybrid BM25 + vector RAG with cited answers and an eval harness). I also built AI agents for internal use at the medical-device company.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your notice period?",
+      "answer": "Immediate. My previous role ended in September 2026. I am based in Pune, India.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "I am targeting INR 30,000 per month or more and am flexible on structure. What matters to me is the total package and the work.",
+      "needs_you": true,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm comfort with the Java/Spring Boot gap before applying",
+    "State expected salary if the form asks (not in the files beyond the INR 30,000/month floor)"
+  ],
+  "knockout_warnings": [
+    "Java and Spring Boot are listed as working knowledge, and he has no Java experience",
+    "Elasticsearch/OpenSearch and Azure/AWS exposure are not on his CV",
+    "Work mode (on-site or hybrid) is not stated; Pune is fine either way"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the Software Engineer I (Full Stack) role in Pune. I spent 3 years as a Full Stack Developer at a US-based medical-device company, building web applications, internal AI agents and a CRM. I work in React, TypeScript, REST APIs and PostgreSQL.",
+      "The posting asks for agentic workflows, tool calling, streaming and RAG. site-to-agent, my hybrid BM25 + vector retrieval agent with cited answers and an eval harness, covers the RAG part. multi-agent-research-crew covers agent orchestration with retries, token budgets and citation checks. I use Claude Code daily and hold the Claude Code in Action and Claude Code 101 certifications, so AI-assisted engineering is how I already work.",
+      "I should be clear that I have no Java or Spring Boot experience. My back-end work is Node.js and FastAPI. I am a fast learner and care about accessible UI, tests and security, having pen-tested 5+ live Play Store apps. I can join immediately. My portfolio is at hussain-singapuri.vercel.app."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Hi, I'm a Pune-based full-stack engineer (3 yrs, React/TypeScript/REST/PostgreSQL) who also builds agentic and RAG apps. Immediate joiner. Applying for Software Engineer I (Full Stack). Portfolio: hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: Software Engineer I (Full Stack), Hussain Singapuri",
+    "body": "Dear Hiring Team,\n\nI am applying for the Software Engineer I (Full Stack) role in Pune. I have 3 years of full-stack experience at a US-based medical-device company, working in React, TypeScript, REST APIs and PostgreSQL. I also build agentic and RAG applications (site-to-agent, multi-agent-research-crew) and use Claude Code daily. I do not have Java or Spring Boot experience, but I learn quickly. I can join immediately.\n\nPortfolio: hussain-singapuri.vercel.app\nGitHub: github.com/huss2003\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}

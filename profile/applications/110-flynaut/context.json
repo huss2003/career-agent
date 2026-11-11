@@ -1,0 +1,16 @@
+{
+  "company": "Flynaut",
+  "role": "AI-Native Full-Stack Developer (Claude + Emergent)",
+  "score": "4.5/5",
+  "report": "profile/reports/110-flynaut-2026-11-11.md",
+  "files": {
+    "ats_cv": "profile/output/cv-hussain-singapuri-110-flynaut-2026-11-11.pdf",
+    "designed_cv": "profile/output/designed/Hussain_Singapuri_Resume_110-flynaut.pdf"
+  },
+  "posting_url": "https://to.indeed.com/aathjk44dbpy",
+  "apply_url": "https://to.indeed.com/aathjk44dbpy",
+  "ats_score": 100,
+  "fact_check": "pass",
+  "keyword_coverage": "59%",
+  "mode": "lean"
+}
