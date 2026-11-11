@@ -1,0 +1,68 @@
+# Junior Python with AI Engineer — Algoleap Technologies Pvt Ltd
+
+Posted: 2026-10-28
+Location: Mumbai(Bhandup), India · Work mode: not stated
+Apply (source): https://algoleap.zohorecruit.com/jobs/Careers/660523000157685196?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/junior-python-with-ai-engineer-algoleap-technologies-pvt-ltd-6wog2z7m
+
+**Experience:** 1–3 years · **Positions:** 2 · **Reports to:** POD Lead (day-to-day guidance from the Senior FDE)
+
+### Role summary
+
+The Junior FDE builds, tests and supports AI solution modules on GCP under the guidance of the Senior FDE and POD Lead. The role suits an engineer who wants hands-on GenAI delivery and regular client exposure.
+
+### Key responsibilities
+
+• Develop and test Python modules, APIs and data pipelines for assigned features
+
+• Deploy and maintain services on GCP (Cloud Run, Cloud Functions, Cloud Storage)
+
+• Build and tune prompts and LLM calls; prepare data for RAG and evaluation
+
+• Support voice and document workflows: configure speech and OCR services, test outputs, fix edge cases
+
+• Debug issues using logs and traces, and raise blockers early
+
+• Write documentation, test cases and clear task updates
+
+• Join client calls and demos; present own work when asked
+
+### Required skills
+
+• **GCP stack:** working knowledge of core services (Cloud Run or Cloud Functions, Cloud Storage, BigQuery basics, IAM)
+
+• **Python:** solid fundamentals; APIs, JSON, data handling, Git
+
+• **AI:** hands-on exposure to LLM APIs (Gemini, OpenAI or similar) through projects or work
+
+• **Voice and document management:** familiarity with speech-to-text, text-to-speech or OCR / document extraction tools
+
+• **Debugging:** methodical troubleshooting of own code and cloud deployments
+
+• **Communication and presentability:** clear spoken and written English; comfortable explaining work to the team and client
+
+### Python & Data Structures / Algorithms (DSA)
+
+**Required Skills**
+
+- 1+ Years in Strong foundation in Python programming including functions, classes, object-oriented programming (OOP), exception handling, file processing, and collection frameworks.
+- Understanding of core Python concepts including generators, decorators, list comprehensions, iterators, and package management.
+- Knowledge of fundamental Data Structures including Arrays, Strings, Linked Lists, Stacks, Queues, Hash Maps, Sets, and Trees.
+- Understanding of basic Algorithms including Sorting, Searching, Recursion, and Traversal techniques.
+- Ability to write clean, modular, maintainable, and testable Python code.
+- Basic understanding of time and space complexity analysis.
+- Experience solving coding problems through academic, personal, or professional projects.
+
+### Good to have
+
+• Google Cloud Associate Cloud Engineer or Generative AI certification
+
+• Personal or academic GenAI projects (chatbots, voice bots, document Q&A)
+
+• SQL, Docker basics
+
+### Qualifications
+
+Bachelor's degree in Computer Science, Engineering or a related field.
+
+Skills tagged by freehire: ai, api, bigquery, cloud, cloud-run, data-pipelines, docker, gcp, generative-ai, git, iam, json, llm, oop, openai, python, rag, sql

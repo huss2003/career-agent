@@ -1,6 +1,6 @@
 # Full-Stack Developer — netrix-global
 
-Posted: 2026-11-05
+Posted: 2026-11-10
 Location: Pune, India · Work mode: remote
 Apply (source): https://netrix-global.breezy.hr/p/70de4ba61a24-full-stack-developer?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-developer-netrix-global-qsql7zkm

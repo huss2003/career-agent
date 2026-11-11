@@ -1,6 +1,6 @@
 # AI Operations Specialist (Customer Support) — Sinch
 
-Posted: 2026-11-08
+Posted: 2026-11-11
 Location: Philippines · Work mode: remote
 Apply (source): https://iaings.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1/job/1779?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/ai-operations-specialist-customer-support-sinch-fpxoinoc

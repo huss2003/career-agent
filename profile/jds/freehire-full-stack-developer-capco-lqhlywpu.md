@@ -1,6 +1,6 @@
 # Full Stack Developer — Capco
 
-Posted: 2026-11-06
+Posted: 2026-11-10
 Location: India - Bengaluru · Work mode: not stated
 Apply (source): https://job-boards.greenhouse.io/capco/jobs/8333208?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/full-stack-developer-capco-lqhlywpu

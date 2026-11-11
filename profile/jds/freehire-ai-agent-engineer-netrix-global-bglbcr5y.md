@@ -1,6 +1,6 @@
 # AI / Agent Engineer — netrix-global
 
-Posted: 2026-11-05
+Posted: 2026-11-10
 Location: Pune, India · Work mode: remote
 Apply (source): https://netrix-global.breezy.hr/p/3c4e8fe3be8b-ai-agent-engineer?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/ai-agent-engineer-netrix-global-bglbcr5y
