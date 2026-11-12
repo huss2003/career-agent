@@ -1,0 +1,10 @@
+# Generative AI Engineer - Azure, LLM, RAG — GITS RECRUITMENT PRIVATE LIMITED
+
+Posted: 2026-11-11
+Location: Bangalore, Karnataka; Chennai, Tamil Nadu; Hyderabad, Telangana; Noida, Uttar Pradesh; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/generative-ai-engineer-azure-llm-rag/gits-recruitment-private-limited/20059529?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/generative-ai-engineer-azure-llm-rag-gits-recruitment-private-limited-5koqx5ns
+
+The Opportunity This role is a great fit for individuals with a strong foundation in generative AI, particularly those skilled in Azure technologies, large language models (LLMs), and retrieval-augmented generation (RAG) methodologies. You will play a key role in advancing our AI-driven solutions and enhancing their capabilities. Your Day-to-Day - Design and build advanced generative AI models and applications utilizing Azure cloud infrastructure. - Collaborate closely with data scientists and software engineers to effectively integrate LLMs into our existing platforms. - Apply RAG techniques to enhance the relevance and precision of AI outputs across various applications. - Conduct experiments, analyze model performance, and implement refinements to achieve optimal results. - Keep abreast of the latest trends and developments in AI and machine learning, integrating best practices into your work. - Document methodologies and share insights with colleagues to promote knowledge exchange within the team. You'll Thrive Here If - You possess deep expertise in Azure cloud services. - You have a robust understanding of large language models (LLMs). - You are experienced in retrieval-augmented generation (RAG) methodologies. - You excel at creating and optimizing prompts for generative AI models. - You bring excellent problem-solving abilities and an innovative mindset towards AI technology.
+
+Skills tagged by freehire: ai, azure, cloud, generative-ai, llm, machine-learning, rag

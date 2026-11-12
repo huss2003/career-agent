@@ -1,0 +1,10 @@
+# Generative AI Specialist — MEEDEN LABS PRIVATE LIMITED
+
+Posted: 2026-11-05
+Location: Bangalore, Karnataka; Chennai, Tamil Nadu; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/generative-ai-specialist/meeden-labs-private-limited/20013556?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/generative-ai-specialist-meeden-labs-private-limited-fzfhc2em
+
+We are seeking a skilled Generative AI Specialist to join our innovative team. In this role, you will leverage your expertise in large language models (LLMs) and retrieval-augmented generation (RAG) to develop cutting-edge generative AI solutions. You will be responsible for designing, implementing, and optimizing AI models that can generate human-like text and assist in various applications across industries. Key Responsibilities: - Develop and fine-tune large language models to meet specific project requirements. - Collaborate with cross-functional teams to integrate generative AI solutions into existing systems. - Conduct research on the latest advancements in generative AI and implement best practices. - Analyze and evaluate the performance of AI models, making necessary adjustments to improve accuracy and efficiency. - Provide technical guidance and support to team members and stakeholders regarding generative AI technologies. Required Skills: - Strong understanding of large language models (LLMs) and their applications. - Experience with retrieval-augmented generation (RAG) techniques. - Familiarity with generative AI frameworks and tools. - Ability to work collaboratively in a fast-paced environment. - Excellent problem-solving skills and attention to detail. If you are passionate about generative AI and eager to contribute to innovative projects, we encourage you to apply and join our dynamic team.
+
+Skills tagged by freehire: ai, generative-ai, llm, rag

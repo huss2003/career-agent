@@ -1,0 +1,10 @@
+# Generative AI Engineer — MEEDEN LABS PRIVATE LIMITED
+
+Posted: 2026-11-05
+Location: Bangalore, Karnataka; Chennai, Tamil Nadu; Pune, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/generative-ai-engineer/meeden-labs-private-limited/20013667?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/generative-ai-engineer-meeden-labs-private-limited-5tgdr6rd
+
+We are seeking a skilled Generative AI Engineer to join our innovative team. The ideal candidate will have a strong background in developing and implementing generative AI models, particularly in the context of retrieval-augmented generation (RAG). You will work closely with cross-functional teams to design and deploy AI solutions that leverage advanced technologies such as OpenAI and GPT. Key Responsibilities: - Develop and optimize generative AI models using Python and relevant frameworks. - Implement retrieval-augmented generation techniques to enhance AI performance. - Collaborate with data scientists and software engineers to integrate AI solutions into existing systems. - Stay updated with the latest advancements in generative AI and contribute to research and development efforts. - Conduct testing and validation of AI models to ensure accuracy and reliability. Required Skills: - Proficiency in Python programming. - Experience with retrieval-augmented generation (RAG) methodologies. - Familiarity with LangChain and LlamaIndex frameworks. - Knowledge of OpenAI technologies and GPT models. - Strong problem-solving skills and ability to work in a team-oriented environment. If you are passionate about generative AI and eager to contribute to cutting-edge projects, we encourage you to apply and join our dynamic team.
+
+Skills tagged by freehire: ai, generative-ai, langchain, llamaindex, openai, python, rag
