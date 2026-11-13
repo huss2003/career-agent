@@ -1,0 +1,10 @@
+# Software Developer - NET, Python, AI Native — FIRSTCALL H RESOURCE PRIVATE LIMITED
+
+Posted: 2026-11-12
+Location: Bangalore, Karnataka; Bhiwandi, Maharashtra; Coimbatore, Tamil Nadu; Hyderabad, Telangana; Kalyan, Maharashtra; Mumbai City; Navi Mumbai, Maharashtra; Panvel, Maharashtra; Pune, Maharashtra; Thane, Maharashtra · Work mode: not stated
+Apply (source): https://www.shine.com/jobs/software-developer-net-python-ai-native/firstcall-h-resource-private-limited/20064042?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/software-developer-net-python-ai-native-firstcall-h-resource-private-limited-tuxetm5m
+
+What This Job Is This role is a great fit for a Software Developer with experience in .NET, C#, and Python. You will play a key part in building and maintaining software solutions that align with client requirements. What You Will Own - Design and develop software applications using .NET and C#. - Write clean, maintainable code in Python for various projects. - Collaborate with cross-functional teams to define new features and ensure quality delivery. - Conduct thorough troubleshooting and debugging of existing applications to enhance performance. - Implement modern web frameworks like Angular and React in your projects. - Participate in DevOps practices to optimize development workflows. - Stay updated on AI technologies, including AI native developments and LLM, to integrate into projects as needed. Skills That Matter - Strong proficiency in .NET, C#, and Python programming languages. - Experience with Angular and React frameworks. - Understanding of DevOps methodologies. - Familiarity with AI concepts, particularly AI native and LLM technologies. - Problem-solving skills with attention to detail. - Capacity to collaborate effectively within a team setting. In this role, you will deepen your technical expertise while contributing to innovative software solutions. You will gain hands-on experience with cutting-edge technologies that can shape the future of software development.
+
+Skills tagged by freehire: ai, angular, csharp, devops, dotnet, llm, python, react

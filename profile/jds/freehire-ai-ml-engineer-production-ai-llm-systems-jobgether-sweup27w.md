@@ -24,41 +24,41 @@ We are seeking a skilled AI/ML Engineer to design, develop, and deploy advanced 
 - Review machine learning research papers, reproduce relevant findings, and translate promising research into practical engineering solutions.
 - Contribute to ongoing AI research, experimentation, and innovation initiatives.
 - Work effectively with globally distributed engineering and research teams while adapting to evolving technical and business priorities.
-  
-  ### Requirements:
-  
-  - 3+ years of hands-on AI/ML engineering experience, including experience deploying at least one AI/ML system into production.
-  - Strong understanding of natural language processing fundamentals, including tokenization, embeddings, classification, named entity recognition (NER), and information extraction.
-  - Solid software engineering skills, including coding, Git, testing, debugging, API development, and system design.
-  - Practical experience training machine learning models using PyTorch or Keras.
-  - Understanding of generative model architectures, including Transformers and Variational Autoencoders (VAEs).
-  - Production experience with LLM-based systems, including RAG, embeddings, vector databases, prompt engineering, and evaluation methodologies.
-  - Experience developing APIs using FastAPI or similar frameworks.
-  - Familiarity with Docker and at least one major cloud platform, such as AWS, GCP, or Azure.
-  - Ability to read machine learning research papers, evaluate technical approaches, and translate research findings into working code.
-  - Strong analytical and problem-solving skills, with the ability to build reliable AI solutions beyond experimental prototypes.
-  - Excellent communication, documentation, and collaboration skills, particularly within distributed teams.
-  - Ability to work independently, manage technical priorities, and adapt to evolving requirements.
-  - Experience with LLM fine-tuning techniques, including LoRA and reinforcement learning-based methods, is preferred.
-  - Knowledge of SQL databases is an advantage.
-  - Familiarity with agent frameworks such as LangGraph or LangChain is beneficial.
-  - Experience with Kubernetes, CI/CD pipelines, and model-serving infrastructure is preferred.
-  - Open-source contributions or experience reproducing machine learning research results is a plus.
-  - Comfortable working a mandatory overnight schedule aligned with US business hours: Monday through Friday, either 7:30 PM–4:30 AM IST or 8:30 PM–5:30 AM IST, depending on US daylight saving time.
-  - Flexibility to occasionally support weekend work or schedule adjustments when required by production needs, client requirements, or business priorities.
-  - Ability to work remotely from India while collaborating with international teams across time zones.
-    
-    ### Benefits:
-    
-    - Annual compensation ranging from ₹15,00,000 to ₹22,00,000 INR (15–22 LPA), depending on experience and technical expertise.
-    - Fully remote working arrangement from India.
-    - Contract and payment administration facilitated through Deel.
-    - 90-day probationary period.
-    - Paid time off (PTO) in accordance with company policy, following successful completion of probation and eligibility requirements.
-    - Paid holidays for company-observed holidays, subject to eligibility.
-    - Career growth and professional development opportunities.
-    - Opportunity to work on advanced AI technologies, production LLM systems, and innovative machine learning applications.
-    - Exposure to global engineering and research teams and complex technical challenges.
+
+### Requirements:
+
+- 3+ years of hands-on AI/ML engineering experience, including experience deploying at least one AI/ML system into production.
+- Strong understanding of natural language processing fundamentals, including tokenization, embeddings, classification, named entity recognition (NER), and information extraction.
+- Solid software engineering skills, including coding, Git, testing, debugging, API development, and system design.
+- Practical experience training machine learning models using PyTorch or Keras.
+- Understanding of generative model architectures, including Transformers and Variational Autoencoders (VAEs).
+- Production experience with LLM-based systems, including RAG, embeddings, vector databases, prompt engineering, and evaluation methodologies.
+- Experience developing APIs using FastAPI or similar frameworks.
+- Familiarity with Docker and at least one major cloud platform, such as AWS, GCP, or Azure.
+- Ability to read machine learning research papers, evaluate technical approaches, and translate research findings into working code.
+- Strong analytical and problem-solving skills, with the ability to build reliable AI solutions beyond experimental prototypes.
+- Excellent communication, documentation, and collaboration skills, particularly within distributed teams.
+- Ability to work independently, manage technical priorities, and adapt to evolving requirements.
+- Experience with LLM fine-tuning techniques, including LoRA and reinforcement learning-based methods, is preferred.
+- Knowledge of SQL databases is an advantage.
+- Familiarity with agent frameworks such as LangGraph or LangChain is beneficial.
+- Experience with Kubernetes, CI/CD pipelines, and model-serving infrastructure is preferred.
+- Open-source contributions or experience reproducing machine learning research results is a plus.
+- Comfortable working a mandatory overnight schedule aligned with US business hours: Monday through Friday, either 7:30 PM–4:30 AM IST or 8:30 PM–5:30 AM IST, depending on US daylight saving time.
+- Flexibility to occasionally support weekend work or schedule adjustments when required by production needs, client requirements, or business priorities.
+- Ability to work remotely from India while collaborating with international teams across time zones.
+
+### Benefits:
+
+- Annual compensation ranging from ₹15,00,000 to ₹22,00,000 INR (15–22 LPA), depending on experience and technical expertise.
+- Fully remote working arrangement from India.
+- Contract and payment administration facilitated through Deel.
+- 90-day probationary period.
+- Paid time off (PTO) in accordance with company policy, following successful completion of probation and eligibility requirements.
+- Paid holidays for company-observed holidays, subject to eligibility.
+- Career growth and professional development opportunities.
+- Opportunity to work on advanced AI technologies, production LLM systems, and innovative machine learning applications.
+- Exposure to global engineering and research teams and complex technical challenges.
 
 **How Jobgether works:**
 

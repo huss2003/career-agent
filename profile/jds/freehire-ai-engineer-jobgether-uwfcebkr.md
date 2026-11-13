@@ -19,31 +19,31 @@ As an AI Engineer, you will build and deploy intelligent, LLM-powered workflows 
 - Deploy AI solutions to real users, monitor their performance, manage unexpected scenarios, and deliver continuous improvements through regular releases.
 - Evaluate the effectiveness of AI workflows by measuring improvements in processing time, accuracy, manual effort, and operational efficiency.
 - Collaborate with cross-functional teams and client stakeholders to ensure solutions deliver measurable business value.
-  
-  ## Requirements:
-  
-  - 1.5–4 years of professional software engineering experience, including hands-on experience developing applications powered by Large Language Models (LLMs).
-  - Strong programming skills in Python and experience building reliable software applications.
-  - Practical experience working with LLM APIs such as OpenAI, Anthropic, or equivalent platforms.
-  - Familiarity with AI agent development and Retrieval-Augmented Generation (RAG) frameworks, particularly LangChain or LangGraph.
-  - Experience integrating applications with APIs, databases, third-party services, and external business systems.
-  - Understanding of production deployment requirements, including monitoring, logging, error handling, and application reliability.
-  - Strong written and verbal English communication skills, with the ability to collaborate directly with US-based clients and stakeholders.
-  - A proactive, ownership-driven mindset, with the ability to independently take projects from problem identification through development, deployment, and continuous improvement.
-  - A bachelor's degree in Computer Science, Software Engineering, or a related discipline is preferred.
-  - Additional experience in fintech, lending, mortgage operations, or document-intensive business workflows is an advantage.
-  - Familiarity with OCR, document AI, LLM output evaluation, and production monitoring tools is considered a plus.
-    
-    ## Benefits:
-    
-    - Competitive annual compensation ranging from INR 1,450,000 to INR 2,500,000, depending on experience and qualifications.
-    - Fully remote working arrangement within India.
-    - Full-time employment with opportunities to work on innovative AI technologies.
-    - Stock ownership opportunities alongside base salary.
-    - Direct collaboration with the founder and engineering team.
-    - Early ownership of meaningful projects and measurable client outcomes.
-    - Hands-on exposure to real-world AI agents and LLM-powered automation used by US mortgage professionals.
-    - Opportunities to develop expertise in AI engineering, workflow automation, and production-grade intelligent systems.
+
+## Requirements:
+
+- 1.5–4 years of professional software engineering experience, including hands-on experience developing applications powered by Large Language Models (LLMs).
+- Strong programming skills in Python and experience building reliable software applications.
+- Practical experience working with LLM APIs such as OpenAI, Anthropic, or equivalent platforms.
+- Familiarity with AI agent development and Retrieval-Augmented Generation (RAG) frameworks, particularly LangChain or LangGraph.
+- Experience integrating applications with APIs, databases, third-party services, and external business systems.
+- Understanding of production deployment requirements, including monitoring, logging, error handling, and application reliability.
+- Strong written and verbal English communication skills, with the ability to collaborate directly with US-based clients and stakeholders.
+- A proactive, ownership-driven mindset, with the ability to independently take projects from problem identification through development, deployment, and continuous improvement.
+- A bachelor's degree in Computer Science, Software Engineering, or a related discipline is preferred.
+- Additional experience in fintech, lending, mortgage operations, or document-intensive business workflows is an advantage.
+- Familiarity with OCR, document AI, LLM output evaluation, and production monitoring tools is considered a plus.
+
+## Benefits:
+
+- Competitive annual compensation ranging from INR 1,450,000 to INR 2,500,000, depending on experience and qualifications.
+- Fully remote working arrangement within India.
+- Full-time employment with opportunities to work on innovative AI technologies.
+- Stock ownership opportunities alongside base salary.
+- Direct collaboration with the founder and engineering team.
+- Early ownership of meaningful projects and measurable client outcomes.
+- Hands-on exposure to real-world AI agents and LLM-powered automation used by US mortgage professionals.
+- Opportunities to develop expertise in AI engineering, workflow automation, and production-grade intelligent systems.
 
 **How Jobgether works:**
 

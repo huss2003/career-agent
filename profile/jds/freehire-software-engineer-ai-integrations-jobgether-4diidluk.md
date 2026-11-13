@@ -26,37 +26,37 @@ In this role, you will build and maintain developer-focused integrations that ma
 - Collaborate with Product, Product Marketing, and Developer Relations teams on product launches, positioning, and developer community engagement.
 - Work with SaaS and Platform engineering teams to ensure the stability and reliability of the underlying API and cloud infrastructure.
 - Participate in code reviews, technical planning, and regular team activities within an agile, cross-functional environment.
-  
-  **Requirements:**
-  
-  The ideal candidate combines strong software engineering expertise with practical experience building developer tools, integrations, and AI-powered workflows. You should be comfortable working independently, navigating evolving technical requirements, and delivering solutions that drive measurable developer adoption. The following qualifications and skills are expected:
-  
-  - Strong programming skills in Python, with solid experience in TypeScript and Node.js.
-  - Proven experience developing SDKs, client libraries, command-line interfaces, plugins, or third-party integrations used by external developers.
-  - Hands-on experience with AI coding agents and development tools such as Claude Code, Cursor, or Codex.
-  - Familiarity with the Model Context Protocol (MCP) or similar tool-calling interfaces.
-  - Experience publishing and maintaining software packages through PyPI and npm, including version management, CI/CD pipelines, testing, and release processes.
-  - Good understanding of REST APIs, authentication mechanisms, and secure credential management across client-side and server-side environments.
-  - Strong outcome-oriented mindset, with a focus on developer adoption, product usage, and continuous improvement through data-driven decisions.
-  - Excellent written English skills, particularly for producing technical documentation, setup instructions, and practical code examples.
-  - Ability to work effectively with ambiguity, independently assess technical challenges, and scope projects in an evolving team environment.
-    
-    **Additional Qualifications (Preferred):**
-    
-    - Experience working in a distributed, remote-first international team.
-    - Familiarity with LangChain, LlamaIndex, or other AI agent development frameworks and SDKs.
-    - Experience with AWS or Google Cloud data services, including S3, Cloud Storage, and BigQuery, or with Snowflake.
-    - Knowledge of web scraping technologies, Scrapy, or browser automation tools such as Playwright and Selenium.
-    - Previous experience maintaining open-source projects or working in Developer Relations.
-      
-      **Benefits**:
-      
-      - Fully remote working arrangement, with the freedom to work from the location where you are most productive.
-      - Flexible working environment that supports autonomy and work-life balance.
-      - 35 days of paid holidays.
-      - Opportunity to join a self-motivated, progressive, and multicultural international team.
-      - Exposure to cutting-edge open-source technologies, AI tools, and modern software development practices.
-      - Opportunity to contribute to innovative developer tools and integrations at the intersection of AI and data technology.
+
+**Requirements:**
+
+The ideal candidate combines strong software engineering expertise with practical experience building developer tools, integrations, and AI-powered workflows. You should be comfortable working independently, navigating evolving technical requirements, and delivering solutions that drive measurable developer adoption. The following qualifications and skills are expected:
+
+- Strong programming skills in Python, with solid experience in TypeScript and Node.js.
+- Proven experience developing SDKs, client libraries, command-line interfaces, plugins, or third-party integrations used by external developers.
+- Hands-on experience with AI coding agents and development tools such as Claude Code, Cursor, or Codex.
+- Familiarity with the Model Context Protocol (MCP) or similar tool-calling interfaces.
+- Experience publishing and maintaining software packages through PyPI and npm, including version management, CI/CD pipelines, testing, and release processes.
+- Good understanding of REST APIs, authentication mechanisms, and secure credential management across client-side and server-side environments.
+- Strong outcome-oriented mindset, with a focus on developer adoption, product usage, and continuous improvement through data-driven decisions.
+- Excellent written English skills, particularly for producing technical documentation, setup instructions, and practical code examples.
+- Ability to work effectively with ambiguity, independently assess technical challenges, and scope projects in an evolving team environment.
+
+**Additional Qualifications (Preferred):**
+
+- Experience working in a distributed, remote-first international team.
+- Familiarity with LangChain, LlamaIndex, or other AI agent development frameworks and SDKs.
+- Experience with AWS or Google Cloud data services, including S3, Cloud Storage, and BigQuery, or with Snowflake.
+- Knowledge of web scraping technologies, Scrapy, or browser automation tools such as Playwright and Selenium.
+- Previous experience maintaining open-source projects or working in Developer Relations.
+
+**Benefits**:
+
+- Fully remote working arrangement, with the freedom to work from the location where you are most productive.
+- Flexible working environment that supports autonomy and work-life balance.
+- 35 days of paid holidays.
+- Opportunity to join a self-motivated, progressive, and multicultural international team.
+- Exposure to cutting-edge open-source technologies, AI tools, and modern software development practices.
+- Opportunity to contribute to innovative developer tools and integrations at the intersection of AI and data technology.
 
 **How Jobgether works:**
 

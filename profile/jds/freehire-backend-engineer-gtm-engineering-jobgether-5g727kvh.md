@@ -22,43 +22,43 @@ This fully remote opportunity is ideal for an early-career backend engineer who 
 - Work closely with Sales and Business Development teams to understand their workflows and translate operational needs into effective technical solutions.
 - Collaborate with Engineering colleagues on system architecture, technical standards, and best practices.
 - Continuously improve the reliability and scalability of GTM systems so teams can spend less time on manual tasks and more time engaging with customers.
-  
-  ### Requirements:
-  
-  - Recent graduate with 0–2 years of experience and a degree in Computer Science or a related engineering discipline, supported by a strong academic record.
-  - At least one year of backend development experience gained through a first full-time role or internships, ideally in a startup environment.
-  - Strong engineering fundamentals, including proficiency in Python or another backend programming language, SQL, and data modeling.
-  - Practical experience building and consuming REST APIs and working with webhooks.
-  - Understanding of production software development practices, including Git, deployment, scheduling, testing, logging, and debugging.
-  - Systems-thinking mindset, with the ability to understand component dependencies and anticipate the impact of technical changes.
-  - Hands-on experience with AI coding tools and Large Language Model (LLM) APIs, such as Claude Code or the Claude API.
-  - Demonstrated ability to build and ship practical technical solutions, such as a feature, backend service, data pipeline, or internal tool.
-  - Strong analytical and structured problem-solving skills, curiosity, and the ability to learn unfamiliar technologies independently.
-  - Proactive and independent working style, with a willingness to take ownership of projects from conception through maintenance.
-  - Comfortable communicating remotely, particularly through clear and effective written communication.
-  - Genuine interest in understanding business needs, customer behavior, and how technology can improve sales outcomes.
-  - Professional fluency in spoken and written English.
-  - Availability to work with at least four hours of overlap with CET. German language skills are not required.
-    
-    Nice to have:
-    
-    - Experience with cloud platforms such as AWS or GCP.
-    - Familiarity with data warehouses, CRM platforms and their APIs, or go-to-market tools such as Clay.
-      
-      ### Benefits:
-      
-      - 100% remote work from India, supported by a virtual office environment.
-      - Annual compensation of approximately USD 20,000–32,000, depending on location and experience.
-      - Competitive local salary rates, designed to meet or exceed market levels.
-      - Generous equity package, offering an opportunity to share in the company's success.
-      - 26 days of annual vacation, in addition to local public holidays.
-      - Comprehensive health insurance coverage.
-      - Annual personal development budget of €1,000.
-      - Remote workspace budget and access to co-working spaces.
-      - Latest technology equipment, including a MacBook, monitors, and headphones.
-      - Annual company retreat and events designed to strengthen team connections.
-      - Access to experienced mentors through established investors and accelerator networks.
-      - A remote-first, collaborative culture that encourages ownership, initiative, customer focus, and continuous learning.
+
+### Requirements:
+
+- Recent graduate with 0–2 years of experience and a degree in Computer Science or a related engineering discipline, supported by a strong academic record.
+- At least one year of backend development experience gained through a first full-time role or internships, ideally in a startup environment.
+- Strong engineering fundamentals, including proficiency in Python or another backend programming language, SQL, and data modeling.
+- Practical experience building and consuming REST APIs and working with webhooks.
+- Understanding of production software development practices, including Git, deployment, scheduling, testing, logging, and debugging.
+- Systems-thinking mindset, with the ability to understand component dependencies and anticipate the impact of technical changes.
+- Hands-on experience with AI coding tools and Large Language Model (LLM) APIs, such as Claude Code or the Claude API.
+- Demonstrated ability to build and ship practical technical solutions, such as a feature, backend service, data pipeline, or internal tool.
+- Strong analytical and structured problem-solving skills, curiosity, and the ability to learn unfamiliar technologies independently.
+- Proactive and independent working style, with a willingness to take ownership of projects from conception through maintenance.
+- Comfortable communicating remotely, particularly through clear and effective written communication.
+- Genuine interest in understanding business needs, customer behavior, and how technology can improve sales outcomes.
+- Professional fluency in spoken and written English.
+- Availability to work with at least four hours of overlap with CET. German language skills are not required.
+
+Nice to have:
+
+- Experience with cloud platforms such as AWS or GCP.
+- Familiarity with data warehouses, CRM platforms and their APIs, or go-to-market tools such as Clay.
+
+### Benefits:
+
+- 100% remote work from India, supported by a virtual office environment.
+- Annual compensation of approximately USD 20,000–32,000, depending on location and experience.
+- Competitive local salary rates, designed to meet or exceed market levels.
+- Generous equity package, offering an opportunity to share in the company's success.
+- 26 days of annual vacation, in addition to local public holidays.
+- Comprehensive health insurance coverage.
+- Annual personal development budget of €1,000.
+- Remote workspace budget and access to co-working spaces.
+- Latest technology equipment, including a MacBook, monitors, and headphones.
+- Annual company retreat and events designed to strengthen team connections.
+- Access to experienced mentors through established investors and accelerator networks.
+- A remote-first, collaborative culture that encourages ownership, initiative, customer focus, and continuous learning.
 
 **How Jobgether works:**
 
