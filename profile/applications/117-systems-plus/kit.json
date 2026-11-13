@@ -1,0 +1,68 @@
+{
+  "company": "Systems Plus",
+  "role": "React Developer",
+  "score": "4.1/5",
+  "apply_url": "https://to.indeed.com/aahgwqljxdzv",
+  "fit_line": "A Pune-based React and TypeScript developer with 3 years of full-stack experience, including a CRM and REST and CRM integrations, ready to join immediately.",
+  "ai_in_job": "not stated",
+  "screening_answers": [
+    {
+      "question": "How many years of React experience do you have?",
+      "answer": "I have 3 years of professional full-stack experience, with React and TypeScript used across my recent projects: Safey Inventory (React 19, TanStack, shadcn/ui), contractor-ai-ops-dashboard and PageForge (Next.js, React 19).",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "Describe your experience integrating React apps with REST APIs and CRM systems.",
+      "answer": "At the US-based medical-device company I built and maintained web apps and a CRM. In PageForge, engagement events flow to PostHog and HubSpot. In my portfolio backend, I send HMAC-signed CRM events and handle authentication, validation and error responses.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What is your notice period?",
+      "answer": "Immediate. My previous role ended in Sep 2026.",
+      "needs_you": false,
+      "source": "likely question"
+    },
+    {
+      "question": "What are your salary expectations?",
+      "answer": "I am targeting INR 30,000 per month or more, and I am flexible on structure. What matters to me is the total package and the work.",
+      "needs_you": true,
+      "source": "likely question"
+    },
+    {
+      "question": "Do you have experience with testing and code quality?",
+      "answer": "I wrote 10 end-to-end API tests for my portfolio backend and 9 for Orbital Surplus, and I use Git and GitHub Actions CI. I am comfortable extending that practice to unit and component tests and taking part in code reviews.",
+      "needs_you": false,
+      "source": "likely question"
+    }
+  ],
+  "needs_you": [
+    "Confirm expected salary",
+    "Confirm work mode and Pune office location"
+  ],
+  "knockout_warnings": [
+    "Work mode (on-site, hybrid or remote) is not stated; confirm it is Pune-based",
+    "Contact center platform experience is requested and he has none"
+  ],
+  "cover_letter": {
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I am applying for the React Developer role at Systems Plus. I have 3 years of professional full-stack experience at a US-based medical-device company, where I built and maintained web applications and a CRM. I am based in Pune and available immediately.",
+      "Your posting centres on React, JavaScript and TypeScript applications that connect to REST APIs and CRM systems. In Safey Inventory I built a React 19 operations tool with reusable shadcn/ui components. In PageForge, engagement flows to the HubSpot CRM, and my portfolio backend handles authentication, signed webhooks and 10 end-to-end API tests.",
+      "I enjoy making internal tools simple for the people who use them, with responsive, accessible interfaces. I have no contact center platform experience yet, but I learn integrations quickly. I would welcome the chance to discuss how I can support your Contact Center Technology team."
+    ],
+    "sign_off": "Kind regards,"
+  },
+  "recruiter_note": "Pune-based React/TypeScript developer, 3 yrs full-stack incl. a CRM and HubSpot integrations. Available immediately. Portfolio: hussain-singapuri.vercel.app",
+  "email": {
+    "subject": "Application: React Developer - Hussain Singapuri",
+    "body": "Hello,\n\nI am applying for the React Developer role in Pune. I have 3 years of full-stack experience, building web applications and a CRM at a US-based medical-device company, with React, TypeScript, REST APIs and HubSpot integrations. I am available immediately.\n\nPortfolio: hussain-singapuri.vercel.app\nGitHub: github.com/huss2003\n\nKind regards,\nHussain Singapuri\n+91 9561277305"
+  },
+  "checklist": [
+    "Open the apply link",
+    "Upload the ATS CV (attached as Hussain_Singapuri_CV_…pdf)",
+    "Paste the screening answers; fill any ⚠ items yourself",
+    "Review every field, then submit yourself"
+  ]
+}

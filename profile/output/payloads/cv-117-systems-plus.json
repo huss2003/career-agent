@@ -1,0 +1,255 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Hussain Singapuri",
+    "title": "React Developer",
+    "phone": "+91 9561277305",
+    "email": "Hussainsingapuri24@gmail.com",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/hussain-singapuri-18437225a/",
+      "display": "linkedin.com/in/hussain-singapuri-18437225a"
+    },
+    "github": {
+      "url": "https://github.com/huss2003",
+      "display": "github.com/huss2003"
+    },
+    "portfolio": {
+      "url": "https://hussain-singapuri.vercel.app",
+      "display": "hussain-singapuri.vercel.app"
+    },
+    "location": "Pune, India"
+  },
+  "summary": "React Developer with 3 years of professional full-stack experience at a US-based medical-device company, building web applications and a CRM. Builds React, TypeScript and JavaScript interfaces that integrate with REST APIs, CRM systems (HubSpot) and authentication, shown in Safey Inventory, contractor-ai-ops-dashboard and PageForge. Designs UI/UX and ships responsive, accessible components, using Claude Code to move quickly.",
+  "competencies": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "REST APIs",
+    "CRM integrations",
+    "Authentication",
+    "Responsive and accessible UI",
+    "Git"
+  ],
+  "experience": [
+    {
+      "company": "NeuroNetworks AI Ed",
+      "role": "CTO & Principal Course Architect",
+      "location": "Pune, India",
+      "dates": "2026 - Present",
+      "bullets": [
+        "Built and run the website neuronetwrks.com with a Python static-site generator deployed on Vercel, including programmatic SEO",
+        "Lead technology for an Indian AI and tech education brand (Neuronetworks AI Ed Private Limited) offering programmes for students after Class 10",
+        "Designing Neuromind Practical AI Lab, a browser-based IDE and sandbox with an AI tutor: phased spec, server sizing, engineering team plan and CAPEX/OPEX model",
+        "Architected the curriculum: a 1-year AI Foundation course and five 3-year specialisations (AI/ML Engineering, Software Development, Data Science & AI, Product & UX / AI Design, Cybersecurity)"
+      ]
+    },
+    {
+      "company": "US-based medical-device company",
+      "role": "Full Stack Developer",
+      "location": "Remote",
+      "dates": "Mar 2023 - Sep 2026",
+      "bullets": [
+        "Built and maintained full-stack web applications for the company",
+        "Built several apps, including a CRM",
+        "Built AI agents for internal use",
+        "Performed penetration / security testing on 5+ of the company's mobile apps, all live on the Google Play Store"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Safey Inventory",
+      "url": "https://github.com/huss2003/Safey-QMS",
+      "tech": "TanStack Start, React 19, Tailwind v4, shadcn/ui, TanStack Query",
+      "description": "Operations system for a small manufacturing unit with batch tracing, wastage logging, FIFO allocation, low-stock alerts and reporting. Shows reusable React components and workflow-focused UX."
+    },
+    {
+      "name": "contractor-ai-ops-dashboard",
+      "url": "https://github.com/huss2003/contractor-ai-ops-dashboard",
+      "tech": "Next.js, TypeScript, Recharts, Postgres RLS",
+      "description": "Multi-tenant analytics dashboard with signed event ingestion, funnel metrics and anomaly alerts. Shows a TypeScript UI built on data APIs."
+    },
+    {
+      "name": "PageForge",
+      "url": "https://pageforge-hazel.vercel.app/abm",
+      "tech": "Next.js 16, React 19, Tailwind v4, Sanity, Supabase, Gemini, PostHog, HubSpot",
+      "description": "Account-based marketing page generator with a validator and claim-by-claim review. Engagement flows to analytics and the HubSpot CRM."
+    },
+    {
+      "name": "Personal portfolio with full-stack backend",
+      "url": "https://hussain-singapuri.vercel.app",
+      "tech": "Vanilla ES modules, GSAP, Node 20, Postgres (Neon), Stripe, Resend",
+      "description": "Backend with admin auth, signed webhooks, HMAC-signed CRM events and a rate-limited form. Covered by 10 end-to-end API tests."
+    },
+    {
+      "name": "ai-lead-receptionist",
+      "url": "https://github.com/huss2003/ai-lead-receptionist",
+      "tech": "Next.js, TypeScript, Twilio, Claude, Supabase",
+      "description": "Customer-interaction app that qualifies leads over SMS and web chat and books jobs, with an owner dashboard."
+    },
+    {
+      "name": "Orbital Surplus",
+      "url": "https://orbital-surplus.vercel.app",
+      "tech": "three.js, GSAP, Node 20, Postgres (Neon), Stripe, Resend",
+      "description": "Full-stack demo store (fictional brand) with customer accounts, admin tools, idempotent payment handling and 9 end-to-end API tests."
+    },
+    {
+      "name": "More projects",
+      "url": "https://github.com/huss2003",
+      "tech": "",
+      "description": "nanoserve, multi-agent-research-crew, site-to-agent, lead-intel-engine, Nightjar & Co., Lumen, Kilnwood Roasters, Cairnmoor, Lowlight Video Club, TripSync"
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor's, Computer Science (AI & Machine Learning)",
+      "org": "Vishwakarma Institute of Technology, Pune",
+      "year": "2022-2025"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Claude Code in Action",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Code 101",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Developer - Foundations (CCDV-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Claude Certified Orchestrator - Foundations (CCAO-F)",
+      "org": "Anthropic",
+      "year": ""
+    },
+    {
+      "title": "Generative AI Leader",
+      "org": "Google Cloud",
+      "year": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front end",
+      "items": [
+        "React 19",
+        "Next.js",
+        "TanStack Start / Query",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "responsive and accessible UI",
+        "GSAP",
+        "Lenis",
+        "three.js",
+        "WebGL",
+        "Canvas 2D",
+        "motion and interaction design"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Dart",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "category": "Back end",
+      "items": [
+        "REST APIs",
+        "Node.js",
+        "webhooks (HMAC signing)",
+        "auth (scrypt, sessions, throttling)",
+        "FastAPI",
+        "asyncio",
+        "Stripe Checkout and refunds",
+        "Resend"
+      ]
+    },
+    {
+      "category": "Automation & integrations",
+      "items": [
+        "CRM integrations (HubSpot)",
+        "workflow automation",
+        "PostHog",
+        "Twilio SMS",
+        "web crawling / scraping"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "items": [
+        "Git",
+        "GitHub Actions",
+        "Vercel",
+        "Docker"
+      ]
+    },
+    {
+      "category": "Data",
+      "items": [
+        "PostgreSQL",
+        "Neon",
+        "Supabase (RLS, Edge Functions)",
+        "PGlite",
+        "pgvector",
+        "SQLite",
+        "Sanity CMS"
+      ]
+    },
+    {
+      "category": "Security",
+      "items": [
+        "mobile app penetration testing",
+        "CSP and security headers",
+        "SSRF hardening",
+        "input validation"
+      ]
+    },
+    {
+      "category": "AI / LLM",
+      "items": [
+        "AI agents",
+        "multi-agent orchestration",
+        "tool use / function calling",
+        "RAG (hybrid BM25 + vector, RRF)",
+        "evals",
+        "prompt-injection defence",
+        "LLM inference serving",
+        "Claude API",
+        "Gemini API",
+        "Claude Code and AI coding agents"
+      ]
+    },
+    {
+      "category": "Design",
+      "items": [
+        "UI/UX design",
+        "design systems",
+        "technical SEO",
+        "JSON-LD structured data",
+        "programmatic SEO"
+      ]
+    },
+    {
+      "category": "Mobile",
+      "items": [
+        "Flutter",
+        "Riverpod",
+        "Firebase"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Systems Plus",
+  "role": "React Developer",
+  "score": "4.1/5",
+  "report": "profile/reports/117-systems-plus-2026-11-13.md",
+  "files": {
+    "ats_cv": "profile/output/cv-hussain-singapuri-117-systems-plus-2026-11-13.pdf",
+    "designed_cv": "profile/output/designed/Hussain_Singapuri_Resume_117-systems-plus.pdf"
+  },
+  "posting_url": "https://to.indeed.com/aahgwqljxdzv",
+  "apply_url": "https://to.indeed.com/aahgwqljxdzv",
+  "ats_score": 100,
+  "fact_check": "pass",
+  "keyword_coverage": "50%",
+  "mode": "lean"
+}
