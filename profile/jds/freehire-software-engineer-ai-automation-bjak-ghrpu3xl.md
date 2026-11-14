@@ -5,7 +5,7 @@ Location: United States · Work mode: remote
 Apply (source): https://jobs.ashbyhq.com/bjakcareer/40514b9d-01c4-4a7c-9ab4-5f465866536b?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/software-engineer-ai-automation-bjak-ghrpu3xl
 
-## **About ActAI**
+## **About Act**
 
 There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting.
 
