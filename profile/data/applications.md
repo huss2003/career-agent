@@ -119,3 +119,4 @@
 | 117 | 2026-11-13 | Systems Plus | React Developer | 4.1/5 | Evaluated | ✅ | [117](../reports/117-systems-plus-2026-11-13.md) | ATS 100/100, facts pass, kw 50% |
 | 118 | 2026-11-14 | Cardinality.ai | Full Stack Developer Intern | 3.8/5 | Evaluated | ❌ | — | Strong AI-coding and full-stack fit, but a 3-month fresher internship with unstated pay. Hussain has 3 years' experience, so he is overqualified, and no Angular or NestJS. |
 | 119 | 2026-11-14 | GFSHOP.IN | Full Stack Developer (freelance) | 3.5/5 | Evaluated | ❌ | — | Pune and the 2-5 years range fit, but there are several required-skill gaps (Redux, MongoDB, MySQL, AWS/Azure, microservices). No AI focus, and the listing is vague and contradicto |
+| 120 | 2026-11-15 | Veradigm | Web Developer | 3.8/5 | Evaluated | ❌ | — | Pune hybrid and Claude Code, Git and static-site experience fit, but Jekyll, Liquid and Cowork are required and missing; the 7:30PM-4:30AM night shift is a risk. |
