@@ -60,4 +60,4 @@ Why Apply Through Jobgether?
 
 #LI-CL1
 
-Skills tagged by freehire: accessibility, ai, api, automation, bigquery, business-intelligence, cloud, data-engineering, docker, gdpr, git, go-to-market, hubspot, mysql, n8n, openai, postgresql, python, requirements-gathering, rest, salesforce, solution-design, sql
+Skills tagged by freehire: accessibility, ai, api, automation, bigquery, business-intelligence, cloud, data-engineering, docker, gdpr, git, go-to-market, hubspot, mysql, n8n, openai, postgresql, python, requirements-gathering, rest, salesforce, solution-design, sql, system-integration

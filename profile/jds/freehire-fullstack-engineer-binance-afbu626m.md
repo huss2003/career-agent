@@ -65,4 +65,4 @@ By submitting a job application, you acknowledge that you have read our Candidat
 
 We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
 
-Skills tagged by freehire: acceptance-criteria, ai, api, api-testing, authentication, blockchain, ci-cd, claude-code, cryptocurrency, cypress, data-modeling, go, java, jest, jmeter, junit, k6, mockito, nodejs, owasp, playwright, react, react-testing-library, vitest, web3
+Skills tagged by freehire: acceptance-criteria, ai, api, api-testing, authentication, blockchain, ci-cd, claude-code, cryptocurrency, cypress, data-modeling, data-reconciliation, go, java, jest, jmeter, junit, k6, mockito, nodejs, owasp, playwright, react, react-testing-library, vitest, web3
