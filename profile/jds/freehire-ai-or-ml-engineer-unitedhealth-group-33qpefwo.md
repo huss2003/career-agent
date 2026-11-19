@@ -1,6 +1,6 @@
 # AI or ML Engineer — UnitedHealth Group
 
-Posted: 2026-11-15
+Posted: 2026-11-18
 Location: Pune, Maharashtra, India · Work mode: not stated
 Apply (source): https://careers.unitedhealthgroup.com/job/pune/ai-or-ml-engineer/34088/103359671488?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/ai-or-ml-engineer-unitedhealth-group-33qpefwo
