@@ -1,0 +1,19 @@
+# Generative AI Engineer — SafeAI Global
+
+Posted: 2026-11-19
+Location: Delhi, India · Work mode: remote
+Apply (source): https://www.linkedin.com/jobs/view/4487697318/?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/generative-ai-engineer-safeai-global-klblz5gj
+
+**Company Description** SafeAI Global is a premier technology consultancy focused on solving complex engineering challenges for enterprise clients worldwide. The organization specializes in building robust, production-grade systems where reliability, security, and scalability are critical. SafeAI Global’s teams consist of top-tier engineering talent, delivering solutions that range from custom large language model (LLM) implementations to resilient distributed architectures and stabilized legacy platforms. The company operates as an elite engineering partner rather than a traditional digital agency, stepping in when standard solutions cannot meet business demands. Its core mission is to help partners build safe, intelligent systems that withstand real-world operational pressures.  
+**Role Description** The Generative AI Engineer role is a full-time, remote position responsible for designing, implementing, and optimizing generative AI solutions for enterprise clients. This role involves developing and fine-tuning LLMs and other generative models, integrating them into distributed systems, and translating business requirements into scalable, secure AI-driven features. Day-to-day tasks include building end-to-end AI pipelines, collaborating with cross-functional teams (such as product, data, and platform engineering), and ensuring models are robust, well-tested, and ready for production deployment. The Generative AI Engineer will also monitor performance, address model drift and reliability issues, and contribute to internal best practices and reusable frameworks for AI engineering. In addition, the role may involve client-facing technical discussions, documentation of architectures, and guidance on responsible and safe AI usage.  
+**Qualifications**
+
+- Candidates should possess strong skills in AI and machine learning engineering, such as experience with generative models (including LLMs), model training and fine-tuning, and designing production-grade ML pipelines.
+- Candidates should possess software engineering skills, including proficiency in languages commonly used for AI and backend development (e.g., Python, and at least one statically typed language), knowledge of distributed systems, and experience with microservices architectures and APIs.
+- Candidates should possess data and infrastructure skills, such as working with cloud platforms (e.g., AWS, GCP, or Azure), containerization and orchestration (e.g., Docker, Kubernetes), and data processing frameworks or tools suitable for large-scale model training and inference.
+- Candidates should possess skills in testing, monitoring, and reliability, including experience with unit and integration testing for ML systems, observability tools, performance tuning, and strategies for safe and reliable AI deployment in production.
+- Candidates should possess communication and collaboration skills, including the ability to translate complex technical concepts into clear language for stakeholders, contribute to technical documentation, and work effectively in remote, cross-functional teams.
+- Additional beneficial qualifications include experience with prompt engineering, RAG (Retrieval-Augmented Generation) systems, security and compliance in AI systems, prior work in consulting
+
+Skills tagged by freehire: ai, api, aws, azure, cloud, containerization, distributed-systems, docker, fine-tuning, gcp, generative-ai, integration-testing, kubernetes, llm, machine-learning, microservices, observability, prompt-engineering, python, rag

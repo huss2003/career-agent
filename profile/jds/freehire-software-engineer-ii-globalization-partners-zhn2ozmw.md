@@ -1,6 +1,6 @@
 #  Software Engineer II — Globalization Partners
 
-Posted: 2026-11-18
+Posted: 2026-11-19
 Location: India (Remote-First) · Work mode: remote
 Apply (source): https://job-boards.greenhouse.io/globalizationpartners/jobs/8164414003?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/software-engineer-ii-globalization-partners-zhn2ozmw
