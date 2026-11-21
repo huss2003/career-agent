@@ -1,6 +1,6 @@
 # QA Engg - (Manual+AI-Automation)  — QuinStreet
 
-Posted: 2026-11-19
+Posted: 2026-11-20
 Location: Pune · Work mode: not stated
 Apply (source): https://www.quinstreet.com/careers/?gh_jid=8398630&utm_source=freehire.me
 freehire page: https://freehire.me/jobs/qa-engg-manual-ai-automation-quinstreet-umoxt255
@@ -30,7 +30,7 @@ We bring all this together to deliver truly great results for consumers and bran
 
 **Job Summary**
 
-We are looking for an experienced and technically strong Senior QA Engineer with X years of hands-on experience in software quality assurance. The candidate must have strong expertise in Manual Testing, AI-Based Test Automation, REST API Testing, and Database Testing.
+We are looking for an experienced and technically strong Senior QA Engineer with 5 years of hands-on experience in software quality assurance. The candidate must have strong expertise in Manual Testing, AI-Based Test Automation, REST API Testing, and Database Testing.
 
 The ideal candidate should be capable of independently handling end-to-end testing activities, analysing complex business requirements, designing comprehensive test strategies, identifying potential risks, and implementing AI-driven automation approaches to improve testing efficiency and product quality.
 
