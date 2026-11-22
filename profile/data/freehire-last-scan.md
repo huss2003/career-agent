@@ -1,6 +1,6 @@
-# freehire shortlist — 2026-11-21
+# freehire shortlist — 2026-11-22
 
-1152 jobs seen in the last 7 days · 1096 new · 120 sent for full evaluation.
+1162 jobs seen in the last 7 days · 1100 new · 120 sent for full evaluation.
 
 | Score | Role | Company | Where | Why | Link | Queued |
 |---|---|---|---|---|---|---|
@@ -13,7 +13,6 @@
 | 19 | Applied AI Engineer | Umanist NA | Pune City, Maharashtra, India | Pune; AI tools: agentic-ai, generative-ai, llm, mcp, prompt-engineering; JD mentions llm, agentic, ai agents; your stack: docker, javascript, python, typescript; title match | [open](https://freehire.me/jobs/applied-ai-engineer-umanist-na-7myjvpni) | yes |
 | 19 | Agentic AI Engineer | MS Consultants | Pune | Pune; AI tools: agentic-ai, llm, mcp; JD mentions llm, agentic, ai agents; your stack: docker, fastapi, python; title match | [open](https://freehire.me/jobs/agentic-ai-engineer-ms-consultants-y55lehsy) | yes |
 | 19 | AI Software Engineer | Barclays | Pune, Gera Commerzone SEZ | Pune; AI tools: agentic-ai, claude-code, generative-ai, llm, mcp; JD mentions claude code, ai tools, llm; your stack: docker, python, react; title match | [open](https://freehire.me/jobs/ai-software-engineer-barclays-eyynyyvr) | yes |
-| 19 | Generative AI / AI Agent Engineer | Jobaaj Com | Hyderabad; Pune; Bengaluru | Pune; AI tools: agentic-ai, crewai, generative-ai, langchain, llamaindex; JD mentions copilot, llm, ai agents; your stack: javascript, python, typescript; title match | [open](https://freehire.me/jobs/generative-ai-ai-agent-engineer-jobaaj-com-s2uibita) | yes |
 | 19 | AI Developer | EmbarkingOnVoyage Digital Solutions Pvt Ltd | Pune | Pune; AI tools: agentic-ai, generative-ai, langchain, llm, mcp; JD mentions copilot, ai-assisted, llm; your stack: javascript, python, typescript; title match | [open](https://freehire.me/jobs/ai-developer-embarkingonvoyage-digital-solutions-pvt-ltd-g7gqo2ix) | yes |
 | 18 | AI Integration Engineer | AJEMS | Pune Division, Maharashtra, India | Pune; AI tools: chatgpt, llm, mcp, openai; JD mentions ai tools, llm; your stack: docker, nodejs, postgresql, python; title match | [open](https://freehire.me/jobs/ai-integration-engineer-ajems-exo6n7ys) | yes |
 | 18 | AI Engineer - NLP & Generative AI | Keywords Studios | Pune Division, Maharashtra, India | Pune; AI tools: agentic-ai, llm, mcp, rag; JD mentions llm, ai agents; your stack: docker, fastapi, postgresql, python; title match | [open](https://freehire.me/jobs/ai-engineer-nlp-generative-ai-keywords-studios-t22hb6tc) | yes |
@@ -27,5 +26,6 @@
 | 18 | Software engineer Automotive systems & AI-Assisted Engineering | BMW TechWorks | Pune, Maharashtra | Pune; AI tools: agentic-ai, llm, mcp; JD mentions ai-assisted, llm, agentic; your stack: docker, python; title match | [open](https://freehire.me/jobs/software-engineer-automotive-systems-ai-assisted-engineering-bmw-techworks-5fw6orkb) | yes |
 | 18 | Dot Net with React Full-Stack - Developer II - Software Engineering (Pune) | UST | Pune, Maharashtra | Pune; AI tools: chatgpt, generative-ai, github-copilot; JD mentions copilot, ai-assisted; your stack: docker, javascript, react, typescript; title match | [open](https://freehire.me/jobs/dot-net-with-react-full-stack-developer-ii-software-engineering-pune-ust-zuoljfj4) | yes |
 | 18 | Generative AI Developer | Infosys | Bangalore; Delhi; Pune | Pune; AI tools: agentic-ai, crewai, generative-ai, langchain, llamaindex; JD mentions llm, agentic, ai agents; your stack: docker, python; title match | [open](https://freehire.me/jobs/generative-ai-developer-infosys-5q7dasjj) | yes |
-| 17 | AI Engineer | Altraize | Pune Division, Maharashtra, India | Pune; AI tools: agentic-ai, generative-ai, llm, mcp, openai; JD mentions copilot, llm, agentic; your stack: python; title match | [open](https://freehire.me/jobs/ai-engineer-altraize-lsy64ovg) | yes |
 | 17 | AI Engineer | Onit India | Pune Division, Maharashtra, India | Pune; AI tools: agentic-ai, llm, openai, rag; JD mentions ai-first, llm, agentic; your stack: python; title match | [open](https://freehire.me/jobs/ai-engineer-onit-india-eqtowt5q) | yes |
+| 17 | Software Engineer - AI | Barclays | Pune, Gera Commerzone SEZ | Pune; AI tools: agentic-ai, claude-code, prompt-engineering; JD mentions claude code, ai agents, prompt engineering; your stack: react; title match | [open](https://freehire.me/jobs/software-engineer-ai-barclays-gpwlqfsv) | yes |
+| 17 | Automation Engineer – Cloud Infrastructure & AI Enablement | maersk | India, Pune, 411014 | Pune; AI tools: agentic-ai, generative-ai, llm, mcp, openai; JD mentions ai-assisted, llm, ai agents; your stack: docker, python; title match | [open](https://freehire.me/jobs/automation-engineer-cloud-infrastructure-ai-enablement-maersk-i6ajnsdw) | yes |

@@ -5,44 +5,110 @@ Location: Mumbai Metropolitan Region · Work mode: not stated
 Apply (source): https://www.linkedin.com/jobs/view/4491867186/?utm_source=freehire.me
 freehire page: https://freehire.me/jobs/ai-engineer-altraize-agzhx25b
 
-**Role Summary**
+As Senior AI Engineer, you design, develop and lead the implementation of enterprise AI solutions based on Generative AI, Azure AI services, Retrieval-Augmented Generation (RAG) and AI agent technologies – with a clear focus on the Microsoft technology stack. You take end-to-end ownership of your projects: from understanding business needs together with stakeholders to delivering production-ready solutions.
 
-Design, develop, and scale production-grade AI/GenAI applications, including agentic systems and enterprise integrations.
+You will work as a team player in an international team with flat hierarchies and short decision paths. Close, daily/weekly exchange with business stakeholders and IT colleagues worldwide is a core part of the role – not an add-on to the technical work.
 
-**Key Responsibilities**
+Key Responsibilities
 
-- Build and deploy end-to-end AI and GenAI systems (RAG, agents, automation workflows)
-- Design APIs and microservices for scalable AI solutions
-- Implement robust data pipelines and retrieval systems
-- Optimize prompt engineering, evaluation, and model performance
-- Ensure reliability, observability, and scalability of AI services
-- Collaborate with stakeholders to drive AI-driven solutions
-- Mentor junior engineers and contribute to best practices
+Stakeholder engagement & requirements
 
-**Required Skills**
+Act as the main technical contact for business stakeholders on your projects: understand their processes and needs, gather and clarify requirements and manage expectations.
 
-- 5–8 years of experience in software engineering/AI roles
-- Strong programming skills in Python or TypeScript (Java/Go is a plus)
-- Hands-on experience with LLMs, RAG pipelines, and AI frameworks
-- Experience building APIs and working with distributed systems
-- Familiarity with Kubernetes, Docker, and CI/CD pipelines
-- Experience with cloud platforms (AWS/Azure/GCP)
-- Candidates should primarily be Software Engineers or Software Developers with strong Full-Stack/Backend development experience.
-- They must have 2 years of Applied AI experience, including:
-  
-  - MOOC platforms and chatbot agents
-  - RAG (Retrieval-Augmented Generation)
-  - LLMs (Large Language Models)
-  - Web Security
-  - MCP (Model Context Protocol)
+Provide rough effort estimations and align approach, priorities and design with the team before implementation.
 
-**Preferred Skills**
+Communicate architecture decisions, trade-offs, risks and progress clearly to technical and business audiences.
 
-- Experience with agent frameworks (LangGraph, Semantic Kernel)
-- Knowledge of vector databases and hybrid search techniques
-- Strong understanding of system design, scalability, and performance tuning
-- Exposure to enterprise system integrations (CRM, ERP, ITSM)
+Solution design & delivery
 
-Skills: enterprise,agents,ai,pipelines
+Design, develop and deliver enterprise-grade GenAI, RAG and AI agent solutions from architecture to production deployment.
 
-Skills tagged by freehire: agentic-ai, ai, api, automation, aws, azure, ci-cd, cloud, crm, data-pipelines, distributed-systems, docker, erp, gcp, generative-ai, itsm, java, kubernetes, langgraph, llm, mcp, microservices, observability, prompt-engineering, python, rag, semantic-kernel, typescript, vector-databases
+Build secure, scalable and cost-efficient solutions on Azure AI platforms, using Python for back-end development and customization.
+
+Integrate AI capabilities with SAP, Microsoft 365, SharePoint, Power Platform, APIs and other business systems.
+
+Deploy, test and operate AI solutions in production and continuously improve their performance and reliability.
+
+Architecture, standards & governance
+
+Define solution architectures, technical standards, reusable frameworks and engineering best practices.
+
+Ensure Responsible AI, security, compliance and governance requirements are met throughout the solution lifecycle.
+
+Collaboration & enablement
+
+Collaborate with global, cross-functional teams and contribute actively to joint decisions.
+
+Mentor engineers and share knowledge to strengthen AI capabilities across the organization.
+
+Your Profile
+
+Technical skills and soft skills are equally important for this role and are weighted equally in our selection process. The ideal candidate meets the required technical skills, the soft skills and the qualifications below – strength in one area does not compensate for gaps in another.
+
+**Required Technical Skills**
+
+Area Skills
+
+AI & GenAI engineering Generative AI and Large Language Models (LLMs); Retrieval-Augmented Generation (RAG), vector databases and retrieval concepts; design and development of AI agents; prompt engineering and evaluation
+
+Python & integration Strong Python skills for back-end development and customization of AI solutions; REST APIs and system integration; clean, testable, maintainable code
+
+Azure AI platform Strong hands-on expertise in Azure OpenAI, Azure AI Search and Azure AI Foundry. Our focus is on the Microsoft technology stack – experience limited to other cloud platforms is not sufficient.
+
+Cloud & DevOps Azure cloud services, Azure Functions, Azure DevOps; CI/CD pipelines (solid intermediate level); deployment, testing and lifecycle management of AI solutions in production
+
+Security & Responsible AI Secure solution design, data protection, Responsible AI principles and AI governance requirements
+
+**Preferred Technical Skills**
+
+These skills are a strong advantage and can also be developed on the job.
+
+Area Skills
+
+Agentic frameworks & MCP Experience with agent frameworks and the Model Context Protocol (MCP), e.g. for connecting AI solutions to business systems
+
+Microsoft 365 & low-code Microsoft 365 Copilot, Copilot Studio, Power Platform (Power Automate, Power Apps), workflow automation
+
+Enterprise systems Integration of AI capabilities with SAP, Microsoft 365, SharePoint and other business applications – a solid basic understanding of integration patterns is sufficient
+
+Model fine-tuning Fine-tuning of LLMs on domain-specific data
+
+**Required Soft Skills**
+
+soft skills are just as important as technical expertise. With flat hierarchies, international teamwork and daily exchange with stakeholders, we are looking for someone who brings the following:
+
+Competency What this means in practice
+
+Ownership & end-to-end responsibility In our flat hierarchy, you own your projects from start to finish – from requirements and estimation through architecture to production deployment – and drive topics proactively without waiting for detailed instructions.
+
+Team player in international teams You work naturally with colleagues across countries, cultures and time zones, align decisions with the team, share knowledge openly and value diverse perspectives.
+
+Stakeholder management You are in daily contact with business stakeholders: you gather and clarify requirements, manage expectations transparently and build trusted relationships.
+
+Communication You explain AI architecture, technical trade-offs, risks and progress clearly to technical and non-technical audiences – in writing and in person, in fluent English.
+
+Analytical & problem-solving skills You analyse problems thoroughly, weigh trade-offs (e.g. cost, security, scalability) and make well-founded decisions.
+
+Business understanding You understand business processes and translate requirements into pragmatic, value-driven solutions.
+
+Mentoring & knowledge sharing You coach other engineers, give and receive constructive feedback and help raise the team’s engineering standards.
+
+Learning agility You stay curious in a fast-moving AI landscape, evaluate new technologies critically and adapt quickly to change.
+
+**Qualifications & Experience**
+
+Bachelor’s or master’s degree in Computer Science, Artificial Intelligence, Information Technology or a comparable field.
+
+5–8 years of professional software development experience, including 2–3 years of hands-on experience with Generative AI.
+
+Proven hands-on experience in implementing, deploying and operating AI use cases in production – not only in designing them.
+
+Track record of integrating AI into business processes in an enterprise environment.
+
+Experience working in international, cross-functional and distributed teams.
+
+Fluent English, written and spoken.
+
+Skills: enterprise,agents,ai,pipelines,agentic ai,gen ai,.net stack,azure ai,python
+
+Skills tagged by freehire: agentic-ai, ai, api, automation, azure, azure-devops, azure-functions, ci-cd, cloud, devops, dotnet, fine-tuning, generative-ai, llm, mcp, microsoft-copilot, openai, power-automate, power-platform, powerapps, prompt-engineering, python, rag, rest, sap, sharepoint, solution-design, stakeholder-management, system-integration, vector-databases
