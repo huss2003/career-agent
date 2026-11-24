@@ -1,0 +1,14 @@
+# Remote AI Developer — Build LLM-Powered Apps — Roar Global
+
+Posted: 2026-08-17
+Location: Cebu City, Central Visayas · Work mode: remote
+Apply (source): https://www.jobleads.com/ph/job/remote-ai-developer-build-llm-powered-apps--cebu-city--e6d3cffb322d949e547e48a13fa6cc4fa?utm_source=freehire.me
+freehire page: https://freehire.me/jobs/remote-ai-developer-build-llm-powered-apps-roar-global-hvu6ghg2
+
+Roar Apex is seeking an AI Developer to design, build, and deploy AI-powered applications leveraging LLMs and related technologies. You will work to create practical AI solutions, integrate with internal systems and third-party APIs, and continuously improve model performance.
+
+The role emphasizes collaboration with product managers and engineers in a fast-paced, fully remote environment, with a focus on learning and applying emerging AI capabilities across APAC and beyond.
+
+Design, develop, and maintain AI-powered applications and features using LLM platforms such as Claude, OpenAI, or similar technologies. Build and optimize prompt workflows, AI agents, and retrieval-based systems to improve application performance and user outcomes. Develop integrations with internal systems and third-party APIs to support AI-driven workflows. Implement Retrieval-Augmented Generation (RAG), semantic search, and context management solutions where appropriate. Collaborate with product managers, designers, and engineers to translate business requirements into AI-enabled solutions. Evaluate, test, and monitor AI model performance, accuracy, and reliability. Troubleshoot and resolve issues related to AI services, integrations, and application functionality. Stay up to date with advancements in AI, LLMs, and emerging development tools and recommend opportunities for adoption. Contribute to software development best practices, code quality, documentation, and technical knowledge sharing. Experience building applications using LLM APIs such as Anthropic Claude, OpenAI, or similar platforms. Proficiency in Python and/or TypeScript/JavaScript. Experience developing and consuming REST APIs and working with modern software development frameworks. Familiarity with prompt engineering, AI workflows, and LLM application development. Understanding of Retrieval-Augmented Generation (RAG), vector search, embeddings, or related AI concepts. Knowledge of software development best practices, including testing, version control, and code reviews. Strong problem-solving skills and the ability to work effectively within a collaborative team environment. Excellent communication skills and the ability to explain technical concepts to both technical and non-technical stakeholders. Work from anywhere Competitive remuneration package Learning allowance
+
+Skills tagged by freehire: agentic-ai, ai, anthropic, apex, api, claude, embeddings, javascript, llm, openai, prompt-engineering, python, rag, rest, semantic-search, typescript, vector-search, version-control
