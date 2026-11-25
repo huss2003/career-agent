@@ -1,4 +1,4 @@
-# Job agent run — 2026-11-24 10:25 UTC
+# Job agent run — 2026-11-25 09:08 UTC
 
 **0 of 20** jobs scored 4+ with a passing CV today · this run: 0 evaluated, 0 qualified · run cost $0.00 · today $0.00 of $5 · stopped: morning deadline
 

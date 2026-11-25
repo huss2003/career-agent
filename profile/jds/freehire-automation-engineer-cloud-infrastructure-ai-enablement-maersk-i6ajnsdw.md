@@ -2,7 +2,7 @@
 
 Posted: 2026-11-20
 Location: India, Pune, 411014 · Work mode: not stated
-Apply (source): https://maersk.wd3.myworkdayjobs.com/Maersk_Manual/job/India-Pune-411014/Automation-Engineer---Cloud-Infrastructure---AI-Enablement_R203482?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/automation-engineer-cloud-infrastructure-ai-enablement-maersk-i6ajnsdw
 
 **About the Role:**

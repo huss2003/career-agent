@@ -2,7 +2,7 @@
 
 Posted: 2026-11-09
 Location: Pune District, Maharashtra · Work mode: hybrid
-Apply (source): https://www.jobleads.com/in/job/front-end-developer--pune-district--eb57eae80b96b8b275517f52f18e5b777?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/front-end-developer-zensar-ohk2tgcu
 
 Zensar in Pune seeks a versatile frontend and AI-focused developer. You will work across frontend stacks (React.js, HTML5, CSS3, TypeScript) and collaborate on AI/Generative AI initiatives, integrating LLMs and vector databases for scalable solutions.
