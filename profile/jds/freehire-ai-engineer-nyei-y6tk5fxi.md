@@ -2,7 +2,7 @@
 
 Posted: 2026-11-23
 Location: Pune District, Maharashtra, India · Work mode: not stated
-Apply (source): https://www.linkedin.com/jobs/view/4488930495/?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/ai-engineer-nyei-y6tk5fxi
 
 **AI Engineer – Autodesk Automation & AI Agents**

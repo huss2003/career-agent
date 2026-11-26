@@ -2,7 +2,7 @@
 
 Posted: 2026-11-20
 Location: Remote · Work mode: remote
-Apply (source): https://www.instahyre.com/job-482578-ai-fullstack-developer-at-tequity-work-from-home/?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/ai-fullstack-developer-tequity-cu5ymr5f
 
 We are looking for experienced Senior Engineers to build and scale real-time Voice AI applications. You will work across Python-based voice agents, real-time audio streaming pipelines, backend services, cloud infrastructure, and modern web interfaces.

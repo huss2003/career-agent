@@ -1,0 +1,10 @@
+# AI Engineer - GEN AI, RAG, LLM — HARJAI COMPUTERS PRIVATE LIMITED
+
+Posted: 2026-11-25
+Location: Pune, Maharashtra · Work mode: not stated
+Apply (source): 
+freehire page: https://freehire.me/jobs/ai-engineer-gen-ai-rag-llm-harjai-computers-private-limited-2plj4d2n
+
+The Opportunity In this role as an AI Engineer, you will focus on developing cutting-edge AI solutions that harness the power of large language models (LLMs) and retrieval-augmented generation (RAG) techniques. Your day-to-day activities will involve creating, optimizing, and deploying AI models, while ensuring seamless integration of AI capabilities into various products and services. Your Day-to-Day - Design and implement AI models using Python and relevant frameworks to meet project requirements. - Build and maintain web applications using Flask that serve AI-driven functionalities. - Collaborate closely with data scientists and software engineers to enhance and refine AI features. - Utilize AWS services for efficient deployment, scaling, and management of AI applications. - Keep abreast of the latest trends and advancements in artificial intelligence technologies. You'll Thrive Here If You have a strong command of Python programming combined with experience in Flask development. Your familiarity with concepts such as Gen AI, RAG, and LLM will enable you to contribute effectively to projects. Experience with AWS will be essential as you deploy applications to the cloud. Strong problem-solving abilities along with effective communication skills will help you excel in cross-functional collaborations. In this role, you will gain valuable experience in advanced AI methodologies and cloud-based application deployment, further enhancing your skills in the rapidly evolving field of artificial intelligence.
+
+Skills tagged by freehire: ai, aws, cloud, flask, generative-ai, llm, python, rag

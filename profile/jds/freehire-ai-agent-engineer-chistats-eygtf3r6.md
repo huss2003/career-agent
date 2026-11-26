@@ -2,7 +2,7 @@
 
 Posted: 2026-11-23
 Location: Pune · Work mode: not stated
-Apply (source): https://www.hirist.tech/j/ai-agent-engineer-1685359?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/ai-agent-engineer-chistats-eygtf3r6
 
 **About ChiStats:**

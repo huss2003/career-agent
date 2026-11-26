@@ -2,7 +2,7 @@
 
 Posted: 2024-10-31
 Location: Kuala Lumpur, Kuala Lumpur · Work mode: remote
-Apply (source): https://www.jobleads.com/my/job/ai-engineer-agentic-rag-ai-systems--kuala-lumpur--e2a1e24378a81fa337275f70ebd29e8d8?utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/ai-engineer-agentic-rag-ai-systems-beyondsoft-czwzvg7o
 
 Beyondsoft is seeking a hands-on AI Engineer to design, develop, and deploy production-grade AI applications focused on agentic AI, multi-agent systems, RAG, and cloud-based solutions. You will combine Python skills with backend engineering to deliver scalable, secure AI-powered applications in production.
