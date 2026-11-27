@@ -2,7 +2,7 @@
 
 Posted: 2026-11-23
 Location: India · Work mode: remote
-Apply (source): https://cutshort.io/job/AI-Engineer-B2B-SaaS-Remote-Wisetr-Technology-Pvt-Ltd-bpb475xB?utm_medium=xml&utm_content=job-posting&applicationsource=freehire-feed&utm_source=freehire.me
+Apply (source): 
 freehire page: https://freehire.me/jobs/ai-engineer-b2b-saas-remote-wisetr-technology-pvt-ltd-ozrz5eh5
 
 **Company:** Wisetr Technology Pvt. Ltd. (FunnelKit and Sublium are brands of Wisetr Technology Pvt. Ltd.)
